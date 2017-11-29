@@ -2,20 +2,20 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
+   <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
       <fileDesc>
          <titleStmt>
             <title type="main"> Digitale Edition Rundbriefe des Zentralinstitutes für
                Theaterwissenschaft an der Universität Wien 1944-45</title>
             <title type="sub">Digitale Edition des 5. Rundbriefs 1944</title>
             <principal>
-                    <rs ref="#vicky_reiter" type="person">Vicky Reiter</rs>
-                </principal>
+               <rs ref="#vicky_reiter" type="person">Vicky Reiter</rs>
+            </principal>
          </titleStmt>
          <publicationStmt>
             <publisher>
-                    <rs ref="#vicky_reiter" type="person">Vicky Reiter</rs>
-                </publisher>
+               <rs ref="#vicky_reiter" type="person">Vicky Reiter</rs>
+            </publisher>
             <availability>
                <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
                   <p>The (CC BY-SA 4.0)-License applies to this document.</p>
@@ -44,6 +44,19 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <p>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listperson">
+               <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be found</fallback>
+            </xi:include>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listplace">
+               <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be found</fallback>
+            </xi:include>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listorg">
+               <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be found</fallback>
+            </xi:include>
+         </p>
+      </encodingDesc>
    </teiHeader>
    <text>
       <body>
@@ -53,7 +66,7 @@
          <head type="sub" style="text-align:center">des Zentralinstituts für Theaterwissenschaft an
             der Universität <hi rend="letterspace">Wien</hi>.</head>
          <head type="sub">
-                <date when="1944-12">Dezember 1944.</date>
+            <date when="1944-12">Dezember 1944.</date>
             <num>No. 5</num> erscheint jährlich viermal</head>
          <div type="letter" n="1">
             <salute>Liebe Kameraden !</salute>
@@ -95,7 +108,7 @@
                Angeln gehobene Fensterrahmen. Aber auch dieser Schaden ist dank der unermüdlichen
                Selbsthilfe unserer Assistentinnen und Studierenden zum grössten Teil wieder behoben.
                Auch das <placeName type="building">Burgtheater</placeName> und die <placeName type="building">Staatsoper</placeName> stehen noch unversehrt. <date when="1944-11-12">(12.XII.1944)</date>
-                </p>
+            </p>
             <p>Sehr herzlich begrüssen wir nun alle die neu hinzugekommenen Fernbetreuten - die an
                der Front und die in der Rüstung - und bitten sie, sich unserm Kreis so eng
                einzufügen, wie dies bisher schon fast alle die andern taten, mit denen wir nun in
@@ -107,8 +120,8 @@
                sie einmal aufhören mussten.</p>
             <p>In diesem<date>Wintersemester 1944/45</date> hält <hi rend="underline">
                   <roleName type="degree" full="abb">Prof.</roleName>
-                        <persName>Kindermann</persName>
-                    </hi> ein dreistündiges Hauptkolleg über <hi rend="underline">"Das deutsche und europäische Barockheater"</hi>. Im Proseminar
+                  <persName>Kindermann</persName>
+               </hi> ein dreistündiges Hauptkolleg über <hi rend="underline">"Das deutsche und europäische Barockheater"</hi>. Im Proseminar
                wird diesmal die <hi rend="underline">Geschichte des Bühnenbildes</hi> in einer Reihe
                von Referaten durchgearbeitet, die vom Theater der griechischen Antike bis zum
                deutschen Gegenwartstheater führen. Und im Hauptseminar gelten die Referate dem <hi rend="underline">Wesen und der Geschichte der Dramaturgie</hi>, wobei ebenfalls
@@ -117,9 +130,9 @@
                Rundbrief, zu <date>Semesterende</date>, genauere Berichte und Inhaltsangaben über
                den Verlauf des Hauptkollegs und der Seminare vorlegen.</p>
             <p>
-                    <roleName type="degree">Dozent</roleName>
+               <roleName type="degree">Dozent</roleName>
                <roleName type="degree" full="abb">Dr.</roleName>
-                    <persName>Börge</persName> hält
+               <persName>Börge</persName> hält
                diesmal sein dramaturgisches Kolloquium über <hi rend="underline">"Rollenpsychologie"</hi>. Daneben hält er ein filmkundliches Kolloqium über den
                   <hi rend="underline">"Film als Gesamtkunstwerk"</hi>. Dazu kommt seine einstündige
                Vorlesung über <hi rend="underline">"Die Bühnengestalt der klassischen Hauptwerke des
@@ -127,10 +140,10 @@
                erster Teil in diesem Semester mit der Entwicklung von <persName>Kalidasa</persName>
                bis <persName>Shakespeare</persName> befasst ist.</p>
             <p>
-                    <hi rend="underline">
-                        <roleName full="abb">Prof.</roleName>
-                        <persName>Niederführ</persName>
-                    </hi> widmete sein in zwei
+               <hi rend="underline">
+                  <roleName full="abb">Prof.</roleName>
+                  <persName>Niederführ</persName>
+               </hi> widmete sein in zwei
                Stufen durchgeführtes Kolloquium über praktische Bühnenkunde diesmal Problemen der
                   <hi rend="underline">Regiebuch-Gestaltung und</hi> des <hi rend="underline">Spielplan - Aufbaues.</hi> Auch über den Verlauf der Vorlesungen und Uebungen von
                   <roleName>Dozent</roleName>
@@ -149,7 +162,7 @@
                vorweggenommen, der zugleich als Sonderveranstaltung galt, ein Vortrag von dem
                bekannten <roleName>Bühnenbildner</roleName>
                <persName>Prof.<hi rend="underline">Niedermoser</hi>
-                    </persName> (<orgName type="university">Reichshochschule für angewandte Kunst</orgName>), von dem unten
+               </persName> (<orgName type="university">Reichshochschule für angewandte Kunst</orgName>), von dem unten
                gleich genauer die Rede sein wird.</p>
             <p>Unsere besonderen Veranstaltungen werden nun, im Zeichen des totalen Kriegseinsatzes,
                natürlich nur mehr im engsten Rahmen unseres Instituts, also auch in unserem<placeName type="room">Kainzraum</placeName>, durchgeführt. So fang in diesem
@@ -157,17 +170,17 @@
                   <roleName>Meistersingers von Nürnberg</roleName>
                <!-- roleName passt eigentlich nicht... --> eine wohlgelungene <hi rend="underline">Hans-Sachsfeier</hi> am <date when="1944-11-21">21. November 1944</date> statt.Zu
                Beginn sprach <persName>Hilde<hi rend="underline">Weinberger</hi>
-                    </persName> (die
+               </persName> (die
                bekannte junge <roleName>Vortragskünstlerin</roleName>, die <orgName>unserm
                   Institut</orgName> als Mitglied angehört) <persName>Goethes</persName> Hymus
                   <title>"Hans Sachsens poetische Sendung"</title>. Dann nahm <roleName full="abb">Prof.</roleName>
                <hi rend="underline">
-                        <persName>Kindermann</persName>
-                    </hi> das Wort zu seinem
+                  <persName>Kindermann</persName>
+               </hi> das Wort zu seinem
                Einführungsvortrag über <title>"Hans Sachs und das deutsche Theater"</title>, in dem
                er etwa ausführte:</p>
             <q type="spoken">
-                    <p>"Nur wenige deutsche Dramatiker können das Recht für sich in
+               <p>"Nur wenige deutsche Dramatiker können das Recht für sich in
                   Anspruch nehmen, in jedem Sinn Volksdichter gewesen zu sein, also Dichter aus der
                   Mitte des Volkes und Dichter zugleich für alles Volk. Unter diesen wenigen aber
                   nimmt<persName>Hans Sachs</persName>, dessen <date type="occasion">450.
@@ -188,7 +201,7 @@
                <p>Fragen wir uns nach dem Warum dieser beglückenden Dauer inmitten all des
                   flüchtigen Wechsels der Erscheinungen, dann fällt die Antwort nicht ganz so
                   einfach aus, als es im ersten Augenblick anmuten möchte.</p>
-                </q>
+            </q>
          </div>
          <div type="letter" n="2">
             <fw type="pageNum">-26-</fw>
@@ -216,7 +229,7 @@
                geben kann.</p>
             <p>Nun bitte ich Euch, liebe Kameraden, nicht ungehalten zu sein, dass ich mit dem
                Briefwechsel Front und Heimat nicht so einsetzen kann, wie es<pb n="27"/>
-                    <fw type="pageNum">- 27 -</fw> mir im letzten Semester vorgeschwebt hat. Aber die
+               <fw type="pageNum">- 27 -</fw> mir im letzten Semester vorgeschwebt hat. Aber die
                geringe Anzahl der Studierenden und die zunehmende Anzahl der fernbetreuten Kameraden
                lassen diesen Briefwechsel im gedachten Ausmass nicht zur Durchführung gelangen. ich
                bin jedoch nach wie vor bemühr <!-- sic - das wurde wohl nicht korrigiert -->, diese
@@ -226,11 +239,11 @@
                   Fest</date> wünschen.</p>
             <salute rend="letterspace">Heil Hitler!</salute>
             <signed style="text-align:center">Euer<lb/>
-                    <roleName>Fachschaftsleiter</roleName>
-                    <lb/>
-                    <persName>A.
+               <roleName>Fachschaftsleiter</roleName>
+               <lb/>
+               <persName>A.
                Zeckl</persName>
-                </signed>
+            </signed>
          </div>
       </body>
    </text>

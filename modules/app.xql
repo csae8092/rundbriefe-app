@@ -181,9 +181,9 @@ for $title in ($entities, $terms)
  :)
 declare function app:listPers($node as node(), $model as map(*)) {
     let $hitHtml := "hits.html?searchkey="
-    for $person in doc(concat($config:app-root, '/data/indices/listperson.xml'))//tei:listPerson/tei:person
-    let $gnd := $person/tei:note/tei:p[3]/text()
-    let $gnd_link := if ($gnd != "no gnd provided") then
+    for $person in doc($app:personIndex)//tei:listPerson/tei:person
+    let $gnd := data($person/tei:persName[1]/@ref)
+    let $gnd_link := if ($gnd) then
         <a href="{$gnd}">{$gnd}</a>
         else
         $gnd
