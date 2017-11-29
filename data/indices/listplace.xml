@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Digitale Edition Rundbriefe des Zentralinstitutes für
+               Theaterwissenschaft an der Universität Wien 1944-45</title>
+            <title type="sub">Ortsregister</title>
+            <principal>
+               <rs type="person" ref="#malte_wulf">Malte Wulf</rs>
+            </principal>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <listPlace>
+            <place xml:id="wien">
+               <placeName>Wien</placeName>
+               <location>
+                  <geo>48.20849 16.37208</geo>
+               </location>
+               <idno type="URL">http://www.geonames.org/2761369</idno>
+            </place>
+         </listPlace>
+      </body>
+  </text>
+</TEI>

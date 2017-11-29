@@ -80,7 +80,7 @@
                             <tr>
                                 <th>Verantwortlich</th>
                                 <td>
-                                    <xsl:for-each select="//tei:author">
+                                    <xsl:for-each select="//tei:principal">
                                         <xsl:apply-templates/>
                                     </xsl:for-each>
                                 </td>
@@ -105,7 +105,7 @@
                                     </th>
                                     <xsl:choose>
                                         <xsl:when test="//tei:licence[@target]">
-                                         <td align="center">
+                                         <td>
                                              <a class="navlink" target="_blank">
                                                  <xsl:attribute name="href">
                                                      <xsl:value-of select="//tei:licence[1]/data(@target)"/>
