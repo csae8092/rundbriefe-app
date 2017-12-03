@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
       <fileDesc>
          <titleStmt>
@@ -18,15 +16,15 @@
             </publisher>
             <availability>
                <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
-                  <p>The (CC BY-SA 4.0)-License applies to this document.</p>
-                  <p>You are allowed to share (copy and redistribute the material in any medium or
+                  <p> The (CC BY-SA 4.0)-License applies to this document. </p>
+                  <p> You are allowed to share (copy and redistribute the material in any medium or
                      format) and adapt (remix, transform, and build upon the material) for any
-                     purpose, even commercially.</p>
-                  <p>You must give appropriate credit, provide a link to the license, and indicate
+                     purpose, even commercially. </p>
+                  <p> You must give appropriate credit, provide a link to the license, and indicate
                      if changes were made. You may do so in any reasonable manner, but not in any
-                     way that suggests the licensor endorses you or your use.</p>
-                  <p>ShareAlike — If you remix, transform, or build upon the material, you must
-                     distribute your contributions under the same license as the original.</p>
+                     way that suggests the licensor endorses you or your use. </p>
+                  <p> ShareAlike — If you remix, transform, or build upon the material, you must
+                     distribute your contributions under the same license as the original. </p>
                </licence>
             </availability>
          </publicationStmt>
@@ -46,13 +44,19 @@
       </fileDesc>
       <encodingDesc>
          <p>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listperson">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="../indices/listperson.xml"
+                        xpointer="listperson">
                <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be found</fallback>
             </xi:include>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listplace">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="../indices/listplace.xml"
+                        xpointer="listplace">
                <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be found</fallback>
             </xi:include>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listorg">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="../indices/listorg.xml"
+                        xpointer="listorg">
                <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be found</fallback>
             </xi:include>
          </p>
@@ -84,17 +88,19 @@
             Heimkehrenden, verrichten.</p>
          <p>Mit dem vorliegenden Rundbrief nehmen wir eine erste Fühlung mit all den fernzubetreuenden 
             Kameraden auf und begrüßen Sie herzlich als fachlich Gleichstrebende. Wir drucken 
-            Teile aus den Reden des Rektors der Universität Wien,<name type="person" ref="#pernkopf_eduard">Univ.-Prof. Dr. Pernkopf</name>, und 
+            Teile aus den Reden des Rektors der Universität Wien, <name type="person" ref="#pernkopf_eduard">Univ.-Prof. Dr. Pernkopf</name>, und 
             des Lehrstuhlinhabers und Institutsdirektors, Univ.-Prof. Dr. <name type="person" ref="#kindermann_heinz">Heinz Kindermann</name>, 
             anläßlich der am 25. Mai 1943 stattgefundenen Eröffnung des Zentralinstituts für 
             Theaterwissenschaft ab. Sie geben auch auf viele der Fragen Antwort, die in den Briefen 
             von der Front immer wieder an uns gestellt werden.</p>
-         <p>Dem Leiter des Zentralinstituts für Theaterwissenschaft stehen zwei wissenschaftliche 
+         <p>
+            Dem Leiter des Zentralinstituts für Theaterwissenschaft stehen zwei wissenschaftliche 
             Hilfskräfte, Fräulein Margret Dietrich und Fräulein Gustave Schiffer, zur Seite. Ein 
             ganzer Stab von reiferen Studentinnen der Theaterwissenschaft ist unter der Leitung 
             von Dipl.-Bibliothekarin Meyer außerdem eingesetzt, um die große theaterwissenschaftliche 
             Fachbibliothek (darunter die stattliche Busch-Bibliothek, eine Leihgabe der Stadt Münster) 
-            des Zentralinstituts zu katalogisieren. Zunächst wird der Verfasserkatalog<pb n="2"/>
+            des Zentralinstituts zu katalogisieren. Zunächst wird der Verfasserkatalog
+            <pb n="2"/>
             angelegt, der bis Ende des Sommersemesters fertiggestellt sein dürfte. Während der 
             Sommerferien wird sodann der Schlagwortkatalog angelegt. Auch dafür steht ein Stab 
             von Studentinnen zur Verfügung, die, nach abgeleistetem Fabrikseinsatz, hier ihren 
@@ -105,7 +111,7 @@
             der Wiener Reichsstatthalterei, besonders dem nun zur Wehrmacht einberufenen 
             Generalkulturreferenten Thomas, der auch sonst in all den Monaten des Entstehens keine 
             Mühe scheute, um alle die vielen kriegsbedingten Schwierigkeiten aus dem Weg zu räumen. 
-            Man tritt vom<placeName type="square">Michaelerplatz</placeName> her 
+            Man tritt vom <placeName type="square">Michaelerplatz</placeName> her 
             (auf dem einst das alte Burgtheater stand) in die 
             gewaltige Michaelerkuppel und wendet sich dort rechter Hand zur Batthianystiege. Hier 
             stehen sechs festlich-hohe Räume mit alten olivgrünen Hoftapeten, reichen Kristalllustern, 
@@ -129,13 +135,16 @@
             des Zentralinstituts sind nach Mitterwurzer und Charlotte Wolter, das Zimmer der 
             Assistentinnen ist nach dem großen Volksdarsteller und Volksdramatiker Raimund, das 
             Direktorzimmer nach dem Burgtheaterdirektor Freiherrn von Berger benannt.</p>
-         <p>Außer der stattlichen Fachbibliothek verfügt das Zentralinstitut noch über eine größere 
-            Sammlung theaterwissenschaftlicher<pb n="3"/>
+         <p>
+            Außer der stattlichen Fachbibliothek verfügt das Zentralinstitut noch über eine größere 
+            Sammlung theaterwissenschaftlicher
+            <pb n="3"/>
             Bildwerke. Eine Sammlung von Bühnenbildmodellen ist im Aufbau begriffen. 
             Eine Diapositivsammlung unterstützt die Vorlesungs- und Übungsarbeit. 
             Ein Schallplattenarchiv folgt. Theaterzettel- und Besprechungssammlungen sowie eine Reihe 
             von Spezialsammlungen, von denen erst später gesprochen werden kann, sind in Vorbereitung.</p>
-         <p>Das Studium der Theaterwissenschaft dauert, wie das der übrigen geisteswissenschaftlichen 
+         <p>
+            Das Studium der Theaterwissenschaft dauert, wie das der übrigen geisteswissenschaftlichen 
             Fächer, auf Grund einer theaterwissenschaftlichen Dissertation 7–8 Semester. 
             Es wird mit dem Doktorexamen (Dr. phil.) abgeschlossen. Da Theaterwissenschaft 
             ein sogenanntes „Ein-Fach“ ist, weil nur ein prüfungsberechtigter Professor dieses 

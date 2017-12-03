@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -32,7 +33,13 @@
                      <forename full="abb">Vicky</forename>
                   </persName>
                </person>
-		<person xml:id="aprent_patrick">
+               <person xml:id="tiefenbacher_sara">
+                  <persName ref="https://orcid.org/0000-0002-6300-4805 ">
+                     <surname>Tiefenbacher</surname>
+                     <forename>Sara</forename>
+                  </persName>
+               </person>
+               <person xml:id="aprent_patrick">
                   <persName ref="https://orcid.org/0000-0002-0359-5981">
                      <surname>Aprent</surname>
                      <forename>Patrick</forename>
@@ -41,13 +48,31 @@
                <person xml:id="piech_janina">
                   <persName ref="https://orcid.org/0000-0002-0791-2323">
                      <surname>Piech</surname>
-                     <forename full="abb">Janina</forename>
+                     <forename>Janina</forename>
                   </persName>
-                  </person>
+               </person>
                <person xml:id="kindermann_heinz">
                   <persName ref="http://d-nb.info/gnd/118562193">
                      <surname>Kindermann</surname>
                      <forename>Heinz</forename>
+                  </persName>
+               </person>
+               <person xml:id="dietrich_margret">
+                  <persName ref="http://d-nb.info/gnd/119242788">
+                     <surname>Dietrich</surname>
+                     <forename>Margret</forename>
+                  </persName>
+               </person>
+               <person xml:id="schiffer_">
+                  <persName>
+                     <surname>Schiffer</surname>
+                     <forename></forename>
+                  </persName>
+               </person>
+               <person xml:id="ullrich_">
+                  <persName>
+                     <surname>Ullrich</surname>
+                     <forename></forename>
                   </persName>
                </person>
             </listPerson>
