@@ -1,4 +1,4 @@
-xquery version "3.0";
+xquery version "3.1";
 declare namespace functx = "http://www.functx.com";
 import module namespace xmldb="http://exist-db.org/xquery/xmldb";
 import module namespace config="http://www.digital-archiv.at/ns/rundbriefe-app/config" at "../modules/config.xqm";
@@ -6,26 +6,28 @@ import module namespace app="http://www.digital-archiv.at/ns/rundbriefe-app/temp
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 declare option exist:serialize "method=json media-type=text/javascript";
 
+let $notBefores := collection($app:editions)//tei:TEI//*[@notBefore castable as xs:date]
+let $whens := collection($app:editions)//tei:TEI//*[@when castable as xs:date]
+let $dates := ($notBefores, $whens)
+
 let $data := <data>{
-    for $x at $pos in collection($app:editions)//tei:correspDesc[(.//@when[1] castable as xs:date)]
-    let $sender := string-join($x//tei:correspAction[@type='sent']/tei:persName/text(), ' ')
+    for $x at $pos in $dates
+    let $before := $x/preceding::text()[1]
+    let $after := $x/following::text()[1]
+    let $match := $x/text()
     let $backlink := app:hrefToDoc($x)
-    let $receiver := string-join($x//tei:correspAction[@type='received']/tei:persName/text(), ' ')
-    let $content := if ($receiver) 
-        then $sender||' wrote to '||$receiver
-        else $sender
-    let $date := data($x//@when[1])
+    let $date := if(data($x/@notBefore)) then data($x/@notBefore) else data($x/@when)
     let $year := year-from-date(xs:date($date))
     let $month := month-from-date(xs:date($date))
     let $day := day-from-date(xs:date($date))
     return 
         <item>
             <event_id>{$pos}</event_id>
-            <sender>{$sender}</sender>
-            {if ($receiver) then <receiver>{$receiver}</receiver> else ()}
-            <content>{$content}</content>
+            <before>{$before}</before>
+            <match>{$match}</match>
+            <after>{$after}</after>
             <backlink>{$backlink}</backlink>
-            <start>{data($x//@when[1])}</start>
+            <start>{$date}</start>
             <date>({$year},{$month},{$day})</date>
         </item>
 }</data>
