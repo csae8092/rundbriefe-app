@@ -11,35 +11,35 @@
         border: 1px solid lightgray;
         }
     </style>
-    
+    <h1>Persons mentioned in Documents Net Vis</h1>
     <div id="visualization">
         
     </div>
     <ul class="menu">
         <li>Click into the timeline hold<code>ctrl</code> to zoom</li>
-        <li>Data fetched from<a href="../analyze/cmfi2netjson.xql">../analyze/cmfi2netjson.xql</a>
+        <li>Data fetched from<a href="../analyze/persDocNetJson.xql">../analyze/persDocNetJson.xql</a>
         </li>
     </ul>
     
     <script type="text/javascript">
-        var datasource = "../analyze/cmfi2netjson.xql"
+        var datasource = "../analyze/persDocNetJson.xql"
         var container = document.getElementById('visualization');
         $.getJSON( datasource, function( data ) {
-            var container = document.getElementById('visualization');
-            var data = {
-                nodes: data.nodes,
-                edges: data.edges
-            };
-            var options = {
-                "edges": {
-                    "smooth": {
-                        "type": "horizontal",
-                        "roundness": 0
-                    }
-                }
-            };
-            var network = new vis.Network(container, data, options);
-            
+        var container = document.getElementById('visualization');
+        var data = {
+        nodes: data.nodes,
+        edges: data.edges
+        };
+        var options = {
+        "edges": {
+        "smooth": {
+        "type": "horizontal",
+        "roundness": 0
+        }
+        }
+        };
+        var network = new vis.Network(container, data, options);
+        
         });
         
     </script>
