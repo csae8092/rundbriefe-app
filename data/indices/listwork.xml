@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List of Works (of Literature)</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="listperson.xml" xpointer="listperson">
+                    <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be found</fallback>
+                </xi:include>
+            </p>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <listBibl xml:id="listwork">
+                    <bibl xml:id="hölderlin_kindermann">
+                        <title>Hölderlin und das deutsche Theater</title>
+                        <author>
+                            <rs type="person" ref="#kindermann_heinz">Heinz Kindermann</rs>
+                        </author>
+                        <idno type="URL">http://d-nb.info/574310355</idno>
+                    </bibl>
+                    <bibl xml:id="hebbel_kindermann">
+                         <title>Hebbel und das Wiener Theater seiner Zeit</title>
+                         <author>
+                            <rs type="person" ref="#kindermann_heinz">Heinz Kindermann</rs>
+                        </author>
+                        <idno type="URL">http://d-nb.info/574310320</idno>
+                    </bibl>
+                    <bibl xml:id="schauspieler_rezitator_redner">
+                        <title>Schauspieler, Rezitator, Redner – eine Typologie der redenden Künste</title>
+                        <author>
+                            <rs type="person" ref="#weller_">Weller</rs>
+                        </author>
+                        <idno type="URL"/>
+                    </bibl>
+                    <bibl xml:id="theater_hinter_stacheldraht">
+                        <title>Theater hinter Stacheldraht</title>
+                        <author>
+                            <rs type="person" ref="#karsten_">Karsten</rs>
+                        </author>
+                        <idno type="URL"/>
+                    </bibl>
+                    <bibl xml:id="lanzelot_sanderein">
+                        <title>Lanzelot und Sanderein</title>
+                        <idno type="URL">http://d-nb.info/gnd/4166724-4</idno>
+                    </bibl>
+                </listBibl>
+            </p>
+        </body>
+    </text>
+</TEI>

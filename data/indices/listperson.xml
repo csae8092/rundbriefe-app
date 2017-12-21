@@ -14,63 +14,84 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <p>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="listorg.xml" xpointer="listorg">
+               <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be found</fallback>
+            </xi:include>
+         </p>
+      </encodingDesc>
    </teiHeader>
    <text>
       <body>
          <p>
             <listPerson xml:id="listperson">
                <person xml:id="wulf_malte">
-                  <persName ref="https://orcid.org/0000-0001-8706-4178">
+                  <persName>
                      <surname>Wulf</surname>
                      <forename>Malte</forename>
                   </persName>
-                  <idno type="URL">add some</idno>
+                  <idno type="URL">https://orcid.org/0000-0001-8706-4178</idno>
                </person>
                <person xml:id="reiter_vicky">
-                  <persName ref="https://orcid.org/0000-0002-7903-7353">
+                  <persName>
                      <surname>Reiter</surname>
                      <forename full="abb">Vicky</forename>
                   </persName>
+                  <idno type="URL">https://orcid.org/0000-0002-7903-7353</idno>
                </person>
                <person xml:id="tiefenbacher_sara">
-                  <persName ref="https://orcid.org/0000-0002-6300-4805 ">
+                  <persName>
                      <surname>Tiefenbacher</surname>
                      <forename>Sara</forename>
                   </persName>
+                  <idno type="URL">https://orcid.org/0000-0002-6300-4805 </idno>
                </person>
                <person xml:id="aprent_patrick">
-                  <persName ref="https://orcid.org/0000-0002-0359-5981">
+                  <persName>
                      <surname>Aprent</surname>
                      <forename>Patrick</forename>
                   </persName>
+                  <idno type="URL">https://orcid.org/0000-0002-0359-5981</idno>
                </person>
                <person xml:id="piech_janina">
-                  <persName ref="https://orcid.org/0000-0002-0791-2323">
+                  <persName>
                      <surname>Piech</surname>
                      <forename>Janina</forename>
                   </persName>
+                  <idno type="URL">https://orcid.org/0000-0002-0791-2323</idno>
                </person>
-               <person xml:id="kindermann_heinz">
-                  <persName ref="http://d-nb.info/gnd/118562193">
+               <person xml:id="kirnbauer_martin">
+                  <persName>
+                     <surname>Kirnbauer</surname>
+                     <forename>Martin</forename>
+                  </persName>
+                  <idno type="URL"/>
+               </person>
+               <person xml:id="kindermann_heinz" role="vocabs:inLeadingPosition">
+                  <persName>
                      <surname>Kindermann</surname>
                      <forename>Heinz</forename>
                      <roleName type="degree" full="abb">Prof.</roleName>
-                     <roleName>Leiter des <rs>Zentralinstituts für Theaterwissenschaft der Universität
+                     <roleName>Leiter des <rs type="org" ref="#zentralinstitut">Zentralinstituts für Theaterwissenschaft der Universität
                         Wien</rs>
-                            </roleName>
+                     </roleName>
                   </persName>
+                  <idno type="URL">http://d-nb.info/gnd/118562193</idno>
                </person>
                <person xml:id="dietrich_margret">
-                  <persName ref="http://d-nb.info/gnd/119242788">
+                  <persName>
                      <surname>Dietrich</surname>
                      <forename>Margret</forename>
                   </persName>
+                  <idno type="URL">http://d-nb.info/gnd/119242788</idno>
                </person>
-               <person xml:id="schiffer_">
+               <person xml:id="schiffer_gustave">
                   <persName>
                      <surname>Schiffer</surname>
-                     <forename/>
+                     <forename>Gustave</forename>
                   </persName>
+                  <idno type="URL">http://d-nb.info/gnd/106534785</idno>
                </person>
                <person xml:id="ullrich_">
                   <persName>
@@ -94,12 +115,13 @@
                   </persName>
                </person>
                <person xml:id="waniek_herbert">
-                  <persName ref="http://d-nb.info/gnd/119282879">
+                  <persName>
                      <surname>Waniek</surname>
                      <forename>Herbert</forename>
                      <roleName>Oberregisseur des <rs>Burgtheaters</rs>
-                            </roleName>
+                     </roleName>
                   </persName>
+                  <idno type="URL">http://d-nb.info/gnd/119282879</idno>
                </person>
                <person xml:id="niedermoser_">
                   <persName>
@@ -109,11 +131,12 @@
                   </persName>
                </person>
                <person xml:id="sachs_hans">
-                  <persName ref="http://d-nb.info/gnd/118604597">
+                  <persName>
                      <surname>Sachs</surname>
                      <forename>Hans</forename>
                      <roleName>Meistersinger</roleName>
                   </persName>
+                  <idno type="URL">http://d-nb.info/gnd/118604597</idno>
                </person>
                <person xml:id="weinberger_hilde">
                   <persName>
@@ -121,14 +144,153 @@
                      <forename>Hilde</forename>
                   </persName>
                </person>
-               <person xml:id="zeckl_a">
+               <person xml:id="grillparzer_franz">
                   <persName>
-                     <surname>Zeckl</surname>
-                     <forename>A</forename>
-                     <roleName>Fachschaftsleiter</roleName>
+                     <surname>Grillparzer</surname>
+                     <forename>Franz</forename>
+                     <idno type="URL">http://d-nb.info/gnd/118542192</idno>
                   </persName>
                </person>
-
+               <person xml:id="zirnig_margarete">
+                  <persName>
+                     <surname>Zirnig</surname>
+                     <forename>Margarete</forename>
+                     <roleName type="degree" full="abb">Dr.</roleName>
+                  </persName>
+                  <idno type="URL">http://d-nb.info/gnd/127562753</idno>
+               </person>
+               <person xml:id="raimund_ferdinand">
+                  <persName>
+                     <surname>Raimund</surname>
+                     <forename>Ferdinand</forename>
+                     <roleName>Volksdramatiker</roleName>
+                     <roleName>Volksdarsteller</roleName>
+                  </persName>
+                  <idno type="URL">http://d-nb.info/gnd/118597914</idno>
+               </person>
+               <person xml:id="leuschke_">
+                  <persName>
+                     <surname>Leuschke</surname>
+                     <forename/>
+                     <roleName type="degree" full="abb">Prof.</roleName>
+                  </persName>
+               </person>
+               <person xml:id="meyer_ruth">
+                  <persName>
+                     <surname>Meyer</surname>
+                     <forename>Ruth</forename>
+                     <roleName>Diplom Bibliothekarin</roleName>
+                  </persName>
+                  <idno type="URL">http://d-nb.info/gnd/1056621966</idno>
+               </person>
+               <person xml:id="aristoteles">
+                  <persName>
+                     <name>Aristoteles</name>
+                     <roleName>Philosoph</roleName>
+                  </persName>
+                  <idno type="URL">http://d-nb.info/gnd/118650130</idno>
+               </person>
+               <person xml:id="kalidasa">
+                  <persName>
+                     <name>Kālidāsa</name>
+                     <roleName>Schriftsteller</roleName>
+                  </persName>
+                  <idno type="URL">http://d-nb.info/gnd/118559516</idno>
+               </person>
+               <person xml:id="shakespeare_william">
+                  <persName>
+                     <surname>Shakespeare</surname>
+                     <forename>William</forename>
+                     <roleName>Dichter</roleName>
+                     <roleName>Dramatiker</roleName>
+                  </persName>
+                  <idno type="URL">http://d-nb.info/gnd/118613723</idno>
+               </person>
+               <person xml:id="goethe_johann">
+                  <persName>
+                     <surname>Goethe</surname>
+                     <forename type="first">Johann</forename>
+                     <forename type="middle">Wolfgang</forename>
+                     <nameLink>von</nameLink>
+                     <roleName>Universalgenie</roleName>
+                  </persName>
+                  <idno type="URL">http://d-nb.info/gnd/118540238</idno>
+               </person>
+               <person xml:id="stumpfl_">
+                  <persName>
+                     <surname>Stumpfl</surname> 
+                     <!-- evtl. Friedrich Stumpfl? -->
+                  </persName>
+               </person>
+               <person xml:id="pirckheimer_willibald">
+                  <persName>
+                     <surname>Pirckheimer</surname>
+                     <forename>Willibald</forename>
+                     <roleName>Humanist</roleName>
+                  </persName>
+                  <idno type="URL">http://d-nb.info/gnd/118594605</idno>
+               </person>
+               <person xml:id="dürer_albrecht">
+                  <persName>
+                     <surname>Dürer</surname>
+                     <forename>Albrecht</forename>
+                  </persName>
+                  <idno type="URL">http://d-nb.info/gnd/11852786X</idno>
+               </person>
+               <person xml:id="kraft_adam">
+                  <persName>
+                     <surname>Kraft</surname>
+                     <forename>Adam</forename>
+                     <roleName>Bildhauer</roleName>
+                     <roleName>Baumeister</roleName>
+                  </persName>
+                  <idno type="person">http://d-nb.info/gnd/118715372</idno>
+               </person>
+               <person xml:id="vischer_peter"> <!-- unklar - gibt einen Älteren und einen Jüngeren (zeitlich passen beide) -->
+                  <persName>
+                     <surname>Vischer</surname>
+                     <forename>Peter</forename>
+                     <roleName>Kunsthandwerker</roleName>
+                  </persName>
+                  <idno type="URL">http://d-nb.info/gnd/118768654</idno> 
+                  <!-- d. Ältere -->
+                  <idno type="URL">http://d-nb.info/gnd/118768662</idno> 
+                  <!-- d. Jüngere  -->
+               </person>
+               <person xml:id="pernkopf_eduard">
+                  <persName>
+                     <surname>Pernkopf</surname>
+                     <forename>Eduard</forename>
+                     <roleName>Rektor der <rs>Universität Wien </rs>
+                     </roleName>
+                  </persName>
+                  <idno type="URL">http://d-nb.info/gnd/121907155</idno>
+               </person>
+               <person xml:id="weller_">
+                  <persName>
+                     <surname>Weller</surname>
+                     <forename/>
+                     <roleName>Sprachwissenschaftler</roleName>
+                  </persName>
+                  <idno type="URL"/>
+               </person>
+               <person xml:id="karsten_">
+                  <persName>
+                     <surname>Karsten</surname>
+                     <forename/>
+                     <roleName>Burgschauspieler</roleName>
+                     <roleName>Hauptmann im Ersten Weltkrieg</roleName>
+                  </persName>
+                  <idno type="URL"/>
+               </person>
+               <person xml:id="zeckl_alfred">
+                  <persName>
+                     <surname>Zeckl</surname>
+                     <forename>Alfred</forename>
+                     <roleName>Fachschaftsleiter</roleName>
+                  </persName>
+                  <idno type="URL"/>
+               </person>
             </listPerson>
          </p>
       </body>

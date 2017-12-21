@@ -10,7 +10,24 @@
         }
     </style>
     <script id="item-template" type="text/x-handlebars-template">
-        <p>{{before}} <a href="{{backlink}}">{{match}}</a>{{after}}</p>
+        <table class="table table-bordered table-hover table-condensed">
+            <tr>
+                <th>Sender</th>
+                <td colspan="3" class="description">{{sender}}</td>
+            </tr>
+            {{#if receiver}}
+            <tr>
+                <th>Receiver</th>
+                <td colspan="3" class="description">{{receiver}}</td>
+            </tr>
+            {{/if}}
+            <tr>
+                <th>zum Dokument</th>
+                <td>
+                    <a href="{{backlink}}">click to follow</a>
+                </td>
+           </tr>
+        </table>
     </script>
         <div id="visualization">
            
@@ -41,8 +58,8 @@
                  axis: 5   // minimal margin between items and the axis
                 },
                 orientation: 'top',
-                start: new Date(1000,01,01),
-                end: new Date(2015, 01, 01)
+                start: new Date(1833,01,01),
+                end: new Date(1862, 01, 01)
             };
             var timeline = new vis.Timeline(container, data.item, options);
         });

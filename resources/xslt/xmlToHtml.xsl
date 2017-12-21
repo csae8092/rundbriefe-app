@@ -309,7 +309,7 @@
             </li>
         </xsl:for-each>
     </xsl:template><!-- reference strings   -->
-    <xsl:template match="tei:*[@ref or @key]">
+    <xsl:template match="tei:rs[@ref or @key]">
         <strong>
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
