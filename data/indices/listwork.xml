@@ -58,6 +58,32 @@
                         <title>Lanzelot und Sanderein</title>
                         <idno type="URL">http://d-nb.info/gnd/4166724-4</idno>
                     </bibl>
+                    <bibl xml:id="hans_sachsens_poetische_sendung">
+                        <title>Erklärung eines alten Holzschnittes, vorstellend Hans Sachsens poetische Sendung</title>
+                        <author>
+                            <rs ref="#goethe_johann">Johann Wolfgang von Goethe</rs>
+                        </author>
+                        <idno type="URL">http://d-nb.info/gnd/4598497-9</idno>
+                    </bibl>
+                    <bibl xml:id="il_decamerone">
+                        <title>Il Decamerone</title>
+                        <author>
+                            <rs ref="#boccaccio_giovanni">Giovanni Boccaccio</rs>
+                        </author>
+                        <idno type="URL">http://d-nb.info/gnd/4226218-5</idno>
+                    </bibl>
+                    <bibl xml:id="peter_squentz">
+                        <title>Absurda comica oder Herr Peter Sequentz</title>
+                        <author>
+                            <rs ref="#gryphius_andreas">Andreas Gryphius</rs>
+                        </author>
+                        <idno type="URL">http://d-nb.info/gnd/4528941-4</idno>
+                    </bibl>
+                    <bibl xml:id="teutscher_merkur">
+                        <title>Der Teutsche Merkur</title>
+                        <idno type="URL">http://ds.ub.uni-bielefeld.de/viewer/toc/1951387/1/LOG_0000/</idno>
+                        <note>Literaturzeitschrift 1773-1789</note>
+                    </bibl>
                 </listBibl>
             </p>
         </body>
