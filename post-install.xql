@@ -9,5 +9,6 @@ for $resource in xmldb:get-child-resources(xs:anyURI($config:app-root||"/modules
     return sm:chmod(xs:anyURI($config:app-root||'/modules/'||$resource), "rwxrwxr-x"),
 
 
-for $resource in xmldb:get-child-resources(xs:anyURI($config:app-root||"/fetch/"))
-    return sm:chmod(xs:anyURI($config:app-root||'/modules/'||$resource), "rwxrwxr--")
+for $resource in xmldb:get-child-resources(xs:anyURI($config:app-root||"/exgit/"))
+    return sm:chmod(xs:anyURI($config:app-root||'/exgit/'||$resource), "rwxrwxr--")
+
