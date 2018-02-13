@@ -402,11 +402,11 @@
     <xsl:template match="tei:pb">
         <xsl:element name="div">
             <xsl:attribute name="style">
-                <xsl:text>text-align:right;</xsl:text>
+                <xsl:text>text-align:center;</xsl:text>
             </xsl:attribute>
-            <xsl:text>[Bl.</xsl:text>
+            <xsl:text>-</xsl:text>
             <xsl:value-of select="@n"/>
-            <xsl:text>]</xsl:text>
+            <xsl:text>-</xsl:text>
         </xsl:element>
         <xsl:element name="hr"/>
     </xsl:template><!-- Tabellen -->
@@ -462,5 +462,8 @@
         <xsl:element name="strike">
             <xsl:apply-templates/>
         </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:fw">
+        
     </xsl:template>
 </xsl:stylesheet>
