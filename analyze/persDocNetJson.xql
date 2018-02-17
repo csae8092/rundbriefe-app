@@ -1,6 +1,6 @@
 xquery version "3.1";
-import module namespace config="http://www.digital-archiv.at/ns/rundbriefe-app/config" at "../modules/config.xqm";
-import module namespace app="http://www.digital-archiv.at/ns/rundbriefe-app/templates" at "../modules/app.xql";
+import module namespace config="http://www.digital-archiv.at/ns/salzarchiv/config" at "../modules/config.xqm";
+import module namespace app="http://www.digital-archiv.at/ns/salzarchiv/templates" at "../modules/app.xql";
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 declare option exist:serialize "method=json media-type=text/javascript";
 

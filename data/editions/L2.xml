@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-stylesheet type="text/xsl" href="http://digital-archiv.at:8081/exist/rest/db/files/salz/xsl/tei-transcript.xsl"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L2.xml" xml:base="http://digital-archiv.at:8081/exist/rest/db/files/salz/xml/lindner/">
+    
+    <!-- verwendete Abkürzungen
+            <measure unit> 
+                    tw      Tiroler Werkschuch
+                    h       Stunde
+                    min     Minute
+                    f       Fuder
+                    gf      große Fuder
+                    k       Kachl, à 36 Wehrung
+                    w       Wehrung
+                    pf      Pfanne Holz
+                    f       Fuder
+                    m       Meile
+                    pfund   Pfund
+    --><teiHeader><fileDesc><titleStmt><title>Die Lindnerischen Schriften Band II
+                    <origDate when="1805"/><origPlace>Hall in Tirol</origPlace></title><author>Lindner, Karl Ignatz</author><editor>
+                    Transkribiert und annotiert von <name>Peter Andorfer</name></editor></titleStmt><publicationStmt><publisher>Peter Andorfer</publisher><date>2014</date></publicationStmt><sourceDesc><msDesc><msIdentifier><settlement>Wien</settlement><repository>Bundesministerium für Finanzen Ministerialbibliothek</repository><idno>AC08720437</idno></msIdentifier></msDesc></sourceDesc></fileDesc></teiHeader><text><body><div><pb n="0001" xml:id="L2_1" facs="#l2_0001"/><head type="gesamt"><hi rend="head">Fortsetzung der systematischen <lb/>
+                        Geschichte des sudwesens zu Hall im Innthal <lb/>
+                    vom Jahr 1640 an bis 1710</hi></head></div><div type="abschnitt"><p>
+                   Der durch die hier angeschlossene hohe Kammer
+                    <hi rend="italics">Intimation</hi>
+                   vom <date when="1639-08-24">24ten August 1639</date><ptr target="#l2_a"/> von  
+                    <rs type="person" ref="#claudia">Ihro Fürstlichen Durchlaucht Claudia
+                    Erzherzogin zu Oesterreich zum</rs> zum ordinari Pfannhausamtmann
+                    mit dem Titl eines <rs type="role">Erzfürstlichen 
+                    Vormundschafts-Rath</rs> ernannte <rs type="person" ref="#buchenberg"> Joh. Jakob
+                    Buchenberg</rs> erhielt den <date when="1639-11-23">23ten November</date>
+                    deßnemlichen Jahrs verschlossenen den landesfürstlichen Auftrag
+                    sich also gleich nach <rs type="place" ref="#gmunden">Gmunden</rs> zu begeben, um 
+                    das dortige Salzwesen in seinem ganzen Umfang einzusehen, und zu berichten, ob sich eine, oder die andere <hi rend="italics">Manipulation</hi> allhier mit Nutzen anwenden lassen.
+                </p><p>
+                    Weiters wurde <rs type="person" ref="#buchenberg">ihme</rs> den Befehl ertheilt 
+                    zwey geschückte Berg, und zwey und Pfannhausarbeiten mitzunehmen vor der Abreiße aber sich noch bey der
+                    <pb n="0002" xml:id="L2_2" facs="#l2_0002"/><rs type="org" ref="#kammer">Kammer</rs> zu melden.
+                </p><p>
+                    Nachdem <rs type="person" ref="#buchenberg">derselbe</rs> sich diesem Auftrag zu Folge vorher die mündliche Verhaltungs Befehle bei <rs type="person" ref="#claudia">Ihro Fürstl. Durchlaucht</rs>, und der <rs type="org" ref="#kammer">Kammer</rs> samt dem Kredential Schreiben an den <rs type="person" ref="#prugglacher">kais. Rath, und Salzamtmann zu <rs type="place" ref="#gmunden">Gmunden</rs> Herrn Georg Prugglacher</rs> abgehollt, ist er den <date when="1639-12-07">7ten <hi rend="italics">December</hi></date> mit den zwey Salzbergs Jungen <rs type="person" ref="#sötzen">Gabriel Sötzen</rs>, und <rs type="person" ref="strasser">Martin Strasser</rs>, dann mit dem dritten Pfannhaus Schaffer <rs type="person" ref="#panperger">Christian Panperger</rs>, und dem Zuzieher <rs type="person" ref="#schuster">Melchior Schuster</rs> nach <rs type="place" ref="#gmunden">Gmunden</rs> abgereißt, und den <date when="1639-12-12">12ten</date> alldort angelangt; wo <rs type="person" ref="#buchenberg">er</rs> das Kredential Schreiben von <rs type="person" ref="#claudia">Ihro Fürstl. Durchlaucht</rs> dem Herrn <rs type="person" ref="#prugglacher">Salzamtmann</rs> überreichte, und von selben mit der Bereitwilligkeit, ihn durch die Beamten, und Arbeiter in allen vollkommen informren zu lassen, aufgenommen worden, welcehs auch vollzogen, und wonach eine vollständige <hi rend="italics">Relation</hi>über das ganze kaiserl. Salzwesen zu <rs type="place" ref="#gmunden">Gmunden</rs> im <rs type="place" ref="oö">Land ob der Enns</rs> sowohl in Betreff des Bergs und 
+                    
+                    
+                    <pb n="0003" xml:id="L2_3" facs="#l2_0003"/>
+                    
+                    
+                    Pfannhaues, als auch des Waldwesens an <rs type="person" ref="#claudia">Ihro Fürstl. Durchlaucht</rs> untern <date when="1639-12-31">letzten <hi rend="italics">December</hi> 1639</date> erstattet wurde.
+                </p><p>
+                    Mit Hinweglassung jener, zu der dem [Resserenten] aufgetragenen Beschreibung des bloßen Salzsudes nicht gehörenden Gegenstände wird aus dieser <hi rend="italics">Relation</hi> also nur das wesentliche von dem Sudwesen ausgezogen.
+                </p><p>
+                    Dieses hat <rs type="person" ref="#buchenberg">Johann Buchenberg</rs> den <date when="1639-12-14">14ten obigen Monaths</date>, nachdem er vorher in <rs type="place" ref="#gmunden">Gmunden</rs> de Einballierungs <hi rend="italics">Maniulation</hi> gesehen, und von der Versendung des Salzes sich infromirte, in <rs type="place" ref="#ebensee">Ebensee</rs>, wohin er mit dem <rs type="person" ref="#prugglacher">Salzamtmann</rs> über den <rs type="place" ref="#traunsee">Gmundner See</rs> gefahren, zuerst beobachtet.
+                </p><p>
+                    Nach <rs type="person" ref="#buchenberg">seinem</rs> Bericht sol im <date when="1602">Jahr 1602</date> alldort das Pfannhaus, Pfießel, und die Verwesungs-Behaußung zu bauen angefangen, und im <date when="1607-02">1607 im Februar</date> das erstemal Salz erzeugt worden sein.
+                </p><pb n="0004" xml:id="L2_4" facs="#l2_0004"/><p>
+                    Die Salzsohle, oder Sulze wurde zu dem Pfannhaus theils von <rs type="place" ref="#hallstatt">Hallstadt</rs>, theils von dem neuen erst im <date when="1563">Jahre 1563</date> durch einen <rs type="person">Wildpreth Schützen</rs> entdeckten <rs type="place" ref="#ischlerberg">Ischlerberg</rs> in [Porchenen] Röhren, wie zu <rs type="place" ref="#hall">Hall</rs>, geleitet. 
+                </p><p>
+                    In der Strecke zwischen deren zwey Salzbergen, und dem Pfannhaus giebt es mehrere Sulzstuben, deren auch 6 zu <rs type="place" ref="#ebensee">Ebensee</rs> bei dem Pfannhaus sind.
+                </p><p>
+                    Die Sulze wurde durch die <rs type="person" ref="#sötzen">zwei Berg</rs><rs type="person" ref="#strasser">Junge</rs> mt der von <rs type="place" ref="#hall">Hall</rs> mit genommenen Wage abgewogen, und der hallerischen Stärcke gleich befunden; nun war die Vorsicht, beobachtet, daß die Sulz nicht gleich frisch, wie sie vom Berg kam, zum Sud genommen, sondern erst die STuben eingelassen wurde, wo sie durch enige Zeit stehen blieb, weil hiedurch die sogenannte Wildigkeit, das ist der Gyps sich fällte, und die Sulze zum Salzerzeug reiner, und williger geworden ist; denn in <rs type="place" ref="#ebensee">Ebensee</rs>, wohin die Sulzen am weitesten geführt werden
+           
+                
+                
+                <pb n="0005" xml:id="L2_5" facs="#l2_0005"/>
+                
+                
+          mußte, wurde aus dem vorgesagten Grund das beste Salz gesotten                             </p><p>
+                    Die Größe der Pfanne war vom Schürofen bis zu der Urent <measure quantity="58.3" unit="tw">58 tyroler Werkschuch 3 Zoll</measure> lang und <measure quantity="51.15" unit="tw">51 Werkschuch 10 1/2 Zoll </measure>breit. Bei der Perstatt<measure unit="tw" quantity="1.9"> 1 Schuch 9 Zoll</measure>, und gegenüber, damit sie zu der Perstatt den [Seger] hielt, nur <measure quantity="1.2" unit="tw">1 Schuch 2 Zoll</measure> tief. 
+                </p><p>
+                    Der Pfannhaus-Ofen hatte in die Länge <measure unit="tw" quantity="7.35">7 Schuch 3 1/2 Zoll</measure>, und in der Weite auch <measure quantity="7.35" unit="tw">7 Schuch und 3 1/2 Zoll</measure>.
+                </p><p>
+                    Die Sur wurde durch eine Rinne zu nächts bei dem Schürofen an der rechten Stien mitten auf das Feuerstck unter die [Täxl] oder Haggen, aus 5 in besagter Rinn eingebohrte Löcher, zwischen denen Haggen unausgesetzt gelassen; und damit der Sud in beständiger Gleichheit verblieb, so war ein eisener Suhrzeiger angebracht, der zu unterst ein Knöpfl hatte, worüber die SUr immer im gleichen Maaß einschlagen mußte.
+                </p><pb n="0006" xml:id="L2_6" facs="#l2_0006"/><p>
+                    Nach dem Unterfeuern brauchten sie bis zur ersten Ausbehr <measure unit="h" quantity="8.5">8 bis 9 Stund</measure>, wonach sie <measure unit="f" quantity="56" commodity="salz">56</measure> bis <measure quantity="60" unit="f" commodity="salz">60 Fuder Salz</measure> machten, mit welcher Anzahl <measure unit="h" quantity="2">zwei Stund</measure> fortgesezt wurde.
+                </p><p>
+                    Die Arbeiter müssen <measure quantity="75" unit="min">5/4 Stund</measure> arbeiten, und die übrigen <measure unit="min" quantity="45">3/4 Stund</measure> hatten sie Ruh zum ausrasten; jedoch wurden sie öfters, als im <rs type="place" ref="#hall">Hall</rs> abgeleßt.
+                </p><p>
+                    Ausser dem Fuder Salz ward zu <rs type="place" ref="#ebensee">Ebensee</rs> kein anders Salz heraus geschlagen, auch durfte auf den Fudern kein Hufen gemacht werden, sondern derselbe mußte, nachdem das Salz vorher wohl eingeschlagen wurde, eben abgestrichen werden, wodurch weder der <rs type="org">Herrschaft</rs>, noch dem Kaufmann unrecht geschehen konnte. 
+                </p><p>
+                    stat dem Ausenbaum war für die [Süble] ein uf der Perstatt aufgerichter <measure quantity="36.5" unit="tw">36 Schuch 5 Zoll</measure> langer, und <measure unit="tw" quantity="3.8">3 Schuch 8 Zoll</measure> breiter Trog, in welchen selbe aufrecht zwey Zeilen neben einander gestellt wurden, und wenn die Zeit der Ausberh ankam, so haben die
+                    
+                    
+                    <pb n="0007" xml:id="L2_7" facs="#l2_0007"/>
+                    
+                    Fudertrager die eingefaßten Fuder samt den Kübeln aus dem Trog, und sezten alles Zeilenweiß daneben auf die Perrstätte, welche hiezu hinlänglichen Raum hatte, so daß jedes Fuder noch wenigstens <measure quantity="3.5" unit="h">3 bis 4 Stund</measure> daselsbt trocknen konnte; wonach sei es erst in die Pfießel trugen.
+                </p><p>
+                    Der oberwähnte Fudertrog hatte auf den Boden an verschiedenen Arten Oefnungen, durch welche die heisse Suhr, so von den Fudern abrann, in eine darzu gerichtete Sulzstsube, in welche auch wochentlich nach dem Auslöschen die Lab abgelassen wurde, geleitet, und aus selber gleich weider durch ein dopeltes Schöpf-Rad, wovon das grössere 16 und das kleinere, mit 10 Schöpfen, <measure unit="tw" quantity="12">12 Schuch</measure> im Durchmesser hatte, warmer in Pfanne geschöpft wurde. 
+                </p><p>
+                    Die Krucken der Zuzieher waren mit Eysen beschlagen, <measure quantity="3" unit="tw">3 Schuch</measure> lang und <measure unit="tw" quantity="0.7">7 Zoll</measure> breit, und viel schwerer als die hierortigen, auch sind die Perschaufeln viel grösser gewesen.
+                </p><pb n="0008" xml:id="L2_8" facs="#l2_0008"/><p>
+                    Um den Pfannenranft war ein buchenes Gesteng von <measure quantity="0.7" unit="tw">7 Zoll Höhe</measure> und <measure unit="tw" quantity="0.3">3 Zoll</measure> Dicke angeheftet, damit die Zuzieherstangen, und Peerschaufeln nicht so stark hingestreift werden konten, und welches zur leichteren Arbeit diente. 
+                </p><p>
+                    In einem ganzen Jahr wurde ohngefähr durch 36, oder 38 Wochen gesotten, und es ist allzeit am Samstag um um 1 Uhr ausgelöscht, Sontags auf den Abend um 4 Uhr aber weider unterfeuert worden. Der Erzeug betrug durch 6 Tag und Nächte eine Woche gegen die andere gehalten auf dieser einzigen fanne <measure quantity="3500" unit="f" commodity="salz">3600 Fuder Salz</measure>, deren eines gepfieselter abgewogenen <measure unit="wg_p" quantity="150">150 X. Wiener Gewicht</measure> schwer war, und also 2 so viel als <measure quantity="1" unit="f">ein Haller Fuder</measure> wog. 
+                </p><p>
+                    Auf dieser einzigen Pfanne wurde, wo nicht mehr, doch ebensoviel, als hier auf zwey Pfannen Salz erzeugt, ohngeachtet alles gefpieselt worden ist, zu welchen Zweck 5 schöne Pfießel Gewölben, und darauf 2
+                    
+                    
+                    <pb n="0009" xml:id="L2_9" facs="#l2_0009"/>
+                    
+                    
+                    grosse Salzbehälter angebracht waren, welche die Wärme von den Pfießeln erhielten.
+                </p><p>
+                    In denen Pfießeln sind einige schmale Ziegelmäuerln von <measure unit="tw" quantity="3">3 Schuch</measure> Höhe aufgerichtet gewesen, welche <measure quantity="4" unit="tw">4 Schuch</measure> weit von einander abstanden, und auf welche Gesteng, oder Scheiter wie ein Rost über Zwerch gelegt wurden, um die Fuder desto leichter auf und abzusetzen; auf diese Art konte die Hitze ungehindert in die Höhe steigen, und das Salz gengsam ausdörren.
+                </p><p>
+                    Die Kübl, worin die Fuder gemacht worden sind, waren <measure unit="tw" quantity="3.1">3 Schuch 1 Zoll</measure> lang, an dem obern Ort <measure quantity="1.5" unit="tw">1 Schuch 5 Zoll</measure>, und an dem untern <measure unit="tw" quantity="0.9">9 Zoll</measure> breit. 
+                </p><p>
+                    Dieses ist die <hi rend="italics">Relation</hi> über das <rs type="place" ref="#ebensee">ebenseer</rs> Sudwesen; hierauf begag sich der <rs type="person" ref="#buchenberg">hallerische Rath</rs> mit dem <rs type="person" ref="#prugglacher">Salzamtmann</rs> den <date when="1639-12-15">15ten <hi rend="italics">December</hi></date> nach <rs type="place" ref="#ischl">Ischl</rs>; allwo <rs type="person" ref="#buchenberg">er</rs>eine gleiche Pfanne, und, ausserdem, daß <rs type="person" ref="#buchenberg">er</rs> nur 4 Sulzstuben, die anstatt vom Wasser durch 2,3 auch 4 Mann getrieben
+                    
+                    
+                    <pb n="0010" xml:id="L2_10" facs="#l2_0010"/>
+                    
+                    
+                    wurden, angetroffen, alles übrige gleich wie in <rs type="place" ref="#ebensee">Ebensee</rs>, gefunden hat. 
+                </p><p>
+                    Den <date when="1639-12-16">16ten</date> reiste <rs type="person" ref="#buchenberg">derselbe</rs> mit seinen <rs type="person">4 Gefährten</rs> nach <rs type="place" ref="#hallstatt">Hallstatt</rs>, zu der 3ten ältesten Salzpfannen, und dem Haupt Salzberg, wohin ihme der <rs type="person" ref="#prugglacher">Salzamtmann</rs> einen schriftlichen Auftrag an dem <rs type="person">Hofschreiber</rs> mitgegeben, daß <rs type="person" ref="#buchenberg">demselben</rs> alles ohne Hinterhalt gezeigt und erklärt werden solle, welches auch genau befolgt wurde. 
+                 </p><p>
+                    Der <rs type="person" ref="#buchenberg">buchenbergischen</rs> Beschreibung zu Folge soll aus den 3 Salzpfannen die zu <rs type="place" ref="#hallstatt">Hallstatt</rs> um <measure unit="tw" quantity="2.5">2 1/2 Werkschuch</measure> enger, als zu <rs type="place" ref="#ischl">Ischl</rs>, und <rs type="place" ref="#ebensee">Ebensee</rs> gewesen; dem ohngeachtet aber auf jeder eben so viel, und so gutes Salz, als bei einer der <rs type="place" ref="#ebensee">zwei</rs><rs type="place" ref="#ischl">erst</rs> erwähnten, erzeugt worden sein.
+                </p><p>
+                    Die drey Pfannhäußer aldort waren so geräumig gebaut, daß man bei den Pfannen auf der Perstatt, und sonst überall einen genugsamen, und weitern Platz, als <rs type="place" ref="#hall">hier</rs> zu der Arbeit, und Beisetzung der erzeugten
+                    
+                    
+                    <pb n="0011" xml:id="L2_11" facs="#l2_0008"/>
+                    
+                    
+                    Fuder hatte, und obgleich anfangs zu <rs type="place" ref="#hallstatt">Hallstatt</rs> die Asenbäume auch gebraucht wurden, so sind selbe doch seit deme hinweg genommen, und statt selben die Fuderträg, wie zu <rs type="place" ref="#ebensee">Ebensee</rs>, und <rs type="place" ref="#ischl">Ischl</rs> angebracht worden.
+                </p><p>
+                    Bey jedem <rs type="place" ref="#ischl">dieser</rs><rs type="place" ref="#ebensee">drey</rs><rs type="place" ref="#hallstatt">Pfannhäußer</rs> waren <rs type="person">32 Arbeiter</rs>, ein <rs type="person">Schmid</rs>, und ein <rs type="person">Zimmermeister</rs> angestellt.
+                </p><p>
+                    Der Jahes-Erzeug bei allen <rs type="place" ref="#ischl">diesen</rs><rs type="place" ref="#ebensee">drey</rs><rs type="place" ref="#hallstatt">Pfannen</rs> belief sich auf <measure type="gf" quantity="180000">180/m grosse Fuder</measure>, wozu in allen <measure quantity="300" unit="pf">300 Pfannen Brennholz</measure> gebraucht wurden; <measure unit="pf" quantity="1">eine Pfanne Holz</measure> hatte <measure unit="k" quantity="44">Kachl</measure>, und <measure unit="k" quantity="1">ein Kachl</measure><measure unit="w" quantity="36">36 Wehrung</measure>; wenn demnach die <measure quantity="300" unit="pf">300 Pfannen Holz</measure> auf die Haller Zahl reduzirt werden, so machen selbe 480/m Zahl aus, weil <measure unit="pf" quantity="1">eine Pfanne Holz</measure> 1600 hiesiger Zahl gleich ist, und auf <measure quantity="1000" unit="f" commodity="salz">1000 Fuder Salz</measure> kommen nur <measure quantity="2667" unit="w">2667 Wehrungen oder Zahlen Holz</measure> (<measure unit="pf" quantity="1">eine Pfanne</measure> ist gleich <measure quantity="1584" unit="w">1584 Wehrungen</measure>, oder beinahe <measure unit="w" quantity="1">eine Wehrung</measure> einer hiesigen Zahl)
+                </p><p>
+                    In <rs type="place" ref="#hall">Hall</rs> wurden dortmals in einem
+                    <pb n="0012" xml:id="L2_12" facs="#l2_0009"/>
+                    
+                    
+                    Jahr <measure quantity="60000" unit="f">60000 ganze Fuder</measure> und <measure unit="f" quantity="12000" commodity="gadensalz">12000 Fuder Gaden Salz</measure> zusammen <measure unit="f" quantity="72000">72000 Fuder</measure> erzeugt, zu diesen brauchte man <measure unit="w" quantity="300000">300000 Zahl Holz</measure>, es kommen also auf jedes <measure quantity="1000" unit="f" commodity="salz">1000 Fuder Salz</measure><measure unit="w" quantity="4170">4170 Zahl oder Wehrungen Holz</measure>, folglich brauchte man <rs type="place" ref="#hall">dahier</rs> nicht ganz noch einmal soviel Holz auf den gleichen Salzerzeug.                                       
+                </p><p>
+                    Es läßt sich also aus diesen grossen Unterschied schliessen, wie schlecht die <rs type="place" ref="#hall">hierortige</rs> Sud-<hi rend="italics">Manipulatoin</hi> gegen die in dem <rs type="place" rend="#kammergut">Kammergut</rs> dortmals gewesen ist, dem ohngeachtet aber hat sich das <rs type="org" ref="#pfannhausamt">Pfannhaus-Amt</rs>, starrsinnig auf die seit Jahrhunderten fortgeführte elende, und holzverschwenderische <hi rend="italics">Manipulation</hi> mit allen Kräften gegen die von dem <rs type="person" ref="#buchenberg">Mitrath Johann Buchenberg</rs> vorgeschlagenen Verbesserungen gesäummt, wie es der [Verfolg] der Geschcihten zeigen wird.
+                </p><p>
+                    Was das Holz für die Sudwerker betrift, so sorgt <rs type="person" ref="#buchenberg">Puchenberg</rs>, daß die
+                    
+                    <pb n="0013" xml:id="L2_13" facs="#l2_0009"/>
+                    
+                    dazu gehörigen Waldungen alle nahe, und die weitesten nicht über <measure unit="ml" quantity="4">4</measure> bis <measure quantity="4.5" unit="ml">4 1/2 Meilen</measure> entfernt liegen; jedoch werde das Holz mit grösserer Beschwerlichkeit, aus Mangel der Seiten, und Hauptbäche, als hier in <rs type="place" ref="#tirol">Tyrol</rs>, getriftet, und zwar muß selbes zu denen <rs type="place" ref="#hallstatt">hallstättischen</rs> Sudwerkern auf Züllen bis zum See mit Rossen aufwerts gezogen werden.                     
+                </p><p>
+                    Auf <rs type="place" ref="#hallstatt">diesem See</rs> aber, so wie ach denen zwey übrigen gebrauchen sie der Pogenhölzer, deren einige so lang aneinander geflochten sind, daß selbe auch eine <measure unit="ml" quantity="0.25">viertl Meil</measure>weit reichen, und mit gorssen Vortheil getrüftet werden können.
+                </p><p>
+                    Jedes Pfannhaus hatte seinen eingenen <rs type="org" ref="#waldmeister">Waldmeister</rs>, denen 11 <rs type="org" ref="#forstknecht">Forstnechte</rs>, welche in die Holzwerks-Arbeiten zur [Nachtsicht] geschückt wurden, beigegeben waren. Durch dieses Personal blieben die Waldungen im besten erhalten.
+                </p><p>
+                    Bey dem Schluß dieser vollständigen
+                    
+                    
+                    <pb n="0014" xml:id="L2_14" facs="#l2_0010"/><hi rend="italics">Relation</hi> erwähnt <rs type="person" ref="#buchenberg">Puchenberg</rs> noch des Salzwesens in <rs type="place" ref="#reichenhall">Reichenhall</rs>, welches <rs type="person" ref="#buchenberg">er</rs> während der Durchreiße besichtiget, und allwo er, heimlicher Weiße, die von der Salzquell kommende Sur abwägen ließ, welche geringer befunden wurde, indem die Wage um einen Messerrücken tiefer, als in der <rs type="place" ref="#hall">hiesigen</rs>, stand.
+                </p><p><rs type="person" ref="#buchenberg">Er</rs> fand <rs type="place" ref="#reichenhall">alldorten</rs> drey zum Abwechseln hergerichte Pfannen, deren jede fast nur halb so groß als die <rs type="place" ref="#gmunden">gmundnerischen</rs> war; das Salz wurde stark gepfießelt, und sie machen nur kleine Fuder, deren einer noch ungedörrter <measure unit="pfund" quantity="60">60 X</measure> wog, so das 5 <measure quantity="1" unit="f">ein <rs type="place" ref="#hall">hiesiges</rs></measure> ausmachten.
+                </p><p>
+                    Die Sur des <rs type="place" ref="#reichenhall">reichenhallischen</rs> Salzquells ward schon dortmals <measure unit="ml" quantity="3">drey Meilen</measure> weit durch die berühmte Leitung bis auf <rs type="place" ref="#traunstein">Traunstein</rs> geführt, und dort, wie zu <rs type="place" ref="#reichenhall">Reichenhall</rs>, auf die gleiche Art in drey Pfannen versotten
+                </p><pb n="0015" xml:id="L2_15" facs="#l2_0010"/><p>
+                    Dieses ist demnach das wesentliche von der <rs type="person" ref="#buchenberg">Puchenbergischen</rs><hi rend="italics">Relation</hi> in Betreff des Salzsudwesens in dem <rs type="place" ref="#kammergut">Kammergut</rs>, über welcher <rs type="person" ref="#buchenberg">derselbe</rs> den <date when="1640-03-08">8ten März des darauf gefolgten Jahres 1640</date> sein Gutachten, was ebenfalls hier in <rs type="place" ref="#hall">Hall</rs> zur Verbesserung der Sudwerken, und <hi rend="italics">Manipulation</hi> anwendbar wäre, gründlich erstattet.
+                </p><p><list><item>
+                            1tens - Hält <rs type="person" ref="#buchenberg">er</rs> die um <measure unit="tw" quantity="12">12 Schuch</measure> längere <measure quantity="19" unit="tw">19 Schuch</measure> breitere, und um <measure unit="tw" quantity="0.7">7 Zoll</measure> weniger tiefe <rs type="place" ref="#kammergut">Pfannen</rs>, als die <rs type="place" ref="#hall">hiesigen</rs> zur Sudbeförderung, und Holzersparung für viel vortheilhafter aus dem allgemeinen Erfahrungsschatz, daß, wenn in ein enges, aber tiefes, und dagegen wieder in ein weites, und flaches Gefäß mit einer gleichen Masserey Wasser angefüllt wird, dieses bey gleicher Feuerung viel ehender in dem weiten, als in dem tiefen Gefäß zu finden angefangen werde.
+                        </item><item>
+                            2tens - Behauptet <rs type="person" ref="#buchenberg">er</rs> liege der Grund des grössern Salzerzeugs, und der <measure unit="h" quantity="2">zweystündigen</measure><pb n="0016" xml:id="L2_16" facs="#l2_0011"/>
+                            
+                            
+                            Auspehrung auch in denen dünnen Eisen bei denen Pfannen, weil hiedurch die Hitze leichter durchdringen kann.
+                        </item><item>
+                            3ten - Sey allerdings die bessere und salzreichere Sur, in welcher nicht so häufig Gyps enthalten als in der <rs type="place" ref="#hall">hierortigen</rs>, an dem stärkern Aufbringen ebenfalls Ursach, so wie
+                        </item><item>
+                            4tens - Die Einrichtung, daß in denen <rs type="place" ref="#oberösterreich">ob-derennsischen</rs> Salinen die Sur vor dem Gebrauch allezeit in die Sulzstuben eingeschlagen wird, wodurch sich die sogenannte Bergwilde, oder eigentlich der Gyps, welcher im Berg nicht ganz abgeschieden werde, fällt, und die Sur sich mehr konzentriert, und reiner wird; wovon die Beweiße in denen <rs type="place" ref="#hall">hierortigen</rs> Surröhren zu finden seyen, in welcher sich häufig solche Wilde anlegen. 
+                        </item><item>
+                            5tens - Fliesse <rs type="place" ref="#kammergut">alldort</rs> die Sulze ununterbrochen in fünf Abtheilungen 
+                            
+                            
+                            
+                            <pb n="0017" xml:id="L2_17" facs="#l2_0011"/>
+                            
+                            
+                            zerkleinert, während dem beästingen Süden mitten auf den Feuerstorck, wodurch die Sur durch dieses kleinweise, und zertheilte Einfliessen in ihrem Sud nicht gehindert, sondern die kältere einrinnende Sur von der Heftigkeit der Hitze schnell ergriffen, und zum Süden gezwugen werde; demnach der Sud in einer besätnddigen Gleichheit verbleibe, wodurch die Ausdünstung stärker, und die Salzfällung schneller erfolge. <lb/>
+                            Hier hingegen wurde der Sud gewaltig gestört; indem erst alle Stunden, auf einmal, alle zu der folgenden Ausberh nothwendig Sur in die Pfanne gelassen werde; wodurch die darinn befindliche so sehr erkaltet, daß ohngeachtet des starken Schürrens, dennoch dieselbe lange nicht wieder zum Sud gebracht werden könne.
+                        </item><item>
+                            6tens - Endlich diene das zweystündige Zusammenziechen, und Ausschlagen des Salzes sehr zu einem bessern und geschwindern Sud, weil durch
+                            
+                            
+                            <pb n="0018" xml:id="L2_18" facs="#l2_0012"/>  
+                            
+                            
+                            das Hinwegziehen des Salzes der Hitze, die sonst erst durch selbes Durchdringen muß, um die Sur zu ergreiffen, Raum verschaffet wird, und also der Sud ehender erfolget.
+                        </item></list></p><p>
+                    Wenn nun <rs type="person" ref="#claudia">Ihro Fürstl. Durchlaucht</rs> zu befehlen geruheten, daß einer Probe mit dem Salzsud auf <rs type="place" ref="#gmunden">gmundnerische</rs> Art unternommen werden sollte, so müßten, um diese vollkommen zu Stand zu bringen, alle erst erwähnten Einrichtungen (mit Ausnahm der Sur die in ihrer Eigenschaft blebit) gemacht werden; allein, da es zu kostbahr wäre eine ganz neue Pfanne mit allen dazu gehörigen Gebäuden herzustellen, so würde es rathsamer seyn einsweilen auf einer <rs type="place" ref="#hall">hiesigen</rs> ordinary Pfanne mit geringen Unkosten die Probe zunehmen.  
+                </p><list><item><p>1tens - Könnten die 4 zwischen dem <rs type="place" ref="#salzberg_hall">Salzberg</rs>, und der <rs type="place" ref="#hall">Stadt Hall</rs> befindlichen, dann die 3 oder wenigstens
+                                
+                                
+                                
+                                <pb n="0019" xml:id="L2_19" facs="#l2_0012"/> 
+                                
+                                2 bey dem Pfannhaus stehenden Surstuben angefüllt, und die Sur darinn 8 Tage stehen belassen werden. 
+                            </p></item><item><p>
+                                2tens - Müßte nach Verlauf dieser Zeit die Sur von denen Pfannhaus Sulzstuben in offenen Rinnen auf der rechten Seite der Pfanne über die Peerstatt zunächst bei dem Schürrloch hinein zwischen die Haggen gerade auf das Feuerstück geleitet in 5 zertheilten Ströhmen unablässig eingelassen werden. 
+                            </p></item><item><p>
+                                3tens - Dürfte die Pfanne nicht über <measure unit="tw" quantity="0.15">1 1/2 Schuch tief</measure> angefüllt werden, wozu man sich eines Surzaigers bedienen könnte. 
+                            </p></item><item><p>
+                                4tens - Könnte mti dem Schürren bis zur ersten Auspehr nach der hier gewöhnlichen Ordnung verfahren, sodann aber das Feuer in enier mittern stets gleichen Flammen erhalten werden.
+                            </p></item><item><p>
+                                5tens - Sollten auf den Asenbaum solche Kübl oder Kufen aufgesetzt
+                                
+                                
+                                <pb n="0020" xml:id="L2_20" facs="#l2_0020"/> 
+                                
+                                
+                               werden, deren einer ein <measure unit="f" quantity="0.5">halbes hiesiges Fuder</measure> ausmacht, wo sodann 28: bis 30: oder soviel auf den Asenbaum Platz hätten, zu stehen kämen.
+                            </p></item><item><p>
+                                6tens - Müßte das Ausperhen binnen Tag und Nacht 9 mal geschehen, wozu die STunden genau darnach abzutheilen wären.
+                            </p></item><item><p>
+                                7tens - Würde es erforderlich seyn die Fuder am grössern Ort eben einzuschlagen, und weil diese halben Fuder über 5 Viertl, oder meist 1 1/2 STund auf den Asenbaum nicht bleiben könnten, so wären selbe mit den Kübeln noch auf die Panladen (wo man sonst zur Nachtszeit die Fuder von der Urent hinstellt) abzusetzen, und daselbst 3 SSTund lang, bis 3 Zeilen zusammen kämeten, stehen zu lassen, und hernach erst bey der Urent nacheinander zu trocknen.
+                            </p><p>
+                                Aus dieser Ursach müßte, weil die Urent zu breit ist, zu den kleinen Fudern ein eisernen Reif an die
+                                
+                                
+                                <pb n="0021" xml:id="L2_21" facs="#l2_0020"/> 
+                                
+                                
+                                Pfanne gehängt werden, auf welchen die Fuder gerade aufwärtsstehen, und troknen könnten. 
+                            </p></item><item><p>
+                                8tens - Endlich dürften die Zu- und Überziechblätter (weil die Sur nicht so tief ist) etwas weniges niederer, als sonst, seyen. 
+                            </p></item></list><p>
+                    Dieses war demnach der Vorschlag des <rs type="person" ref="#buchenberg">fürstlichen Vormundschafts Rath Johann Puchenbergs</rs>, welchem zu Folge einen ganzen Wochensud hindurch die Probe fortgesetzt werden sollte, wonach sich zeigen würde, ob mit wenigern Holz ein grösseres Salz<hi rend="italics">quantum</hi> erzeugt werde; jedoch seye voraus zu sehen, daß bey Verschiedenheit der Pfannen <hi rend="italics">Construction</hi> keine Gleichheit mit dem <rs type="place" ref="#gmunden">gmundnerischen</rs> Salzsud erzielt werden könne, sondern manches Hinderniß, sich ergeben würde, dem durch Nachdenken, und Fleiß werde abgeholfen werden müssen.
+                </p><p>
+                  Was das Pfießeln des Salzes anbelangt, so räth <rs type="person" ref="#buchenberg">derselbe</rs> nur auf jenes ein,  welches nach <rs type="place" ref="#lindau">Lindau</rs>, und
+                   
+                   
+                   <pb n="0022" xml:id="L2_22" facs="#l2_0021"/> 
+                   
+                   
+                   in die <rs type="place" ref="#schweiz">Schweitz</rs> geführt wird, weil hiedurch die grosse Schwannung vermieden würde; übrigens sey künftig darauf anzutragen, daß Winterszeit die zu starken Süde verringert und dafür im Frühling, und Sommer stärker gesotten werde, weil, wie es die Erfahrung lehrte, besonders in letzterer Zeit auf einer Pfanne in einem Tag, und Nacht um <measure unit="f" quantity="10">10</measure> oder die Woche hindurch um <measure unit="f" quantity="70">70 Fuder</measure> mehr Salz erzeugt, und dem ohngeachtet weniger Holz verbraucht, auch an Sur eine bedeuteunde Menge erspart werde.                   
+               </p><p>
+                    Es müsse also durch diese günstige Zeit ein beträchtlicher Vorrath an Salz zum Pfieseln gesammelt werden, wozu vorzüglich die halben Fuder, welche geschwinder, und besser, als die ganzen dicken Fuder, austrocknen, taugen. 
+                </p><p>
+                    Hiezu wäre nun nicht nothwendig, weil ohnehin schon zwey grosse, und gute Pfießelgewölben allda sind, noch ein neues zu bauen, sondern
+                
+                
+                
+                    <pb n="0023" xml:id="L2_23" facs="#l2_0021"/> 
+                
+                
+                
+                    es dürften nur kleine Brustmauern, wie in der <hi rend="italics">Relation</hi> gemeldet worden, eingerichtet werden, wodurch der grosse auf diesen Pfieseln stehende leere Boden mit wenigen Unkosten zu einem ansehnlichen Behälter der gepfießelten Fudern bewendet werden könnte.  
+                </p><p>
+                    Was das bey denen <rs type="place" ref="#gmunden">gmundnerischen</rs> Salzpfannen bey der Pehrstatt angeheftete [Gestring] betrift, so sey selbes zu Ersparung der Pehrschaufeln, und Erleichterung der Arbeit erwiesen nützlich, und dienlich; so wie die bereits auf <rs type="person" ref="#claudia">fürstlichen</rs>Befehl vom <date when="1640-11-23">23ten November L. J.</date> eingeführten mit Eisen beschlagenen Krucken; den Fudertrog aber herzurichten wurde es an hinlänglichen Raum mangeln.
+                </p><p>
+                    Zum Schluß sagt der <rs type="person" ref="#buchenberg">Rath Puchenberg</rs> daß ein gepfießeltes <rs type="place" ref="#gmunden">gmundnerisches</rs> Fudersalz habe abwägen lassen welches <measure unit="pfund" quantity="150">150 X</measure>, oder zwey so viel als ein hiesiges Fuder wog; da aber dieses nur bei der Pehrstatt, nicht aber in der Urent getrocknet worden, so 
+                    
+                    
+                    <pb n="0024" xml:id="L2_24" facs="#l2_0022"/> 
+                    
+                    
+                    ließ <rs type="person" ref="#buchenberg">derselbe</rs> in der nach der mitgebrachten Masserey gemachten Kübl ein solches Fuder ohne Kopf oder Haufen richten, in die Urent stellen, und wie die ganzen Fuder stark dörren; dieses wog sonach <measure unit="pfund" quantity="127">127 X</measure>, und maß nur etwas über <measure quantity="4" unit="f">4 Fudermaß</measure>, wechlem zu Folge 5 solche Fuder 2 heisige, und etwas darüber ausmachten.
+                </p><p>
+                    Die weitere Vergleichung der <rs type="place" ref="#gmunden">gmundnerischen</rs> mit dem <rs type="place" ref="#hall">hiesigen</rs> Holzmassereyen habe <rs type="person" ref="#buchenberg">ihn</rs> nachgehends überzeigt, daß, weil darunter jeder <term>Dreiling</term>, der <term>überspanig</term> ist, nach seiner Dicke besonders gemessen wird, hier aber für nichts, er mag <measure unit="tw" quantity="2">2</measure> oder <measure unit="tw" quantity="3">3 Schuch</measure> dick seyn, mehr als ein <term>gemeines Hallholz</term> gilt, die bey das Jahr hindurch verbrennten <measure>300 Pfannen Holz </measure>nicht über <measure>300/m hiesiger Währung</measure> betragen, oder <measure>1 Pfanne</measure><measure>1000 hiesige Währung</measure> ausmache. 
+                </p><pb n="0025" xml:id="L2_25" facs="#l2_0022"/><p>
+                    Hierbey sey noch zu bemerken, daß auf der langen Trift allhier in den Würfen, und [Schäntzen] oft viel Holz dahinten bleibe; darunter hingegen das [gewerte] Holz weiter keinen Abgang leide.
+                </p><p>
+                    Dieses wohl überdachte, gründlich abgefaßte, und den Mann von Kenntniß zeigende Gutachten wurde den <date when="1640-04-19">19ten April</date> mit der Pfannhausamts-Aeuerung hierüber an die <rs type="org" ref="#kammer">OOe-Kammer</rs> rückbegleitet, aus welcher die allen Gründen, Bewesien, und Erfahrungssätzen zuwieder laufende Vorliebe, und Anfänglichkeit an die verjährte, und ergraute Verfahrungs Art bey der hiesigen Salzfüderey, oder (wenn dieser dem Gegenstand angemessene Ausdruck erlaubt ist) bey der hiesigen Salzfüderey herausleuchtet, die nicht die vortheilhaftesten Begriffe für die dortmalige Urentierung zurückläßt.
+                </p><p>
+                    Schon gleich in dem Eingang dieser Aeußerung wird das <rs type="place" ref="#hall">hierortige</rs><pb n="0026" xml:id="L2_26" facs="#l2_0023"/> 
+                    
+                    
+                    Werk als vollkommen angerühret, so daß das Pfannhausamt an dem Sud nichts zu ändern, oder zu verbessern wisse, weil alle bisher mit gorssen Kosten angestellten verschiedenen Proben so ausgefallen wären, daß es immer beim alten Herkommen verblieb; sollte aber der allmächte Gott Jemanden die Gande geben, etwas mit Nuten zu verbessern, so woll das Amt mit seinem Zuthun nichts ermangele; <quote>wie selbes dann dafür halte, daß <rs type="person" ref="#claudia">Ihro fürstliche Durchlaucht</rs> der gnädigsten Frauen endliche <hi rend="italics">Intention</hi> sey nit <hi rend="underline"> [neurrliche]</hi> sondern nutze Sachen zu verordnen</quote> und <quote>was aber weißlich zu erinnern unterblieben</quote>, die Herrn Beamten in hrerr Behaglichkeit zu erhalten, und den alten, die Denkkraft ersparenden, Gang fortzugehen. 
+                </p><p>
+                    Allein obgleich die Gründe, wenn anders Worte so genannt zu werden verdienen, welche das Pfannhausamt zur Unterstützung, und
+                    
+                    
+                    <pb n="0027" xml:id="L2_27" facs="#l2_0023"/>
+                    
+                    
+                    Verrichtung des herrlichen Vorschlags von <rs type="person" ref="#buchenberg">Puchenberg</rs> als ein erst neu ernannter, und noch dazu fürstlicher Rath isoliert dem Sturme des Neides, und der Personal-Gehässigkeit ausgesetz stand, ohne daß ein Name von Wissenschaft, und Macht ihn unterstützte; und so mit blieb zum unermeßlichen Schaden der Landesfürsten, und gänzlichen Ruin der dortmals schon in Mangel gestandenen Waldungen bis in das <date when="1711">Jahr 1711</date> unter der glorreichen Regierung <rs type="person" ref="#karl_kaiser">Kaiser Karl des 6ten</rs> das <hi rend="underline">in seiner Art vollkommene</hi><rs type="place" ref="#hall"> haller</rs> Salzsudwesen unverletzbahr, und heilig, in welchen <date when="1711">letzt gedachten Jahr</date> aber dennoch die <rs type="place" ref="#gmunden">gmundnerischen</rs> Pfannen, un ddie <rs type="place" ref="#gmunden">dortige</rs><hi rend="italics"> Manipulation</hi> durch den <rs type="person" ref="#tschiderer">k.k. Salzmaier Herrn Adam Anton v. Tschiderer</rs>, freilich mit unendlicher Verfolgung, wie es die Geschichte lehren wird, eingeführt, und was schon <date when="1640">1640</date> durch <rs type="person" ref="#buchenberg">Puchenberg</rs> erwiesen war,
+                    
+                    
+                   
+                    <pb n="0028" xml:id="L2_28" facs="#l2_0024"/><hi rend="underline">obgleich neu</hi>, doch nützlich befunden worden ist.
+                </p><p>
+                    Und nun zu der ämtlichen Widerlegung des <rs type="person" ref="#buchenberg">buchenbergischen</rs> Vorschlags
+                </p><list><item><p>
+                            1mo - Die Pfannen betreffend so sey in <rs type="place" ref="#hall">Hall</rs> keine Gelegenheit die Pfannen grösser zu machen, ausser man wollte das Pfannhaus ganz umändern, welches aber einen unerschwinglichen Schaden verursachen, und lange Zeit erfordern wurde.
+                        </p><p>
+                            Auch ist es für weit nützlicher erachtet worden die Pfannen in der Enge zu erhalten, damit die Hitze besser ausgebe.
+                        </p><p>
+                            Was die dünnen Eisenblech anbelangt, so müßten die Nägl enger aneinander geschlagen werden, und also mehr Müh, und Eisen aufgehen.
+                        </p><p>
+                            Als wenn gerade nur in dem
+                            
+                            
+                            
+                            <pb n="0029" xml:id="L2_29" facs="#l2_0024"/><rs type="place" ref="#hall">dortmaligen</rs> Pfannhausbezirk eine <rs type="place" ref="#gmunden">gmundnerische</rs> Salzpfanne durch kostspielige Abbrechung der alten Werken, und Wiederaufbauung hätte hergestellt werden müssen.
+                        </p><p>
+                            Warum hat denn <rs type="person" ref="#tschiderer">Adam Tschiderer</rs> einen Platz zu zwey grossen Werkern gefunden?
+                        </p><p>
+                            Was die Kosten anbelangt, wären diese nicht durch die mit wenigern Holzaufwand stärkern Salzerzeugung herein-gebrahct worden. Eben die gänzliche Eingeschlossenheit der Werker, die Hemmung des Luftzugs verursachte, wie <rs type="person" ref="#tschiderer">Tschiderer</rs> erwieß, daß viel Holz unnütz verbrannt wurde, wozu besonders die übermässige Labtiefe das meiste beitrug. Daß bei den dünnen Eisenblechen wegen einigen mehrere Nägel mehr Eisen aufgehe, ist ebenfalls nicht ganz richtig, denn die Nägl werden wohl schwerlich das Gewicht der dicken Eisenbleche überwogen haben, und was die Mühe betrift, so ist wegen 
+                        
+                        
+                        
+                            <pb n="0030" xml:id="L2_30" facs="#l2_0025"/>  
+                        
+                        
+                        ihrer keineswegs eine erprobt nützliche Sache zu verhindern.
+                        </p></item><item><p>
+                            2tens - Seye ganz vernünftig zu schlüssen, daß, da der Berg, und die Sur milder, und salzreicher in dem <rs type="place" ref="#kammergut">Kammergut</rs> ist, mit wenigern Holz mehr Salz erzeugt werde. Diese Wiederholung der <rs type="person" ref="#buchenberg">buchenbergischen</rs> Anmerkung war unnöthig; wenn aber eine mit mehr fremden Theilen geschwängerte Sur durch das Abliegen, und Fällen der fremdartigen Salze besser werden kann, warum soll man die Kosten zu Erbauung neuer Surstuben scheuen, und nur mit der Sur Abwägung im Berg zufrieden seye?
+                        </p><p>
+                   Allein obgleich das Pfannhausamt den Bau neuer Stuben abrieth, so hat es doch eingewilliget, und verordnet in denen stehenden Stuben Sur einzuschlagen, und abstehen zu lassen
+               </p></item><item><p>
+                            3tens - Zweifelt, einsichtsvoll, das
+                            
+                            
+                            
+                            <pb n="0031" xml:id="L2_31" facs="#l2_0024"/>
+                            
+                            
+                            Amt, daß das beständige kleinweise Einlassen der Sur einen Nutzen verschaffen werde, und daß aus dem Grund, weil ein ungeschückter Pfannhaus-Aufseher der schon in der Geschichte öfters vorgekommene <rs type="person" ref="#karg">Christoph Karg</rs> einer müßlungene Probe damit gemacht, und lettiges Salz erzeugt hat; auch darum, weil das Salz wegen den beständigen Schwall (ein Beweiß des zu starken Einlassens) hart aus der Pfanne heraus zubringen war; wogegen alhier der Brauch gewesen (vermuthlich um mehr Holz zu ersparen) selbes nach dem Sud ruhen, und sitzen zu lassen. Indessen überstellte es doch das Pfannhausamt dahin, ob man damit noch einmal versuchen wolle.
+                        </p></item><item><p>
+                            4tens - Beweißt dasselbe die Schädlichkeit des 2stündigen Ausbehrens, und mit welcher Gründlichkeit! aus der Geschichte, weil schon unter dem <rs type="person" ref="#maximilian">Erzherzog Maximilian </rs><date when="1605">1605</date> einige Arbeiter von dem salzburgischen Salzwesen von
+                            
+                            
+                            
+                            <pb n="0032" xml:id="L2_32" facs="#l2_0025"/><rs type="place" ref="#hallein">Hallein </rs><rs type="place" ref="#hall">hieher</rs> beruffen worden sind, um auf die vorgeschlagene Art den Sud anzustellen, und alle zwey Stunde das Salz heraus zuschlagen; allein diese Probe seye so schlecht ausgefallen, daß alles wieder beim alten blieb, wie es in der durch die Herrn Kommissären zu <rs type="place" ref="#innsbruck">Innsbruck</rs> übergebenen <hi rend="italics">Relation</hi> zu finden wäre. Das selbe verspricht sich also keinen bessern Erfolge. Ein gewagter Schluß, weil er der täglichen Erfahrung bey allen übrigen Salinen gerade wiederspricht, wo doch die zweistündige Ausbehrung mit dem besten Fortgang eingefürt war.  
+                        </p></item><item><p>
+                            5tens - In Betref der von <rs type="person" ref="#buchenberg">Puchenberg</rs> angetragenen Probe, so sucht das Pfannhausamt derselben sich zu entledigen, und führt an, daß bei Manns-Gedenken schon sehr <quote>viele verschiedene Proben mit grossen Unkosten gehalten worden
+                            
+                            
+                            
+                                <pb n="0033" xml:id="L2_33" facs="#l2_0025"/>
+                                
+                                
+                                
+                                sind, wie es die <hi rend="italics">Relationen</hi> an den Landesfürsten bewiesen, wonach aber alles wieder auf den alten Stand gerichtet wurde.</quote></p><p>
+                            Schon im <date when="1583">Jahr 1583</date> wären verständige Salzbergs Offiziere, und Pfannhausarbeiter zur Bereisung verschiedener Salzwerker von <rs type="place" ref="#hall">hieraus</rs> abgeordnet worden, hätten aber nichts bessers hier einzuführen gefunden (wie vollkommen muß also da die Süderey gewesen seyn, Schade daß selbe nicht an andern Orten eingeführt worden ist.)
+                        </p><p>
+                            Weiters sagt das Amt, <quote>steht bey höchst gedachten </quote></p></item></list></div><div type="index_persons"><listPerson><person xml:id="maximilian"/><person xml:id="tschiderer"/><person xml:id="karg"/><person xml:id="karl_philipp"/><person xml:id="claudia"/><person xml:id="buchenberg"/><person xml:id="prugglacher"/><person xml:id="sötzen"/><person xml:id="strasser"/><person xml:id="panperger"/><person xml:id="schuster"/></listPerson></div><div type="place"><listPlace><place type="settlement" xml:id="hallein"/><place type="settlement" xml:id="traunstein"><placeName type="geonames" key="2821515">
+                            Traunstein
+                            <ptr target="http://de.wikipedia.org/wiki/Traunstein"/></placeName></place><place type="county" xml:id="oberösterreich"><placeName type="geonames" key="2769848">
+                            Oberösterreich 
+                            <ptr target="http://de.wikipedia.org/wiki/Ober%C3%B6sterreich"/></placeName></place><place type="settlement" xml:id="ischl"><placeName type="geonames" key="2782052">
+                            Bad Ischl
+                            <ptr target="http://de.wikipedia.org/wiki/Bad_Ischl"/></placeName></place><place type="county" xml:id="tirol"><placeName type="geonames" key="2763586">
+                            Tirol
+                            <ptr target="http://de.wikipedia.org/wiki/Tirol"/></placeName></place><place type="mountain" xml:id="ischlerberg"><placeName>
+                            Bad Ischler Salzberg
+                            <ptr target="http://de.wikipedia.org/wiki/Bad_Ischler_Salzberg"/></placeName></place><place type="settlement" xml:id="hallstatt"><placeName type="geonames" key="2776943">
+                            Hallstatt
+                            <ptr target="http://de.wikipedia.org/wiki/Hallstatt"/></placeName></place><place type="settlement" xml:id="gmunden"><placeName type="geonames" key="2778436">
+                            Gmunden
+                            <ptr target="http://de.wikipedia.org/wiki/Gmunden"/></placeName></place><place type="settlement" xml:id="ebensee"><placeName type="geonames" key="2780547">
+                            Ebensee
+                            <ptr target="http://de.wikipedia.org/wiki/Ebensee"/></placeName></place><place type="lake" xml:id="traunsee"><placeName type="geonames" key="2763413">
+                            Traunsee
+                            <ptr target="http://de.wikipedia.org/wiki/Traunsee"/></placeName></place><place type="area" xml:id="kammergut"><placeName type="geonames" key="2766813">
+                            Salzkammergut
+                            <ptr target="http://de.wikipedia.org/wiki/Salzkammergut"/></placeName></place><place type="settlement" xml:id="reichenhall"><placeName type="geonames" key="2953371">
+                            Bad Reichenhall
+                            <ptr target="http://de.wikipedia.org/wiki/Bad_Reichenhall"/></placeName></place><place type="settlement" xml:id="hall"><placeName type="geonames" key="2764958">
+                            Hall in Tirol
+                            <ptr target="http://de.wikipedia.org/wiki/Hall_in_Tirol"/></placeName></place></listPlace></div><div type="org"><listOrg><org xml:id="kammer"/><org xml:id="pfannhausamt"/><org xml:id="waldmeister"/><org xml:id="forstknecht"/></listOrg></div></body></text></TEI>

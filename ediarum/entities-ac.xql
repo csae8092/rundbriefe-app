@@ -1,5 +1,5 @@
 xquery version "3.0";
-import module namespace app="http://www.digital-archiv.at/ns/rundbriefe-app/templates" at "../modules/app.xql";
+import module namespace app="http://www.digital-archiv.at/ns/salzarchiv/templates" at "../modules/app.xql";
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 declare option exist:serialize "method=xml media-type=text/xml omit-xml-declaration=no indent=yes";
 
