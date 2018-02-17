@@ -4,10 +4,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Beiträge zur Monographie der k.k. Saline Hall in Tirol
-                    <origDate when="1860"/>
-                    <origPlace>[unbekannt]</origPlace>
-                </title>
+                <title type="main">Salzarchiv</title>
+                <title type="sub">Beiträge zur Monographie der k.k. Saline Hall in Tirol</title>
                 <author>Kraynag, Adalbert</author>
                 <editor>
                     Transkribiert und annotiert von <name>Peter Andorfer</name>

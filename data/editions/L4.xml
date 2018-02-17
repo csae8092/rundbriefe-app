@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-stylesheet type="text/xsl" href="http://digital-archiv.at:8081/exist/rest/db/files/salz/xsl/tei-transcript.xsl"?>-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L4.xml" xml:base="http://digital-archiv.at:8081/exist/rest/db/files/salz/xml/lindner/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Die Lindnerischen Schriften Band IV
-                    <origDate when="1806-08-01"/>
-                    <origPlace>Hall in Tirol</origPlace>
-                </title>
+                <title type="main">Salzarchiv</title>
+                <title type="sub">Die Lindnerischen Schriften Band IV</title>
                 <author>Lindner, Karl Ignatz</author>
                 <editor>
                     Transkribiert und annotiert von <name>Peter Andorfer</name>
