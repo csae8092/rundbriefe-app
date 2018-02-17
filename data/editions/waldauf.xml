@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-stylesheet type="text/xsl" href="http://digital-archiv.at:8081/exist/rest/db/files/salz/xsl/tei-transcript.xsl"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="waldauf.xml" xml:base="http://digital-archiv.at:8081/exist/rest/db/files/salz/xml/waldauf/">
+<!--<?xml-stylesheet type="text/xsl" href="http://digital-archiv.at:8081/exist/rest/db/files/salz/xsl/tei-transcript.xsl"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="waldauf.xml" xml:base="http://digital-archiv.at:8081/exist/rest/db/files/salz/xml/waldauf/">
     
     <!-- verwendete Abkürzungen
             <measure unit> 
@@ -14,130 +15,323 @@
                     f       Fuder
                     m       Meile
                     pfund   Pfund
-    --><teiHeader><fileDesc><titleStmt><title>Erklärung der Waldauf–Gouachen
-                <origDate/><origPlace>Hall in Tirol</origPlace></title><author>Waldauf, Franz A. v.</author><editor>
-                    Transkribiert und annotiert von <name>Peter Andorfer</name></editor></titleStmt><publicationStmt><publisher>Peter Andorfer</publisher></publicationStmt><sourceDesc><msDesc><msIdentifier><settlement>Innsbruck</settlement><repository>Tiroler Landesmuseum Ferdinandeum (TLMF)</repository><idno>TLMF, FB 2733, Nr. 9</idno></msIdentifier></msDesc></sourceDesc></fileDesc></teiHeader><text><body><div><pb n="0001" xml:id="waldauf_1" facs="#l2_0003"/><head type="gesamt"><hi rend="head">Erklärung der Waldauf–Gouachen</hi></head></div><div type="abschnitt"><div><head>Erklärung</head><p>
-                        Über die in 27. Vorstellungen entworfenen, Salzberg, alt und neun Pfannhauß, und Salzverschleuss, auf Salz Fäcktorey Manipulations Stücke.<note>Die 27 Bilder (Gouachen) siehe TLMF FB 2734.</note></p></div><div><head type="abschnitt">
+    -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Erklärung der Waldauf–Gouachen
+                <origDate/>
+                    <origPlace>Hall in Tirol</origPlace>
+                </title>
+                <author>Waldauf, Franz A. v.</author>
+                <editor>
+                    Transkribiert und annotiert von <name>Peter Andorfer</name>
+                </editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Peter Andorfer</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Innsbruck</settlement>
+                        <repository>Tiroler Landesmuseum Ferdinandeum (TLMF)</repository>
+                        <idno>TLMF, FB 2733, Nr. 9</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <pb n="0001" xml:id="waldauf_1" facs="#l2_0003"/>
+                <head type="gesamt">
+                    <hi rend="head">Erklärung der Waldauf–Gouachen</hi>
+                </head>
+            </div>
+            <div type="abschnitt">
+                <div>
+                    <head>Erklärung</head>
+                    <p>
+                        Über die in 27. Vorstellungen entworfenen, Salzberg, alt und neun Pfannhauß, und Salzverschleuss, auf Salz Fäcktorey Manipulations Stücke.<note>Die 27 Bilder (Gouachen) siehe TLMF FB 2734.</note>
+                    </p>
+                </div>
+                <div>
+                    <head type="abschnitt">
                         Salzberg Manipulations Vorstellung 
-                    </head><p><list><item>
+                    </head>
+                    <p>
+                        <list>
+                            <item>
                                 Nr. 1 
-                                Zeiget an, wie ein von der Sur oder Sohle abgelassenes Sur erzeigungs Werch, nach eröffneter Sur Ablas Wöhr und Sauberung desen Werch, durch die Knappen neuerlich veröfnet, und durch solche Veröfnung erweitert, um desen Werch abermal mit Siesen Wasser anfillen, und hieraus eine zum Salzerzeigung brauchbare Sur, welche auf 16 grät in der Salzschwäre vergiedet werden muß erzeigen zu können. </item><item>
+                                Zeiget an, wie ein von der Sur oder Sohle abgelassenes Sur erzeigungs Werch, nach eröffneter Sur Ablas Wöhr und Sauberung desen Werch, durch die Knappen neuerlich veröfnet, und durch solche Veröfnung erweitert, um desen Werch abermal mit Siesen Wasser anfillen, und hieraus eine zum Salzerzeigung brauchbare Sur, welche auf 16 grät in der Salzschwäre vergiedet werden muß erzeigen zu können. </item>
+                            <item>
                                 
                                 Nr. 2 
                                 Weiset wie ein von der Sur abgelassenes Werch ohne eröfnung der Sur-Ablas Wöhr von dem rickgelassenen, und durch das Siese Wasser ausgelaugten gesalzenen Berglaim gereiniget, und die auf bergmanisch genante Straifer, welche dem rickgelassenen Laim sowohl von denen Wenten als Sohle
                                     <pb n="0002" xml:id="waldauf_2" facs="#l2_0003"/>
                                 aufzuheuen haben, und von denen Werch buben in die Emmer oder Kübl eingeschöpft, durch die sogenannte Emmerer aber aufgezochen, und durch die Truhen [Cust] an Tag gebracht, und in des Wasser gestürtzt werde.
                                 
-                            </item></list></p></div><div><head type="abschnitt">Alte-Salz-Pfannen Manipulation</head><p><list><item>
+                            </item>
+                        </list>
+                    </p>
+                </div>
+                <div>
+                    <head type="abschnitt">Alte-Salz-Pfannen Manipulation</head>
+                    <p>
+                        <list>
+                            <item>
                                 Nr. 3
-                                Der Grundriß von der alten Salz-Pfannen und durch Nr. 1 die angezeigte Tricken-Stadt, allwo die Salz-Fiederlen von der Sur abgetropfen, und ausgebesseret worden, welch jedes Fiederle nach der ao. 177[?]  beschechenen Comissionalischen Untersuchung des Hr. Hofrathe von [Bor] mit 145:48 in Gewicht ist erfunden worden, desgleichen die zwo Züber in welchen die von denen Fiederlen abfließende Sur aufgefangen wurde.</item><item>
+                                Der Grundriß von der alten Salz-Pfannen und durch Nr. 1 die angezeigte Tricken-Stadt, allwo die Salz-Fiederlen von der Sur abgetropfen, und ausgebesseret worden, welch jedes Fiederle nach der ao. 177[?]  beschechenen Comissionalischen Untersuchung des Hr. Hofrathe von [Bor] mit 145:48 in Gewicht ist erfunden worden, desgleichen die zwo Züber in welchen die von denen Fiederlen abfließende Sur aufgefangen wurde.</item>
+                            <item>
                                 
                                 Nr. 4
                                 Die große Salz-Pfannen, welche der länge bey 71 Wiener Schuch, und in Durchschnid 62 detto gehalten, auch bey 1400 Yhren Suhr in selber aufeinmal ist eingelassen, und aus welcher alle wzo Stund mindestens 50 Fiederlen a 145:48
                                     <pb n="0003" xml:id="waldauf_3" facs="#l2_0003"/>
-                                erzeiget wurden, samt dem angezeigten Rath, durch welches die Sur aus dessem Behältnis oder Labstuben, in die fannen zum Versieden geleidet worden.</item><item>
+                                erzeiget wurden, samt dem angezeigten Rath, durch welches die Sur aus dessem Behältnis oder Labstuben, in die fannen zum Versieden geleidet worden.</item>
+                            <item>
                                 
                                 Nr. 5
-                                Die Salzdörr oder sogenannte Urent, auf welcher alle vier Stundt 86 Fiederlen gesezet und 4 Stundt lang zum ausdörren stehen geblieben, nach Verflossenen Stundten aber durch die sogenannte Fuedertrager denen Salzabgabs Beamten zu Abfertigung der Salz erkaufs Pertheyen seind übergeben worden. </item><item>
+                                Die Salzdörr oder sogenannte Urent, auf welcher alle vier Stundt 86 Fiederlen gesezet und 4 Stundt lang zum ausdörren stehen geblieben, nach Verflossenen Stundten aber durch die sogenannte Fuedertrager denen Salzabgabs Beamten zu Abfertigung der Salz erkaufs Pertheyen seind übergeben worden. </item>
+                            <item>
                                 
                                 Nr. 6
                                 Der Schür Ofen, welcher mit 6 [Schurhlangen] gegestelten Schnitter Holz geheizet, und immer in einer gelichen Hitze hat erhalten werden müssen, und zwar bis zum auslöschen, welches alle 7 TÄge geschehen, und die Pfannen von den Salzstein, oder sogenannten Kern, der sich währenden Sud in dem Boden der Pfannen angesezet, zu reinigen und die Aschen-Kammer von Aschen Sauberen zu kennen.
                                 
-                            </item></list></p></div><pb n="0004" xml:id="waldauf_4" facs="#l2_0003"/><div><head type="abschnitt">
+                            </item>
+                        </list>
+                    </p>
+                </div>
+                <pb n="0004" xml:id="waldauf_4" facs="#l2_0003"/>
+                <div>
+                    <head type="abschnitt">
                         Entwurff der Neuen Salz Pfannen und desen Manipulation
-                    </head><p><list><item>
-                                Nr. 7 – Weiset die fordere Seite von dem Pfannen Gebäude.</item><item>
-                                Nr. 8 – Die auswendige Seite von den hinteren Theill dessen Pfannen Gebäude.</item><item>
-                                Nr. 9 – Der geometrische Durchschnit nach der Lange von dem Gebäude.</item><item>
-                                Nr. 10 – Aber der geometrische Durschnit von der mitte des Gebäude.</item><item>
-                                Nr. 11 – Daß Gebäude von hinten an zusechen.</item><item> 
-                                Nr. 12 – Der Grundt von der jezigen Salz-Pfannen Stadt</item><item>
+                    </head>
+                    <p>
+                        <list>
+                            <item>
+                                Nr. 7 – Weiset die fordere Seite von dem Pfannen Gebäude.</item>
+                            <item>
+                                Nr. 8 – Die auswendige Seite von den hinteren Theill dessen Pfannen Gebäude.</item>
+                            <item>
+                                Nr. 9 – Der geometrische Durchschnit nach der Lange von dem Gebäude.</item>
+                            <item>
+                                Nr. 10 – Aber der geometrische Durschnit von der mitte des Gebäude.</item>
+                            <item>
+                                Nr. 11 – Daß Gebäude von hinten an zusechen.</item>
+                            <item> 
+                                Nr. 12 – Der Grundt von der jezigen Salz-Pfannen Stadt</item>
+                            <item>
                                 
                                 Nr. 13
                                 Die Salz-Pfannen selbst, welche 26 Wiener Schuch in Quadrat haldet, und 275 Emmer Sur zu fillen benöthiget hat aus welchen jeden Emmer Sur 33 1/3 [mir nicht bekannte Abkürzung, Anm. PA] Salz kann erzeuget werden, und dessen Manipulation vor der Salz Ausbehrung vorstellet, welche alle 3 Stundt beschichet, wo aber ehevor das Salz aus dem Perrgrand
                                     <pb n="0005" xml:id="waldauf_5" facs="#l2_0003"/>
                                 in die Trocken Kammerlen eingetragen wirdet.
-                                </item><item>
+                                </item>
+                            <item>
                                 Nr. 14
                                 Die Tricken Kämmerlen in welchen das von dem Perrgrand zum abtreifen der Sur alle 3 Stundt eingetragen, und von da aus auch alle 3 Stundt zur Aufdörrung auf die Dörren geschittet wird.
-                                </item><item>
+                                </item>
+                            <item>
                                 Nr. 15
-                                Die zwo zu eben Fueß herausseren Salz-Dörren samt dessen Manipulation, wie das aufgedörrte Salz bey der Pfannen theils in denen Contrahenten Fässer, in jedem 450 [mir unbekannte Abkürzung, Anm. PA] und tehils in denen Parthey und Magazin Säcken in jedem 150 [mir unbekannte Abkürzung, Anm. PA] eingewogen werden. </item><item>
+                                Die zwo zu eben Fueß herausseren Salz-Dörren samt dessen Manipulation, wie das aufgedörrte Salz bey der Pfannen theils in denen Contrahenten Fässer, in jedem 450 [mir unbekannte Abkürzung, Anm. PA] und tehils in denen Parthey und Magazin Säcken in jedem 150 [mir unbekannte Abkürzung, Anm. PA] eingewogen werden. </item>
+                            <item>
                                 
                                 Nr. 16 – Der Eingang der neu errichten Salz-Dörr unter denen Wörmpfanndlen
-                                </item><item>
+                                </item>
+                            <item>
                                 Nr. 17
                                 Die unter denen Wörmpfänndln angezeigt neu errichte Salz Dörr, samt dessen Mainpulation, wie das Salz alle 3 Stundt von der Dörr abgehoben, und neierlich aufgeschittet wird.
-                                </item><item>
+                                </item>
+                            <item>
                                 Nr. 18
                                 Der Schürofen von der Sudpfannen und dessen Manipulation
                                     <pb n="0006" xml:id="waldauf_6" facs="#l2_0003"/>
                                 wie durch dem Schürrer der Ofen geheizt, und der hiezu benöthigte ehevor in die Klafter eingelegte Holz von denen Holzkliebern gestaltet werde. 
                                 
-                            </item></list></p></div><div><head type="abschnitt">
+                            </item>
+                        </list>
+                    </p>
+                </div>
+                <div>
+                    <head type="abschnitt">
                         Verschluess oder Salzabgabs Manipulation, Vorstellung von der Alten Pfannen 
-                    </head><p><list><item>
+                    </head>
+                    <p>
+                        <list>
+                            <item>
                                 Nr. 19
                                 Wie die Fiederlen von der Urent alle 4 Stundt durch die Sogenannten Fuedertrager in das alte Stoss- oder Verschleüss Hauß getragen und von denen Salzstossern theils in die Contrahenten Fäßlen und theils denen Salzerkaufs Pertheyen abgegeben und in ihre geschür, oder äcke eingefasset worden. 
                                 
-                            </item></list></p></div><div><head type="abschnitt">Dermahlige Verschleüss Manipulations Vorstellung</head><p><list><item>
+                            </item>
+                        </list>
+                    </p>
+                </div>
+                <div>
+                    <head type="abschnitt">Dermahlige Verschleüss Manipulations Vorstellung</head>
+                    <p>
+                        <list>
+                            <item>
                                 Nr. 20
                                 Wie die von der Pfannheuß Verwaltung anhero übergebene
                                 <pb n="0007" xml:id="waldauf_7" facs="#l2_0003"/>
-                                Parthey Salz-Säcke jeder zu 150 [mir unbekannte Abkürzung, Anm. PA] denen Salzverkaufs Partheyen durch die hiezu bestimmte Arbeitern aus dessen Behaltnis herausgetragen und theils in die Geschür, auch theils in ihre Secke umgefillet werden. </item><item>
+                                Parthey Salz-Säcke jeder zu 150 [mir unbekannte Abkürzung, Anm. PA] denen Salzverkaufs Partheyen durch die hiezu bestimmte Arbeitern aus dessen Behaltnis herausgetragen und theils in die Geschür, auch theils in ihre Secke umgefillet werden. </item>
+                            <item>
                                 
                                 Nr. 21
-                                Nach der Reichenhaller Medot  eingeführte neue Manipulation, wie die Parthey-Salz-Säcke aus denen Behaltnissen, anstatt auf einer Böge zu tragen, durch die Wägelen, wo jeder Arbeiter 1 Sack allein zur Abgab herbey bringen kann.</item><item>
+                                Nach der Reichenhaller Medot  eingeführte neue Manipulation, wie die Parthey-Salz-Säcke aus denen Behaltnissen, anstatt auf einer Böge zu tragen, durch die Wägelen, wo jeder Arbeiter 1 Sack allein zur Abgab herbey bringen kann.</item>
+                            <item>
                                 
                                 Nr. 22
                                 Zeiget wie für die Salz-Erkaufs Partheyen ihr theils in Fässer, und theils in Säcken verfilltes Salz auf den sogeannten Verschleuss Platz, auf ihre Wagen aufgeladen, und selbe abführen. 
-                                </item><item>
+                                </item>
+                            <item>
                                 Nr. 23
                                 Der hintere Theil des Verschleuss oder Salzabgabs-Haus allwo die Salz Säcke in wlech jedem 1 ½ Zentner gefillet, auf die Saum Pferdt durch die Verschleuss Arbeitern geladen werden. 
-                                </item><item>
+                                </item>
+                            <item>
                                 Nr. 24. 
                                 Daß inwendige Verschleuss
                                     <pb n="0008" xml:id="waldauf_8" facs="#l2_0003"/>
                                 oder Salzabgabs Hauß, in welchen zu ersechen, wie die bey der Sudpfannen in jedem 150 [mir unbekannte Abkürzung, Anm. PA] mit Salz gefüllte Parthey Säcke, durch die Verschleuss Arbeitern, auf jeden angezeigten Wagen 5 Säcke von dem Pfannhauß in die Verschleüss-Hauß-Salz-Vorraths Magaziner zur abfertigung der Salzerkaufs Partheyen herbey gezochen werden. 
                                 
-                            </item></list></p></div><div><head type="abschnitt">
+                            </item>
+                        </list>
+                    </p>
+                </div>
+                <div>
+                    <head type="abschnitt">
                         Salz-Facktorey Manipulations Vorstellung
-                    </head><p><list><item>
+                    </head>
+                    <p>
+                        <list>
+                            <item>
                                 Nr. 25
                                 Der hintere Theil des Facktorey Salz-Stadl-Gebäude, worinnen die von denen Facktor Arbeitern die bey denen Salz-Sud-Pfannen taglich erzeigte Salz-Fässer, jedes zu 450[mir unbekannte Abkürzung, Anm. PA] gefillet, hinein gewölzet, aufgestelt, und bis zur Versehndung alda aufbewahet werden. 
-                                </item><item>
+                                </item>
+                            <item>
                                 Nr. 26
                                 Daß einwendige Gebäude 
                                     <pb n="0009" xml:id="waldauf_9" facs="#l2_0003"/>
                                 der Facktorey Salz-Stadl in welchen zu ersechen, wie in jedem Faß vor desen Versendung durch die Facktorey Arbeitern noch 25 [mir unbekannte Abkürzung, Anm. PA] Salz eingestessen werden, weil jedes Faß 475 [mir unbekannte Abkürzung, Anm. PA] Neto Salz halten muß, auch wie die Salz-Fässer durch das angezeigte Rath in dem obern Salz-Stadl aufgezochen, und in dem selben 5749 Zusammen aber 10171 Contrarhenten Fasser aufbewahret werden können.
-                                </item><item>
+                                </item>
+                            <item>
                                 Nr. 27
                                 Die fordere Seite des Salzstadl Gebäude gegen der Landstrasse allwo die Contrarhenten Salzfasser durch die Facktorey Arbeitern, denen Ratt Fuhrleuten zu verführen auf ihre Wägen aufgeladen, und selbe bis auf die erste Rott Station 5 Stundt von Hall, Zirl genannt zu verführen haben. 
                                 
-                            </item></list></p><p>
+                            </item>
+                        </list>
+                    </p>
+                    <p>
                         Franz A. v. Waldauf, Salzabgeber zu Hall in Tyroll [mit Siegel]
-                    </p></div></div><div type="index_persons"><listPerson><person xml:id="füeger"/><person xml:id="maximilian"/><person xml:id="tschiderer"/><person xml:id="karg"/><person xml:id="karl_philipp"/><person xml:id="claudia"/><person xml:id="buchenberg"/><person xml:id="prugglacher"/><person xml:id="sötzen"/><person xml:id="strasser"/><person xml:id="panperger"/><person xml:id="schuster"/></listPerson></div><div type="place"><listPlace><place type="settlement" xml:id="berchtesgaden"/><place type="count" xml:id="bayern"/><place type="settlement" xml:id="lindau"/><place type="settlement" xml:id="hallein"/><place type="settlement" xml:id="traunstein"><placeName type="geonames" key="2821515">
+                    </p>
+                </div>
+            </div>
+            <div type="index_persons">
+                <listPerson>
+                    <person xml:id="füeger"/>
+                    <person xml:id="maximilian"/>
+                    <person xml:id="tschiderer"/>
+                    <person xml:id="karg"/>
+                    <person xml:id="karl_philipp"/>
+                    <person xml:id="claudia"/>
+                    <person xml:id="buchenberg"/>
+                    <person xml:id="prugglacher"/>
+                    <person xml:id="sötzen"/>
+                    <person xml:id="strasser"/>
+                    <person xml:id="panperger"/>
+                    <person xml:id="schuster"/>
+                </listPerson>
+            </div>
+            <div type="place">
+                <listPlace>
+                    <place type="settlement" xml:id="berchtesgaden"/>
+                    <place type="count" xml:id="bayern"/>
+                    <place type="settlement" xml:id="lindau"/>
+                    <place type="settlement" xml:id="hallein"/>
+                    <place type="settlement" xml:id="traunstein">
+                        <placeName type="geonames" key="2821515">
                             Traunstein
-                            <ptr target="http://de.wikipedia.org/wiki/Traunstein"/></placeName></place><place type="county" xml:id="oberösterreich"><placeName type="geonames" key="2769848">
+                            <ptr target="http://de.wikipedia.org/wiki/Traunstein"/>
+                        </placeName>
+                    </place>
+                    <place type="county" xml:id="oberösterreich">
+                        <placeName type="geonames" key="2769848">
                             Oberösterreich 
-                            <ptr target="http://de.wikipedia.org/wiki/Ober%C3%B6sterreich"/></placeName></place><place type="settlement" xml:id="ischl"><placeName type="geonames" key="2782052">
+                            <ptr target="http://de.wikipedia.org/wiki/Ober%C3%B6sterreich"/>
+                        </placeName>
+                    </place>
+                    <place type="settlement" xml:id="ischl">
+                        <placeName type="geonames" key="2782052">
                             Bad Ischl
-                            <ptr target="http://de.wikipedia.org/wiki/Bad_Ischl"/></placeName></place><place type="county" xml:id="tirol"><placeName type="geonames" key="2763586">
+                            <ptr target="http://de.wikipedia.org/wiki/Bad_Ischl"/>
+                        </placeName>
+                    </place>
+                    <place type="county" xml:id="tirol">
+                        <placeName type="geonames" key="2763586">
                             Tirol
-                            <ptr target="http://de.wikipedia.org/wiki/Tirol"/></placeName></place><place type="mountain" xml:id="ischlerberg"><placeName>
+                            <ptr target="http://de.wikipedia.org/wiki/Tirol"/>
+                        </placeName>
+                    </place>
+                    <place type="mountain" xml:id="ischlerberg">
+                        <placeName>
                             Bad Ischler Salzberg
-                            <ptr target="http://de.wikipedia.org/wiki/Bad_Ischler_Salzberg"/></placeName></place><place type="settlement" xml:id="hallstatt"><placeName type="geonames" key="2776943">
+                            <ptr target="http://de.wikipedia.org/wiki/Bad_Ischler_Salzberg"/>
+                        </placeName>
+                    </place>
+                    <place type="settlement" xml:id="hallstatt">
+                        <placeName type="geonames" key="2776943">
                             Hallstatt
-                            <ptr target="http://de.wikipedia.org/wiki/Hallstatt"/></placeName></place><place type="settlement" xml:id="gmunden"><placeName type="geonames" key="2778436">
+                            <ptr target="http://de.wikipedia.org/wiki/Hallstatt"/>
+                        </placeName>
+                    </place>
+                    <place type="settlement" xml:id="gmunden">
+                        <placeName type="geonames" key="2778436">
                             Gmunden
-                            <ptr target="http://de.wikipedia.org/wiki/Gmunden"/></placeName></place><place type="settlement" xml:id="ebensee"><placeName type="geonames" key="2780547">
+                            <ptr target="http://de.wikipedia.org/wiki/Gmunden"/>
+                        </placeName>
+                    </place>
+                    <place type="settlement" xml:id="ebensee">
+                        <placeName type="geonames" key="2780547">
                             Ebensee
-                            <ptr target="http://de.wikipedia.org/wiki/Ebensee"/></placeName></place><place type="lake" xml:id="traunsee"><placeName type="geonames" key="2763413">
+                            <ptr target="http://de.wikipedia.org/wiki/Ebensee"/>
+                        </placeName>
+                    </place>
+                    <place type="lake" xml:id="traunsee">
+                        <placeName type="geonames" key="2763413">
                             Traunsee
-                            <ptr target="http://de.wikipedia.org/wiki/Traunsee"/></placeName></place><place type="area" xml:id="kammergut"><placeName type="geonames" key="2766813">
+                            <ptr target="http://de.wikipedia.org/wiki/Traunsee"/>
+                        </placeName>
+                    </place>
+                    <place type="area" xml:id="kammergut">
+                        <placeName type="geonames" key="2766813">
                             Salzkammergut
-                            <ptr target="http://de.wikipedia.org/wiki/Salzkammergut"/></placeName></place><place type="settlement" xml:id="reichenhall"><placeName type="geonames" key="2953371">
+                            <ptr target="http://de.wikipedia.org/wiki/Salzkammergut"/>
+                        </placeName>
+                    </place>
+                    <place type="settlement" xml:id="reichenhall">
+                        <placeName type="geonames" key="2953371">
                             Bad Reichenhall
-                            <ptr target="http://de.wikipedia.org/wiki/Bad_Reichenhall"/></placeName></place><place type="settlement" xml:id="hall"><placeName type="geonames" key="2764958">
+                            <ptr target="http://de.wikipedia.org/wiki/Bad_Reichenhall"/>
+                        </placeName>
+                    </place>
+                    <place type="settlement" xml:id="hall">
+                        <placeName type="geonames" key="2764958">
                             Hall in Tirol
-                            <ptr target="http://de.wikipedia.org/wiki/Hall_in_Tirol"/></placeName></place></listPlace></div><div type="org"><listOrg><org xml:id="kammer"/><org xml:id="pfannhausamt"/><org xml:id="waldmeister"/><org xml:id="forstknecht"/></listOrg></div></body></text></TEI>
+                            <ptr target="http://de.wikipedia.org/wiki/Hall_in_Tirol"/>
+                        </placeName>
+                    </place>
+                </listPlace>
+            </div>
+            <div type="org">
+                <listOrg>
+                    <org xml:id="kammer"/>
+                    <org xml:id="pfannhausamt"/>
+                    <org xml:id="waldmeister"/>
+                    <org xml:id="forstknecht"/>
+                </listOrg>
+            </div>
+        </body>
+    </text>
+</TEI>

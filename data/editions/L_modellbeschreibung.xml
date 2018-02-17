@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-stylesheet type="text/xsl" href="http://digital-archiv.at:8081/exist/rest/db/files/salz/xsl/tei-transcript.xsl"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_modellbeschreibung.xml" xml:base="http://digital-archiv.at:8081/exist/rest/db/files/salz/xml/lindner/">
+<!--<?xml-stylesheet type="text/xsl" href="http://digital-archiv.at:8081/exist/rest/db/files/salz/xsl/tei-transcript.xsl"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_modellbeschreibung.xml" xml:base="http://digital-archiv.at:8081/exist/rest/db/files/salz/xml/lindner/">
     
     <!-- verwendete Abkürzungen
             <measure unit> 
@@ -14,164 +15,376 @@
                     f       Fuder
                     m       Meile
                     pfund   Pfund
-    --><teiHeader><fileDesc><titleStmt><title>Kurze Erklärung des Modells eines grossen hallinthalischen Salzwerkes
-                <origDate when="1800-12-13"/><origPlace>[unbekannt]</origPlace></title><author>Lindner, Karl Ignatz</author><editor>
-                    Transkribiert und annotiert von <name>Peter Andorfer</name></editor></titleStmt><publicationStmt><publisher>Peter Andorfer</publisher></publicationStmt><sourceDesc><msDesc><msIdentifier><settlement>Innsbruck</settlement><repository>Tiroler Landesmuseum Ferdinandeum (TLMF)</repository><idno>TLMF, FB 2074, Nr. 6</idno></msIdentifier></msDesc></sourceDesc></fileDesc></teiHeader><text><body><div><pb n="0001" xml:id="L_modell_1" facs="#l2_0003"/><head type="gesamt"><hi rend="head">Kurze Erklärung des Modells eines grossen hallinthalischen Salzwerkes</hi></head></div><div type="abschnitt"><p>
+    -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Kurze Erklärung des Modells eines grossen hallinthalischen Salzwerkes
+                <origDate when="1800-12-13"/>
+                    <origPlace>[unbekannt]</origPlace>
+                </title>
+                <author>Lindner, Karl Ignatz</author>
+                <editor>
+                    Transkribiert und annotiert von <name>Peter Andorfer</name>
+                </editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Peter Andorfer</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Innsbruck</settlement>
+                        <repository>Tiroler Landesmuseum Ferdinandeum (TLMF)</repository>
+                        <idno>TLMF, FB 2074, Nr. 6</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <pb n="0001" xml:id="L_modell_1" facs="#l2_0003"/>
+                <head type="gesamt">
+                    <hi rend="head">Kurze Erklärung des Modells eines grossen hallinthalischen Salzwerkes</hi>
+                </head>
+            </div>
+            <div type="abschnitt">
+                <p>
                     präs. 13. Dez. 1800; Litt. H. Nr. 2
-                </p><p>
+                </p>
+                <p>
                     Ein solches Salzwerk, wie es in dem Modell genau vorgestellt ist, hat zwei Stöcke, nemlich den oberen, wo die eigentliche Salzerzeugung geschiehet, und dann den unteren, allwo die Dörrung desselben vorgenommen wird. 
-                </p><p>
+                </p>
+                <p>
                     Um einen richtigen Begriff zu verschaffen, muß der Mainpulation gemäß, mit der Werkserklärung fortgeschritten werden; daher von der Suhrleitung zu erst abgehandelte werden soll; und zwar steigt die von den zwei Stunden entfernten Salzberg in hölzernen Röhren herabgeleitete Suhr oder Sohle in dem
                     
-                    <pb n="0001" xml:id="L_modell_2" facs="#l2_0003"/><list><item>
-                            Nr. 1 vorgestellten grossen metallenen Rohr hinaufwärts, woraus sie sich in das damit verbundene ebenfalls metallene die Länge des Werkes durchlaufende</item><item>
-                            Nr. Rohr ergießet, aus welchem sie wieder, durch die</item><item>
-                            Nr. 3 zwei zu ersehenden, und mit [Rippen], um den mehr oder wenigeren Bedarf sich zu verschaffen, versehenen Rohrstüke in die zwei kleinen </item><item>
-                            Nr. 4 Kesseln und aus selben in die gedekten Wärmekammern flüsset. </item><item>
-                            Nr. 5 zeigtet die fest und dampfhältig zusammengefügten, und aus doppelten Boden, wovon die untern lärchene, die oberen aber nur fichtene sind, verfertigte Dekung derselben, in welchen</item><item>
-                            Nr. 6 die zu eröfnenden kleinen Dekeln sind, welche, um den Inhalt der Suhr zu messen, wozu der</item><item>
+                    <pb n="0001" xml:id="L_modell_2" facs="#l2_0003"/>
+                    <list>
+                        <item>
+                            Nr. 1 vorgestellten grossen metallenen Rohr hinaufwärts, woraus sie sich in das damit verbundene ebenfalls metallene die Länge des Werkes durchlaufende</item>
+                        <item>
+                            Nr. Rohr ergießet, aus welchem sie wieder, durch die</item>
+                        <item>
+                            Nr. 3 zwei zu ersehenden, und mit [Rippen], um den mehr oder wenigeren Bedarf sich zu verschaffen, versehenen Rohrstüke in die zwei kleinen </item>
+                        <item>
+                            Nr. 4 Kesseln und aus selben in die gedekten Wärmekammern flüsset. </item>
+                        <item>
+                            Nr. 5 zeigtet die fest und dampfhältig zusammengefügten, und aus doppelten Boden, wovon die untern lärchene, die oberen aber nur fichtene sind, verfertigte Dekung derselben, in welchen</item>
+                        <item>
+                            Nr. 6 die zu eröfnenden kleinen Dekeln sind, welche, um den Inhalt der Suhr zu messen, wozu der</item>
+                        <item>
                             Nr. 7 vorgestellte Maasstab dient, geöffnet, dann aber glich wieder verschlossen werden um all Ausdünstung 
                             <pb n="0003" xml:id="L_modell_3" facs="#l2_0003"/>  
                             und daraus entstehende Salzfällung zu verhindern, aus welcher Ursach auch die schrege Dekung der Wärmepfannen ringsum untermauert ist.
-                            Wenn nun diese Dekung hinweggenommen wird, so erscheinen </item><item>
-                            Nr. 8 die aus 97 ganze 26 halben Boden dann aber noch aus 49 ganze und 4 halben Rand der [Pranst] Eisen mit einer [Sütt] aus Leinohl und Kalch zusammenschraubten Wärmpfannen von welchen Eisen jedes 18 Zoll alter Hallmasserei ins Gevierte hält oder 18 ¾ Wiener Zoll, diese Wärmepfannen müssen wegen dem Ablaufen der Sohle gegen die in Mitten angebrachten </item><item>
-                            Nr. 9. Ablaßröhre trichterförmig zugestellt werden. </item><item>
-                            Nr. 10 Sind die zwei grossen messingeren Einlaßpippen, mittelst welchen die warme Sohle aus den Wärmepfannen in die grosse</item><item><pb n="0004" xml:id="L_modell_4" facs="#l2_0003"/>  
+                            Wenn nun diese Dekung hinweggenommen wird, so erscheinen </item>
+                        <item>
+                            Nr. 8 die aus 97 ganze 26 halben Boden dann aber noch aus 49 ganze und 4 halben Rand der [Pranst] Eisen mit einer [Sütt] aus Leinohl und Kalch zusammenschraubten Wärmpfannen von welchen Eisen jedes 18 Zoll alter Hallmasserei ins Gevierte hält oder 18 ¾ Wiener Zoll, diese Wärmepfannen müssen wegen dem Ablaufen der Sohle gegen die in Mitten angebrachten </item>
+                        <item>
+                            Nr. 9. Ablaßröhre trichterförmig zugestellt werden. </item>
+                        <item>
+                            Nr. 10 Sind die zwei grossen messingeren Einlaßpippen, mittelst welchen die warme Sohle aus den Wärmepfannen in die grosse</item>
+                        <item>
+                            <pb n="0004" xml:id="L_modell_4" facs="#l2_0003"/>  
                             Nr. 11 Sudpfannen eingelassen wird. Diese Pfanne besteht nun aus 280 ganzen und 18 halben Boden dann aus 67 ganzen und 4 halben Pranst Eisen von vorerwähnter Größe, die wie die Wärmepfannen aneinander geschraubt und mittelst einer dazwischen befindlichen [S]ütt aus Leinohl Kürmist, Thon und Eisenteilspänen, zusammengefügt sind. In dieser geschieht nun die eigentliche Salzerzeugung, denn das [Koch]salz hat die Eigenschaft, wenn der Antheil [wässrichter] Theile in welchen es aufgelöst ist, verdunstet, daß es sich sogleich kristallisch zu Boden setzt, indes die anderen Salzarten als die Kochsalz sauer Kalch und Bittererde noch aufgelöst in Rükstand bleiben und welches man sodann die Gumpsur nennt, die im kleinen Verhältniß wieder zur schnellen F[a/ü]llung der Salztheilchen bei den Sudwerkern, größtentheils aber bei
                             <pb n="0005" xml:id="L_modell_5" facs="#l2_0003"/>  
-                            der Salmiak Fabrik benuzt wird. Wenn nun die Zeit des Salzausziechens welches man Auslehnen nennt erscheint, dieses geschieht alle drey Stund so geht der </item><item>
-                            Nr. 12 Vorbehrer und der </item><item>
-                            Nr. 13 Nachziecher ziehen den vorderen </item><item>
-                            Nr. 14 Vorhang zur Hälfte auf, die anderen zu beiden Seiten der Pfanne bleiben zu. Ersterer nimmt dann die lange die ganze Pfanne durchreichende Vorzieher</item><item>
-                            Nr. 15 Kruken und der andere die </item><item>
-                            Nr. 16 Nachzieherkruke, die beide an den Galander der Pfanne aufgehenkt sind, und fangen an das Salz der erste ganz von hinten, gegen die Mitte der Pfanne, der andere von der Mitte gegen den mit Gestell Steinen aus[gefaserten] </item><item>
-                            Nr. 17 Grand zu ziehen auf welchen es die drei</item><item>
-                            Nr. 18 Ausziecher mit ihren </item><item>
+                            der Salmiak Fabrik benuzt wird. Wenn nun die Zeit des Salzausziechens welches man Auslehnen nennt erscheint, dieses geschieht alle drey Stund so geht der </item>
+                        <item>
+                            Nr. 12 Vorbehrer und der </item>
+                        <item>
+                            Nr. 13 Nachziecher ziehen den vorderen </item>
+                        <item>
+                            Nr. 14 Vorhang zur Hälfte auf, die anderen zu beiden Seiten der Pfanne bleiben zu. Ersterer nimmt dann die lange die ganze Pfanne durchreichende Vorzieher</item>
+                        <item>
+                            Nr. 15 Kruken und der andere die </item>
+                        <item>
+                            Nr. 16 Nachzieherkruke, die beide an den Galander der Pfanne aufgehenkt sind, und fangen an das Salz der erste ganz von hinten, gegen die Mitte der Pfanne, der andere von der Mitte gegen den mit Gestell Steinen aus[gefaserten] </item>
+                        <item>
+                            Nr. 17 Grand zu ziehen auf welchen es die drei</item>
+                        <item>
+                            Nr. 18 Ausziecher mit ihren </item>
+                        <item>
                             Nr. 19 eisernen Krüken heraufziehen; 
                             <pb n="0006" xml:id="L_modell_6" facs="#l2_0003"/>  
-                            Diese Arbeit dauert nun ungefähr eine halbe Stund, nach welcher Zeit ein 16 bis 19 Zentner schwerer Salzstok zum Vorschein kömt. Die mit dem Salz in den Kruken herausgezogene Sohle fliest gleich wieder über die steinene schiefe Fläche des Grunds durch die</item><item>
-                            Nr. 20 Oefnungen zwischen den Fugen des</item><item>
-                            Nr. 21 [Grandtladens] in die Sudpfanne zurück. Während nun die Ausziecher das Salz alles rein herausziechen, geht der Vorbehrer zu den zwei Einlaß Pippen, öfnet dieselben und hilft man mit dem Nachziecher das Salz mittelst denen zwei eisernen </item><item>
-                            Nr. 22 Grandhauer dasselbe vorher aufhäufen.  Ist dieses geschehen, so geht er wieder hinter, sieht ob die Pfannen bis zum</item><item>
+                            Diese Arbeit dauert nun ungefähr eine halbe Stund, nach welcher Zeit ein 16 bis 19 Zentner schwerer Salzstok zum Vorschein kömt. Die mit dem Salz in den Kruken herausgezogene Sohle fliest gleich wieder über die steinene schiefe Fläche des Grunds durch die</item>
+                        <item>
+                            Nr. 20 Oefnungen zwischen den Fugen des</item>
+                        <item>
+                            Nr. 21 [Grandtladens] in die Sudpfanne zurück. Während nun die Ausziecher das Salz alles rein herausziechen, geht der Vorbehrer zu den zwei Einlaß Pippen, öfnet dieselben und hilft man mit dem Nachziecher das Salz mittelst denen zwei eisernen </item>
+                        <item>
+                            Nr. 22 Grandhauer dasselbe vorher aufhäufen.  Ist dieses geschehen, so geht er wieder hinter, sieht ob die Pfannen bis zum</item>
+                        <item>
                             Nr. 22 ½ [Zement] gefüllt ist, und wenn 
                             <pb n="0007" xml:id="L_modell_7" facs="#l2_0003"/>  
-                            die Suhr dasselbe erreicht, so sperret er beide Pippen zu, und gewärtiget in Ruh der folgenden Arbeitszeit. </item><item>
-                            Nr. 23 Ist die Oefnung, durch welche die obenbenannte Gumpsur alle 14 Tage wenn die Pfanne gereiniget wird, hinabgelassen wird, indem das</item><item>
-                            Nr. 24 vorgestellte Eisenblatl oder der Kachel, der zu Anfang der Unterfeuerung mit Kalchkütt, [suhrhältig] vermacht wird, mit einer langen Eisenstange vom untern Stok hinausgerennt wird.</item><item> 
-                            Nr. 25 Sind die zu beiden Seiten befindlichen Ablaufkammern, in welche das Salz, nachdem es drei Stunden auf dem Grand gelegen, und die meiste Suhr bereits abgeronnen ist, durch die zwei Ausziecher, wie es</item><item>
-                            Nr. 26 zu ersehen auf der einen, und durch den dritten Ausziecher mit dem </item><item>
+                            die Suhr dasselbe erreicht, so sperret er beide Pippen zu, und gewärtiget in Ruh der folgenden Arbeitszeit. </item>
+                        <item>
+                            Nr. 23 Ist die Oefnung, durch welche die obenbenannte Gumpsur alle 14 Tage wenn die Pfanne gereiniget wird, hinabgelassen wird, indem das</item>
+                        <item>
+                            Nr. 24 vorgestellte Eisenblatl oder der Kachel, der zu Anfang der Unterfeuerung mit Kalchkütt, [suhrhältig] vermacht wird, mit einer langen Eisenstange vom untern Stok hinausgerennt wird.</item>
+                        <item> 
+                            Nr. 25 Sind die zu beiden Seiten befindlichen Ablaufkammern, in welche das Salz, nachdem es drei Stunden auf dem Grand gelegen, und die meiste Suhr bereits abgeronnen ist, durch die zwei Ausziecher, wie es</item>
+                        <item>
+                            Nr. 26 zu ersehen auf der einen, und durch den dritten Ausziecher mit dem </item>
+                        <item>
                             Nr. 26 ½ Dörrer auf der anderen Seiten
                             <pb n="0008" xml:id="L_modell_8" facs="#l2_0003"/>  
-                            eingefangen und wechselweis in eine der vier Abtheilungen geschüttet wird, wo es sodann auf der einen Seite der Vorbehrer, auf der andern der Nachziecher weiter hintere schöpft, damit nach Erforderniß mehrerer Ausbehrungen in einer Abtheilung Raum haben. Hier bliebt nun nach Umständen das nasse Salz noch zwei Tag, oder länger liegen, während welcher Zeit noch alle anhängende Suhr über den schiefen aus doppelt zusammgefugten lärchenen Boden und mit der gelben Kalch[küst] Suhrhaltig gemachten Boden tropft, und in den zwei</item><item>
-                            Nr. 27 Rinnen zurück in die Pfannen flüßt. </item><item>
+                            eingefangen und wechselweis in eine der vier Abtheilungen geschüttet wird, wo es sodann auf der einen Seite der Vorbehrer, auf der andern der Nachziecher weiter hintere schöpft, damit nach Erforderniß mehrerer Ausbehrungen in einer Abtheilung Raum haben. Hier bliebt nun nach Umständen das nasse Salz noch zwei Tag, oder länger liegen, während welcher Zeit noch alle anhängende Suhr über den schiefen aus doppelt zusammgefugten lärchenen Boden und mit der gelben Kalch[küst] Suhrhaltig gemachten Boden tropft, und in den zwei</item>
+                        <item>
+                            Nr. 27 Rinnen zurück in die Pfannen flüßt. </item>
+                        <item>
                             Nr. 28 Zeigt die Dekeln, oder Korpus mittelst welchen die heraufdringende Hitze der Dörren versperrt wird. Noch ist in diesem obern Stock ein 
                             <pb n="0009" xml:id="L_modell_9" facs="#l2_0003"/>  
-                            Theil der</item><item>
-                            Nr. 29 messingnen [Pumppe] zusehen, durch welche die Gumpsur bei jedem 14 täglichen Unterfeuern zur Bewirkung der geschwindern [Kochsalzfällung] herauf und mittelst einer langen Rinne in die Mitte der Pfanne, wo der Sud am größten ist, gepumppet wird. Endlich ist das</item><item>
-                            Nr. 30 Comunikations Rohr mit dem Klopfer zur Seite des </item><item>
-                            Nr. 31 Kunstkamins, durch welcher nemlich die Wasser-Dämpfe hinausziechen. Dieses Rohr geht hinab bis in den [Ofen] wonach also der Vorbehrer, wie es</item><item>
-                            Nr. 32 vorgebildet ist mit dem Schürrer, wenn die Sohle durch die Pfanne läßt, oder sonst es die Manipulation erfordert sich, besprechen kann. </item><item>
+                            Theil der</item>
+                        <item>
+                            Nr. 29 messingnen [Pumppe] zusehen, durch welche die Gumpsur bei jedem 14 täglichen Unterfeuern zur Bewirkung der geschwindern [Kochsalzfällung] herauf und mittelst einer langen Rinne in die Mitte der Pfanne, wo der Sud am größten ist, gepumppet wird. Endlich ist das</item>
+                        <item>
+                            Nr. 30 Comunikations Rohr mit dem Klopfer zur Seite des </item>
+                        <item>
+                            Nr. 31 Kunstkamins, durch welcher nemlich die Wasser-Dämpfe hinausziechen. Dieses Rohr geht hinab bis in den [Ofen] wonach also der Vorbehrer, wie es</item>
+                        <item>
+                            Nr. 32 vorgebildet ist mit dem Schürrer, wenn die Sohle durch die Pfanne läßt, oder sonst es die Manipulation erfordert sich, besprechen kann. </item>
+                        <item>
                             Nr. 33 Sieht man die unter dem Suhrrohr angebrachte Rinne, welche die herabfallenden Tropfen damit sie nicht das Gemäuer durchweichen
                             <pb n="0010" xml:id="L_modell_10" facs="#l2_0003"/>  
-                            auffängt und bei </item><item>
+                            auffängt und bei </item>
+                        <item>
                             Nr. 34 hinausleitet. 
                             Nach diesem gedrängten Entwurf der Salzmanipulation in oberen Stock wird nun zu jener im unteren geschritten, und da bei Nr. 28 gesagt wurde, daß die zwei Dekeln in den Ablaufkammern wegen Versperrung der Hitze von den Dörrern angebracht sind, soweit nun diese Manipulation beschrieben. 
-                            Die Dörrer theilen sich in die </item><item>
-                            Nr. 35 oberen, und</item><item>
+                            Die Dörrer theilen sich in die </item>
+                        <item>
+                            Nr. 35 oberen, und</item>
+                        <item>
                             Nr. 36 Inneren ab. 
                             Von den Ersteren bestehen jede aus 6 Ramen, deren jede wieder aus 6 Dörrblättern von dünnen Eisenbllch nach dazwischen gelegter [H/K]eilspäne – Lütt zusammengenietet ist. Jede der Innern hat 4 ½ Ramen die nach ihrer Länge liegen. Wie schon früher gemeldet wurde, so dauert jede Manipulations Abtheilung drei Stunden. 
                             <pb n="0011" xml:id="L_modell_11" facs="#l2_0003"/>  
                             Nehmen wir nun die 8 Uhr frühe Ausbehrzeiten an, so wird um ein Viertl auf 11 Uhr die Dörrmanipulation angefangen. 
-                            Mit Schlag ein Viertl gehen die drey Ausziecher, und der Dörrer und zwar welchselweis auf die oberen und die Inneren Dörrer um das bei der vorigen Manipulations Ableithung aufgeschüttete Salz abzuräumen. Sie öffnen die schiefen hölzernen </item><item>
-                            Nr. 37 Thüren, fahren mit den [geraden] hölzernen Schaufeln unter das Salz bis auf die Dörr selbst und werfen es durch die senkrechten</item><item>
-                            Nr. 38 Kanäle, oder Gassen nach Hinwegnehmung ihrer Dekeln hinab auf die</item><item>
+                            Mit Schlag ein Viertl gehen die drey Ausziecher, und der Dörrer und zwar welchselweis auf die oberen und die Inneren Dörrer um das bei der vorigen Manipulations Ableithung aufgeschüttete Salz abzuräumen. Sie öffnen die schiefen hölzernen </item>
+                        <item>
+                            Nr. 37 Thüren, fahren mit den [geraden] hölzernen Schaufeln unter das Salz bis auf die Dörr selbst und werfen es durch die senkrechten</item>
+                        <item>
+                            Nr. 38 Kanäle, oder Gassen nach Hinwegnehmung ihrer Dekeln hinab auf die</item>
+                        <item>
                             Nr. 39 Auskühlstätte, wo es der Nachzieher auseinander ziecht, damit es gehörig verdämpfen und auskühlen kann. Ist nun das wohlgedörte Salz abgeraumt, so öffnen die zwei obern
                             <pb n="0012" xml:id="L_modell_12" facs="#l2_0003"/>  
-                            Arbeiter die obern Dörr Lüker und eines von den</item><item>
-                            Nr. 40 Thürln, so wie auch der Vorbehrer den Korpus in der Ablaufkammer und nun schüttet er das am längsten abgelegene Salz hinunter, welches von zwei obern Arbeitern durch die</item><item>
+                            Arbeiter die obern Dörr Lüker und eines von den</item>
+                        <item>
+                            Nr. 40 Thürln, so wie auch der Vorbehrer den Korpus in der Ablaufkammer und nun schüttet er das am längsten abgelegene Salz hinunter, welches von zwei obern Arbeitern durch die</item>
+                        <item>
                             Nr. 41 Oefnung zuerst in die innere Dörr geschüttet wird, auf welcher es die zwei inneren Arbeiter zwei bis drei Zoll dick nach Beschaffenheit des Salzes, und der Dörr gleich förmig auseinander breitten. Haben die innern nun die [geherige] Menge Salzes, so schreien sie durch die Oefnung herauf, daß sie genug haben, und itz erst breiten die oberen Arbeiter das verhältnismäßige Quantum aus, und ruffen dem Vorbehrer, der dann [aussert] das Salz hinunter zu lassen, und dem Korpus wieder auf die Oefnung stellt, so wie ihrer Seitte die Arbeiter die erwähnten
                             <pb n="0013" xml:id="L_modell_13" facs="#l2_0003"/>  
                             Thürln wieder zumachen, und wenn das Salz schon ausgebreitet ist, auch die oberhalb angehängten schiefen Dörr Thören herablassen. 
-                            Ist nun das gedörrte Salz auf der Stätte Nr. 39 ausgekühlt, so wird es auf den zwei</item><item>
-                            Nr. 42 Wagen halbzentner weiß entweder in</item><item>
-                            Nr. 43 Zwilchene Säcke zu 1 ½ Zenten oder in </item><item>
-                            Nr. 44 Fässer zu 4 ½ Zenten gefüllt und dann hinausgewählt, wie </item><item>
-                            Nr. 45 zu sehen. </item><item>
-                            Nr. 46 zeigt die Nr. 29 schon erwähnte messingene Pumpe, welche in die unter </item><item>
-                            Nr. 47 dem Boden befindlichen aus lärchenen Bäumen suhrhältig gemachten </item><item>
-                            Nr. 48 Labstuben reicht, um aus selber die Gumpsur entweder in die Pfanne, wie schon oben erwähnt worden, oder bei der mit dem </item><item>
-                            Nr. 49 [Hahn] [versehene] Oefnung</item><item>
+                            Ist nun das gedörrte Salz auf der Stätte Nr. 39 ausgekühlt, so wird es auf den zwei</item>
+                        <item>
+                            Nr. 42 Wagen halbzentner weiß entweder in</item>
+                        <item>
+                            Nr. 43 Zwilchene Säcke zu 1 ½ Zenten oder in </item>
+                        <item>
+                            Nr. 44 Fässer zu 4 ½ Zenten gefüllt und dann hinausgewählt, wie </item>
+                        <item>
+                            Nr. 45 zu sehen. </item>
+                        <item>
+                            Nr. 46 zeigt die Nr. 29 schon erwähnte messingene Pumpe, welche in die unter </item>
+                        <item>
+                            Nr. 47 dem Boden befindlichen aus lärchenen Bäumen suhrhältig gemachten </item>
+                        <item>
+                            Nr. 48 Labstuben reicht, um aus selber die Gumpsur entweder in die Pfanne, wie schon oben erwähnt worden, oder bei der mit dem </item>
+                        <item>
+                            Nr. 49 [Hahn] [versehene] Oefnung</item>
+                        <item>
                             Nr. 50 durch den Trichter unter der Erde fortgeführten Röhren in
                             <pb n="0014" xml:id="L_modell_14" facs="#l2_0003"/>  
                             die kaiserliche königliche Salmiak Fabrik zu pumppen. 
-                            Schon ist Nr. 24 bei dem sogenannten [K]achel gesagt worden, daß er mit einer eisenen Stange von untern Stock hinaufgerennt wird, in</item><item>
-                            Nr. 51 dem Stüberle ist also die</item><item>
-                            Nr. 52 hölzerne Rein, und Oefnung zu sehen, durch welche diese Arbeit geschieht und woraus in der Rinne die Gumpsur in die Labstube hinabfließt. Geht man nun aus dem Werk heraus, und hinten bei der</item><item>
-                            Nr. 53 Holzhütte vorbei, so kömt man durch den mit einer Thür versehenen gewölbten</item><item>
-                            Nr. 54 Schürofen, worin sich der</item><item>
+                            Schon ist Nr. 24 bei dem sogenannten [K]achel gesagt worden, daß er mit einer eisenen Stange von untern Stock hinaufgerennt wird, in</item>
+                        <item>
+                            Nr. 51 dem Stüberle ist also die</item>
+                        <item>
+                            Nr. 52 hölzerne Rein, und Oefnung zu sehen, durch welche diese Arbeit geschieht und woraus in der Rinne die Gumpsur in die Labstube hinabfließt. Geht man nun aus dem Werk heraus, und hinten bei der</item>
+                        <item>
+                            Nr. 53 Holzhütte vorbei, so kömt man durch den mit einer Thür versehenen gewölbten</item>
+                        <item>
+                            Nr. 54 Schürofen, worin sich der</item>
+                        <item>
                             Nr. 55 Schürer befindet, der nach dem es entweder mit einer Holzpfanne ist bloß Holz, oder wenn es eine Steinkohlepfannen, mit verhältnismässen Holz, und hauptsächlich mit Steinkohlen schürt. Von jedem dieser zwei Oefen ist bei diesem Modell eine Abbildung 
                             <pb n="0015" xml:id="L_modell_15" facs="#l2_0003"/>  
-                            Bei dem Holzofen ist nur ein </item><item>
-                            Nr. 56 Schürer und ein</item><item>
-                            Nr. 57 Aschen Thürl mit den</item><item>
-                            Nr. 58 Luftschuber. Bei den Steinkohlen Ofen sind ihrer</item><item>
-                            Nr. 59 drei Schürerthürln, in der Mitte</item><item>
-                            Nr. 60 drei Aschen Thürln, und zu unterst</item><item>
+                            Bei dem Holzofen ist nur ein </item>
+                        <item>
+                            Nr. 56 Schürer und ein</item>
+                        <item>
+                            Nr. 57 Aschen Thürl mit den</item>
+                        <item>
+                            Nr. 58 Luftschuber. Bei den Steinkohlen Ofen sind ihrer</item>
+                        <item>
+                            Nr. 59 drei Schürerthürln, in der Mitte</item>
+                        <item>
+                            Nr. 60 drei Aschen Thürln, und zu unterst</item>
+                        <item>
                             Nr. 61 ebenfalls 3 Register durch welche der Luftzug, um das Brennmaterial in der gehörigen Flamme zu erhalten, dirigiert wird. 
-                            Wird nun die Sudpfanne abgehoben so erscheint der Bau des in der Mitte des Herd angebrachten Rostes, der wie</item><item>
+                            Wird nun die Sudpfanne abgehoben so erscheint der Bau des in der Mitte des Herd angebrachten Rostes, der wie</item>
+                        <item>
                             Nr. 62 zu sehen bei einer Holzpfanne in drei Gassen abgetheilt ist, deren jede 6 Schuch lang, und 3 Schuch breit ist, und in deren jeder 7 bis 9 [passauernen] Ziegel [gesprengte] Bögen eingebracht sind, worauf das 5 Schuch 6 ½ Zoll lange Holz zu liegen 
                             <pb n="0016" xml:id="L_modell_16" facs="#l2_0003"/>  
-                            kömt, und durch deren Zwischenraum nach Abbrennung des Holzes, das [Kuhl] hinab in die</item><item>
-                            Nr. 63 Aschenkammer fällt. </item><item>
-                            Nr. 64 Ist die Construction eines Steinkohle Rostes der ebenfalls drei Gassen hat, deren jede 6 Schuch lang und 2 Schuch breit ist, und worin sich 10 eiserne ober halb 2 Zoll und unterhalb ½ Zoll dicke, und 6 Schuch lange Roststangen befinden so daß einer von der anderen 1 Zoll absteht, dies Räume müssen wegen der Steinkohlen so eng sein, damit es nicht unterbranter in die</item><item>
-                            Nr. 65 Aschenkammer herabfalle. </item><item>
-                            Nr. 66 Ist der mit den Pfannen </item><item>
-                            Nr. 67 Stützen oder Kehren versehener Grund, jene sind durchaus von Eisenschlaken bis auf die vorderen </item><item>
+                            kömt, und durch deren Zwischenraum nach Abbrennung des Holzes, das [Kuhl] hinab in die</item>
+                        <item>
+                            Nr. 63 Aschenkammer fällt. </item>
+                        <item>
+                            Nr. 64 Ist die Construction eines Steinkohle Rostes der ebenfalls drei Gassen hat, deren jede 6 Schuch lang und 2 Schuch breit ist, und worin sich 10 eiserne ober halb 2 Zoll und unterhalb ½ Zoll dicke, und 6 Schuch lange Roststangen befinden so daß einer von der anderen 1 Zoll absteht, dies Räume müssen wegen der Steinkohlen so eng sein, damit es nicht unterbranter in die</item>
+                        <item>
+                            Nr. 65 Aschenkammer herabfalle. </item>
+                        <item>
+                            Nr. 66 Ist der mit den Pfannen </item>
+                        <item>
+                            Nr. 67 Stützen oder Kehren versehener Grund, jene sind durchaus von Eisenschlaken bis auf die vorderen </item>
+                        <item>
                             Nr. 68 zwei, welche wegen dem Anstoß dem sie ausgesetzt sind, von [Passauerzung] ausgestellt werden; dieser aber ist schief ausgepflastert
                             <pb n="0017" xml:id="L_modell_17" facs="#l2_0003"/>  
-                            damit die etwan aus der Pfannen rinnende Sohle in die Aschenkammer herabfließen kann, er hält fast 25 Wiener Schuch ins Quadrat. Um nun auf das Meisterhafte der Einrichtung dieser von allen bekanten und an mehreren Orten nachgeahmten Saline den Vorzug besitzenden durch Titl Her. Gubernial Rath und Hallinthalischen Salzoberamts Director Menz von Schönfeld erbauten Werkes zu erkennen, so nehme man die Wärmepfannen, dann die Dörr hinweg und betrachte die Leitung des Rauches, welcher nach Ausgang der Flamme ohngefähr zum 3ten Theil des [Herdes] reicht in die zu beiden äußersten Seiten. </item><item>
-                            Nr. 69 angebrachten Zuglöcher steigt unter den Wärmepfannen, die auf einigen Rehren und </item><item>
+                            damit die etwan aus der Pfannen rinnende Sohle in die Aschenkammer herabfließen kann, er hält fast 25 Wiener Schuch ins Quadrat. Um nun auf das Meisterhafte der Einrichtung dieser von allen bekanten und an mehreren Orten nachgeahmten Saline den Vorzug besitzenden durch Titl Her. Gubernial Rath und Hallinthalischen Salzoberamts Director Menz von Schönfeld erbauten Werkes zu erkennen, so nehme man die Wärmepfannen, dann die Dörr hinweg und betrachte die Leitung des Rauches, welcher nach Ausgang der Flamme ohngefähr zum 3ten Theil des [Herdes] reicht in die zu beiden äußersten Seiten. </item>
+                        <item>
+                            Nr. 69 angebrachten Zuglöcher steigt unter den Wärmepfannen, die auf einigen Rehren und </item>
+                        <item>
                             Nr. 70 zwei halbschuhigen Mäuerln
                             <pb n="0018" xml:id="L_modell_18" facs="#l2_0003"/>  
-                            Nr. 71 welche Zungen heißen, und den Boden in 3 Gassen abtheilen, ruhen cirkuliert, dann sich durch die schiefe</item><item>
-                            Nr. 72 Oefnung unter den obern Dörr stürzt, unter welcher er wegen der Zunge</item><item>
-                            Nr. 73 wieder herausstreifet, bis er sich mehrmals durch den</item><item>
-                            Nr. 74 Kanalschlundt stürzen muß, wonach er unter der inneren Dörren an den drei kleinen ihm entgegen </item><item>
-                            Nr. 75 gestellten Zungen sich abstößt nun noch so viel, als möglich [Gwalt] zu gewinnen.  Nach einem Lauf also von ohngefähr 160 Schuchen auf einer jeden Seite geht er bei dem unter den </item><item>
-                            Nr. 76 Dächlein verborgenen </item><item>
-                            Nr. 77 Register, der gleichfals zur Direction weise, allda angebracht ist, hinaus, steigt den gebahnten</item><item>
-                            Nr. 78 Weg hinauf, in die </item><item>
-                            Nr. 79 Kaminöffnung hinein und fliegt zur der oberen</item><item><pb n="0019" xml:id="L_modell_19" facs="#l2_0003"/>  
-                            Nr. 80 Oefnung der zwei langen Rußkamine in die Luft. </item><item>
-                            Nr. 81 Stellen die mit eisernen Dippeln vermachten Kanal Oefnungen vor, welche auch im Werk an den Seiten der obern und innern Dörre angebracht sind. Durch diese fährt nun der</item><item>
-                            Nr. 82 Kanalschließer mit einem hölzern Krükerl mittelst welchen er den angehäuften Ruß, wenn nach 6 Wochen die Werker auf 4 Tage ausgeloschen werden, heraussäubert. [Letzlich] ist, </item><item>
-                            Nr. 83 die Holzhütte mit den drei</item><item>
-                            Nr. 84 Holzhakern, aus welcher wenn es gekloben ist, der </item><item>
-                            Nr. 85 Holztrager es kleinweis zum Schürren in den Ofen trägt. </item><item>
+                            Nr. 71 welche Zungen heißen, und den Boden in 3 Gassen abtheilen, ruhen cirkuliert, dann sich durch die schiefe</item>
+                        <item>
+                            Nr. 72 Oefnung unter den obern Dörr stürzt, unter welcher er wegen der Zunge</item>
+                        <item>
+                            Nr. 73 wieder herausstreifet, bis er sich mehrmals durch den</item>
+                        <item>
+                            Nr. 74 Kanalschlundt stürzen muß, wonach er unter der inneren Dörren an den drei kleinen ihm entgegen </item>
+                        <item>
+                            Nr. 75 gestellten Zungen sich abstößt nun noch so viel, als möglich [Gwalt] zu gewinnen.  Nach einem Lauf also von ohngefähr 160 Schuchen auf einer jeden Seite geht er bei dem unter den </item>
+                        <item>
+                            Nr. 76 Dächlein verborgenen </item>
+                        <item>
+                            Nr. 77 Register, der gleichfals zur Direction weise, allda angebracht ist, hinaus, steigt den gebahnten</item>
+                        <item>
+                            Nr. 78 Weg hinauf, in die </item>
+                        <item>
+                            Nr. 79 Kaminöffnung hinein und fliegt zur der oberen</item>
+                        <item>
+                            <pb n="0019" xml:id="L_modell_19" facs="#l2_0003"/>  
+                            Nr. 80 Oefnung der zwei langen Rußkamine in die Luft. </item>
+                        <item>
+                            Nr. 81 Stellen die mit eisernen Dippeln vermachten Kanal Oefnungen vor, welche auch im Werk an den Seiten der obern und innern Dörre angebracht sind. Durch diese fährt nun der</item>
+                        <item>
+                            Nr. 82 Kanalschließer mit einem hölzern Krükerl mittelst welchen er den angehäuften Ruß, wenn nach 6 Wochen die Werker auf 4 Tage ausgeloschen werden, heraussäubert. [Letzlich] ist, </item>
+                        <item>
+                            Nr. 83 die Holzhütte mit den drei</item>
+                        <item>
+                            Nr. 84 Holzhakern, aus welcher wenn es gekloben ist, der </item>
+                        <item>
+                            Nr. 85 Holztrager es kleinweis zum Schürren in den Ofen trägt. </item>
+                        <item>
                             Nr. 86 Sind die zwei Pfannenlöcher durch welche man an beiden Seiten unter die Pfann bis gegen den Grand sehen kann
                             
-                        </item></list></p></div><div type="index_persons"><listPerson><person xml:id="füeger"/><person xml:id="maximilian"/><person xml:id="tschiderer"/><person xml:id="karg"/><person xml:id="karl_philipp"/><person xml:id="claudia"/><person xml:id="buchenberg"/><person xml:id="prugglacher"/><person xml:id="sötzen"/><person xml:id="strasser"/><person xml:id="panperger"/><person xml:id="schuster"/></listPerson></div><div type="place"><listPlace><place type="settlement" xml:id="berchtesgaden"/><place type="count" xml:id="bayern"/><place type="settlement" xml:id="lindau"/><place type="settlement" xml:id="hallein"/><place type="settlement" xml:id="traunstein"><placeName type="geonames" key="2821515">
+                        </item>
+                    </list>
+                </p>
+            </div>
+            <div type="index_persons">
+                <listPerson>
+                    <person xml:id="füeger"/>
+                    <person xml:id="maximilian"/>
+                    <person xml:id="tschiderer"/>
+                    <person xml:id="karg"/>
+                    <person xml:id="karl_philipp"/>
+                    <person xml:id="claudia"/>
+                    <person xml:id="buchenberg"/>
+                    <person xml:id="prugglacher"/>
+                    <person xml:id="sötzen"/>
+                    <person xml:id="strasser"/>
+                    <person xml:id="panperger"/>
+                    <person xml:id="schuster"/>
+                </listPerson>
+            </div>
+            <div type="place">
+                <listPlace>
+                    <place type="settlement" xml:id="berchtesgaden"/>
+                    <place type="count" xml:id="bayern"/>
+                    <place type="settlement" xml:id="lindau"/>
+                    <place type="settlement" xml:id="hallein"/>
+                    <place type="settlement" xml:id="traunstein">
+                        <placeName type="geonames" key="2821515">
                             Traunstein
-                            <ptr target="http://de.wikipedia.org/wiki/Traunstein"/></placeName></place><place type="county" xml:id="oberösterreich"><placeName type="geonames" key="2769848">
+                            <ptr target="http://de.wikipedia.org/wiki/Traunstein"/>
+                        </placeName>
+                    </place>
+                    <place type="county" xml:id="oberösterreich">
+                        <placeName type="geonames" key="2769848">
                             Oberösterreich 
-                            <ptr target="http://de.wikipedia.org/wiki/Ober%C3%B6sterreich"/></placeName></place><place type="settlement" xml:id="ischl"><placeName type="geonames" key="2782052">
+                            <ptr target="http://de.wikipedia.org/wiki/Ober%C3%B6sterreich"/>
+                        </placeName>
+                    </place>
+                    <place type="settlement" xml:id="ischl">
+                        <placeName type="geonames" key="2782052">
                             Bad Ischl
-                            <ptr target="http://de.wikipedia.org/wiki/Bad_Ischl"/></placeName></place><place type="county" xml:id="tirol"><placeName type="geonames" key="2763586">
+                            <ptr target="http://de.wikipedia.org/wiki/Bad_Ischl"/>
+                        </placeName>
+                    </place>
+                    <place type="county" xml:id="tirol">
+                        <placeName type="geonames" key="2763586">
                             Tirol
-                            <ptr target="http://de.wikipedia.org/wiki/Tirol"/></placeName></place><place type="mountain" xml:id="ischlerberg"><placeName>
+                            <ptr target="http://de.wikipedia.org/wiki/Tirol"/>
+                        </placeName>
+                    </place>
+                    <place type="mountain" xml:id="ischlerberg">
+                        <placeName>
                             Bad Ischler Salzberg
-                            <ptr target="http://de.wikipedia.org/wiki/Bad_Ischler_Salzberg"/></placeName></place><place type="settlement" xml:id="hallstatt"><placeName type="geonames" key="2776943">
+                            <ptr target="http://de.wikipedia.org/wiki/Bad_Ischler_Salzberg"/>
+                        </placeName>
+                    </place>
+                    <place type="settlement" xml:id="hallstatt">
+                        <placeName type="geonames" key="2776943">
                             Hallstatt
-                            <ptr target="http://de.wikipedia.org/wiki/Hallstatt"/></placeName></place><place type="settlement" xml:id="gmunden"><placeName type="geonames" key="2778436">
+                            <ptr target="http://de.wikipedia.org/wiki/Hallstatt"/>
+                        </placeName>
+                    </place>
+                    <place type="settlement" xml:id="gmunden">
+                        <placeName type="geonames" key="2778436">
                             Gmunden
-                            <ptr target="http://de.wikipedia.org/wiki/Gmunden"/></placeName></place><place type="settlement" xml:id="ebensee"><placeName type="geonames" key="2780547">
+                            <ptr target="http://de.wikipedia.org/wiki/Gmunden"/>
+                        </placeName>
+                    </place>
+                    <place type="settlement" xml:id="ebensee">
+                        <placeName type="geonames" key="2780547">
                             Ebensee
-                            <ptr target="http://de.wikipedia.org/wiki/Ebensee"/></placeName></place><place type="lake" xml:id="traunsee"><placeName type="geonames" key="2763413">
+                            <ptr target="http://de.wikipedia.org/wiki/Ebensee"/>
+                        </placeName>
+                    </place>
+                    <place type="lake" xml:id="traunsee">
+                        <placeName type="geonames" key="2763413">
                             Traunsee
-                            <ptr target="http://de.wikipedia.org/wiki/Traunsee"/></placeName></place><place type="area" xml:id="kammergut"><placeName type="geonames" key="2766813">
+                            <ptr target="http://de.wikipedia.org/wiki/Traunsee"/>
+                        </placeName>
+                    </place>
+                    <place type="area" xml:id="kammergut">
+                        <placeName type="geonames" key="2766813">
                             Salzkammergut
-                            <ptr target="http://de.wikipedia.org/wiki/Salzkammergut"/></placeName></place><place type="settlement" xml:id="reichenhall"><placeName type="geonames" key="2953371">
+                            <ptr target="http://de.wikipedia.org/wiki/Salzkammergut"/>
+                        </placeName>
+                    </place>
+                    <place type="settlement" xml:id="reichenhall">
+                        <placeName type="geonames" key="2953371">
                             Bad Reichenhall
-                            <ptr target="http://de.wikipedia.org/wiki/Bad_Reichenhall"/></placeName></place><place type="settlement" xml:id="hall"><placeName type="geonames" key="2764958">
+                            <ptr target="http://de.wikipedia.org/wiki/Bad_Reichenhall"/>
+                        </placeName>
+                    </place>
+                    <place type="settlement" xml:id="hall">
+                        <placeName type="geonames" key="2764958">
                             Hall in Tirol
-                            <ptr target="http://de.wikipedia.org/wiki/Hall_in_Tirol"/></placeName></place></listPlace></div><div type="org"><listOrg><org xml:id="kammer"/><org xml:id="pfannhausamt"/><org xml:id="waldmeister"/><org xml:id="forstknecht"/></listOrg></div></body></text></TEI>
+                            <ptr target="http://de.wikipedia.org/wiki/Hall_in_Tirol"/>
+                        </placeName>
+                    </place>
+                </listPlace>
+            </div>
+            <div type="org">
+                <listOrg>
+                    <org xml:id="kammer"/>
+                    <org xml:id="pfannhausamt"/>
+                    <org xml:id="waldmeister"/>
+                    <org xml:id="forstknecht"/>
+                </listOrg>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,90 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-stylesheet type="text/xsl" href="http://digital-archiv.at:8081/exist/rest/db/files/salz/xsl/tei-transcript.xsl"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L3.xml" xml:base="http://digital-archiv.at:8081/exist/rest/db/files/salz/xml/lindner/"><teiHeader><fileDesc><titleStmt><title>Die Lindnerischen Schriften Band III<origDate when="1805-09-11"/><origPlace>Hall in Tirol</origPlace></title><author>Lindner, Karl Ignatz</author><editor>
-                    Transkribiert und annotiert von <name>Peter Andorfer</name></editor></titleStmt><publicationStmt><publisher>Peter Andorfer</publisher></publicationStmt><sourceDesc><msDesc><msIdentifier><settlement>Wien</settlement><repository>Bundesministerium für Finanzen Ministerialbibliothek</repository><idno>AC08720408</idno></msIdentifier></msDesc></sourceDesc></fileDesc></teiHeader><text><body><div><pb n="0001" xml:id="L3_1" facs="#l3_0001"/><head type="gesamt"><hi rend="head">Fortsetzung <lb/>
-                    Der sistematischen Geschichte des Salzsudwesens zu Hall im Innthal vom Jahre 1710 bis 1760<lb/><hi rend="underline">Dritter Theil</hi></hi></head></div><div><p>
+<!--<?xml-stylesheet type="text/xsl" href="http://digital-archiv.at:8081/exist/rest/db/files/salz/xsl/tei-transcript.xsl"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L3.xml" xml:base="http://digital-archiv.at:8081/exist/rest/db/files/salz/xml/lindner/">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Die Lindnerischen Schriften Band III<origDate when="1805-09-11"/>
+                    <origPlace>Hall in Tirol</origPlace>
+                </title>
+                <author>Lindner, Karl Ignatz</author>
+                <editor>
+                    Transkribiert und annotiert von <name>Peter Andorfer</name>
+                </editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Peter Andorfer</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Wien</settlement>
+                        <repository>Bundesministerium für Finanzen Ministerialbibliothek</repository>
+                        <idno>AC08720408</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <pb n="0001" xml:id="L3_1" facs="#l3_0001"/>
+                <head type="gesamt">
+                    <hi rend="head">Fortsetzung <lb/>
+                    Der sistematischen Geschichte des Salzsudwesens zu Hall im Innthal vom Jahre 1710 bis 1760<lb/>
+                        <hi rend="underline">Dritter Theil</hi>
+                    </hi>
+                </head>
+            </div>
+            <div>
+                <p>
                     Nachdem der <rs type="person" ref="#tschiderer">Salzmayr Adam Anton von Tschiderer</rs> die Relation, und den Vorschlag, wie nach Art der gmundnerischen Salinen die in <rs type="place" ref="#hall">Hall</rs> gestandenen sowohl in Rücksicht des Salzerzeugs, als auch der Holzersparung verbessert werden könne, Seiner Majestät Joseph dem ersten in tiefster Untertänigkeit überreicht, so wurde selber auf allerhöchsten Befehl der k.k. O.Oer. Regierung, und <rs type="org" ref="#hofkammer">Hofkammer</rs> in <rs type="place" ref="#innsbruck">Innsbruck</rs> mitgehteilt, und Hoch derselben aufgetragen, 
                     <pb n="0002" xml:id="L3_2" facs="#l3_0002"/>
                 wegen der Wichtigkeit dieses Gegenstandes und weil der <rs type="person" ref="#tschiderer">Salzmayer von Tschiderer</rs> selbst um eine mündliche nähere Erklärung über seinen Verbesserungs Vorschlag angesucht, einige Deputirte zu dieser Conferenz zu erwählen, die Salzmayerischen Anträge vornehmen zu lassen, und hierüber das Gutachten einzusenden. 
-            </p><p>
-                Dieses ist aber, da der <rs type="person" ref="#tschiderer">Salzmayr von Tschiderer</rs> in herrschaftlichen Geschäften nach <rs type="place" ref="#münchen">München</rs>, und <rs type="place" ref="#engerdin">Engerdin</rs> verreißt, dann in der Holzzahl abwesend war, hierauf der Salzkontrakts Erneuerung beiwohnen mußte, erst den <date when="1710-12-12">12ten Xber 1710</date> von der <rs type="org" ref="#regierung">Regierung</rs><pb n="0003" xml:id="L3_3" facs="#l3_0003"/>
+            </p>
+                <p>
+                Dieses ist aber, da der <rs type="person" ref="#tschiderer">Salzmayr von Tschiderer</rs> in herrschaftlichen Geschäften nach <rs type="place" ref="#münchen">München</rs>, und <rs type="place" ref="#engerdin">Engerdin</rs> verreißt, dann in der Holzzahl abwesend war, hierauf der Salzkontrakts Erneuerung beiwohnen mußte, erst den <date when="1710-12-12">12ten Xber 1710</date> von der <rs type="org" ref="#regierung">Regierung</rs>
+                    <pb n="0003" xml:id="L3_3" facs="#l3_0003"/>
                 und <rs type="org" ref="#hofkammer">Hofkammer</rs> an den <rs type="person" ref="#karl_philipp">Durchlauchten Herr Gubernaator und Pfalzgrafen Karl Philipp</rs> wie in dem in <rs type="source">inspruker Gutachten Seite 514</rs> zu finden, erstattet worden. 
-            </p><p>
+            </p>
+                <p>
                 Der Hauptbeweggrund, warum der <rs type="person" ref="#tschiderer">Salzmayer</rs> auf gemachten Vortrag der <rs type="org" ref="#hofkammer">Hofkammer</rs> von Seiner k.k. Majestät zur Bereisung der bayrischen, salzburgischen, ob der ensischen, und stairischen Salinen beordert wurde, war der grosse Holzconsumo, welcher so beträchtlich gewesen, daß nach denen salzämtlichen Berichten, und in Waldungssachen
                     <pb n="0004" xml:id="L3_4" facs="#l3_0004"/>
                 abgeordnet gewordenen Commissionen mit der zum Salzsud brauchbaren Holzgattung höchstens noch auf 30 Jahre ausgelangt worden wäre; wonach aber der ganze Salzerzeug hätte eingestellt werden müssen, welcher vermutlich schon in diesem Jahre sich ergeben habe würde, wenn nicht mit grossen Kosten aus Engerdin über 17 Meilen weit der Holz zum Salzsud wäre erkauft worden.
-            </p><p>
+            </p>
+                <p>
                 Um also diesem Unfall zu steuern wurde die obgenannten Salinen zu bereisen dem <rs type="person" ref="#tschiderer">Salzmaier von Tschiderer</rs> verordnet, und ihme aufgetragen
-                    <pb n="0005" xml:id="L3_5" facs="#l3_0005"/><quote>jedes Orts die Structur der Pfannen, und des Ofens, den modum der Suth, das erzeugende Salz, das hiezu verbrauchende Holzquantum, und Eisen, Zeit, Arbeiter, und Unkosten, verläßlich und genau in Obacht zu nehmen, und zu beschreiben.</quote></p><p>
-                Diesen aller höchsten Auftrag hat er nun vollkommen durch die <hi rend="underline">abgefaßte <hi rend="italics">voluminose Relation</hi></hi> wie es in dem <hi rend="italics">Inquisitions Protokoll</hi> vom <date when="1711-04-20">20ten April 1711</date> heißt, und durch die aufgeführten Beweise, daß nicht allein an Holz, sondern auch an Eisen, Fuhren, und Arbeitslohn nach seinen Vorschlag beträchtlich erspart und das Salzpfüßeln
+                    <pb n="0005" xml:id="L3_5" facs="#l3_0005"/>
+                    <quote>jedes Orts die Structur der Pfannen, und des Ofens, den modum der Suth, das erzeugende Salz, das hiezu verbrauchende Holzquantum, und Eisen, Zeit, Arbeiter, und Unkosten, verläßlich und genau in Obacht zu nehmen, und zu beschreiben.</quote>
+                </p>
+                <p>
+                Diesen aller höchsten Auftrag hat er nun vollkommen durch die <hi rend="underline">abgefaßte <hi rend="italics">voluminose Relation</hi>
+                    </hi> wie es in dem <hi rend="italics">Inquisitions Protokoll</hi> vom <date when="1711-04-20">20ten April 1711</date> heißt, und durch die aufgeführten Beweise, daß nicht allein an Holz, sondern auch an Eisen, Fuhren, und Arbeitslohn nach seinen Vorschlag beträchtlich erspart und das Salzpfüßeln
             <pb n="0006" xml:id="L3_6" facs="#L3_0006"/>
                 oder Dörren vortheilhafter eingerichtet werden könne, erfüllt, nur ist zu bedauern, daß bey der Vergutachtung dieser Relation an Seine k.k. Majestät keine Abschrift, wie von der buchenbergerischen rukgehalten worden ist, aus welcher die Beschreibung der verschiedenen Sudmanipulationen bey denen verschiedenen Salinen zu dortmaligen Zeiten hätte gezogen worden können, die über die Raffinirung des Sudwesens vieles Licht verbreitet hätte.
-            </p><p>
-                Alles was hiervon übrig ist der in dem <rs type="source">Hofkammer Gutachten</rs>, und in dem <rs type="source"><hi rend="italics">Inquisitions Protokoll</hi></rs><pb n="0007" xml:id="L3_7" facs="#L3_0007"/>
+            </p>
+                <p>
+                Alles was hiervon übrig ist der in dem <rs type="source">Hofkammer Gutachten</rs>, und in dem <rs type="source">
+                        <hi rend="italics">Inquisitions Protokoll</hi>
+                    </rs>
+                    <pb n="0007" xml:id="L3_7" facs="#L3_0007"/>
                 enthaltene Auszug, welcher daher bey dieser Geschichte benützt werden wird.
-            </p><p>
+            </p>
+                <p>
                 Da der <rs type="person" ref="#tschiderer">Salzmayr v. Tschiderer</rs> aus allen Manipulationen die gmundnerische am vortheilhaftesten fans, so hat er selbe mit der hierortigen in Vergleich gebracht, welchem nach alldort zu einen Wochensud  Pfannen, und 3 Stangen oder 360 Klafter Brennholz verbraucht worden, mit welchen ausser dem Schluder, Schmidt und Kern Salz 14 bis 15 Pfund Stök im Mitl gesotten worden sein. 
-            </p><p>
+            </p>
+                <p>
                 Ein Pfund machte 240
                 <pb n="0008" xml:id="L3_8" facs="#L3_0008"/>                Stöck und ein Stok wog ordinar bey der nach der letzten Salzsteigerung verordneten Einstossung des Salzes ein bedeutendes über 1 Zentner, denn er lei zu <rs type="place" ref="#ischl">Ischl</rs> selbst etliche Stöcke wägen, und fand, daß einige auf 132 andere auf 130 und die leichtesten auf 122 Pfund kamen. 
-            </p><p>
+            </p>
+                <p>
                 Num nahm er den Wochenerzeug nur auf 14 Piß und Stök, und jeder nur auf 110 Pfund, es ergab sich also ein Resultat von 3696 Zenten Weißsalz.
-            </p><p>
+            </p>
+                <p>
                 Nach der Zusammenhaltung mit dem hierortigen Holzverbrauch und dem Erzeug erwieß sich 
                 <pb n="0009" xml:id="L3_9" facs="#L3_0009"/>      
                 die beträchtliche Differenz. 
-            </p><p>
+            </p>
+                <p>
                 Denn hier wurden binnen Tag und Nacht 32 Fuder Holz bey einer Pfanne verbrennt; ein Fuder zu 44 Scheiter, und 4 Scheiter zu einen Dreiling gerechnet, so giengen Tag und Nacht bey einer Pfannen 351 Dreiling auf, und weil nach richtiger Bestimmung auf eine Klafter zu 6 Schuhen 6 1/ hiesige Dreiling erforderlich waren, so betrug der ganze Holz Consummo in einer Woche 378 folglich um 18 Klafter mehr als zu Gmunden. 
-            </p><p>
+            </p>
+                <p>
                 Ohngeachtet aber des mehreren Holz Verbrands wurde doch um ein beträchtliches weniger Salz erzeugt.
-            </p><pb n="0010" xml:id="L3_10" facs="#L3_0010"/><p>
+            </p>
+                <pb n="0010" xml:id="L3_10" facs="#L3_0010"/>
+                <p>
     Denn es wurden der alten Gepflogenheit nach bey einer Pfanne, mit Ausschluß des Schluders, Schmidtsalzes und Kerns, 38 Zeilen Weißsalz, jede Zeil zu 1 Fuder, und das Fuder zu 3 Zenten gerechnet, erzeugt, welches 394 Zenten ausmachte, kommen nun dazu noch im Mittl 60 Karn voll Salz, jeden Karn zu 15 Fudermaß, oder einen zu 1 ½ Fuder, so beträgt dieses noch 270 Zenten, die zu obiger Summa geschlagen einen Wochenerzeug von 2664 Zenten giebt.
-            </p><p>
+            </p>
+                <p>
                 Wird nun dieser Erzeug von dem gmundnerischen abgezogen, so zeig tisch das fast unglaubliche zurückstehen mit 103 Zenten
                 <pb n="0011" xml:id="L3_11" facs="#L3_0011"/>   
                 Weißsalz in einem Wochensud.
-            </p><p>
+            </p>
+                <p>
                 Daß die andern Salzgattungen nicht in die Billanz gezogen wurden, geschah aus dem Grunde, wie der Salzmayr v. Tschiderer angemertk hat, weil der Erzeug an Schluder, und Schmidtsalz fast gleich an Kern, oder Merkantest aber hier nur um etwas unbedeutendes grösser gewesen, mithin vernachlässiget werden konte. 
-            </p><p>
+            </p>
+                <p>
                 Dieser allzugroße Abgang mußte nun freilich den Salzmayer zum Nachdenken, was denn hieran Ursach sei, und wie derselben abgeholfen 
             <pb n="0012" xml:id="L3_12" facs="#L3_0012"/>  
             werden könne, verleiten, und er hat folgende Gründe davon aufgeführt als
-   <list><item>         1. Wäre das Pfannhauß zwischen denen Häusern so tief hineingebaut, daß die frische Luft zu den Ofen, und Luftgraben, der schon für sich selbst viel zu tief in die Erde hineingesenkt liege, nicht leicht zukommen konnte, auch schade der sich hin und wieder ab, und zurückschlagende Mittag oder Sommer-Wind, wie es die tägliche Erfahrung gezeigt habe, sehr viel.</item><item>
+   <list>
+                        <item>         1. Wäre das Pfannhauß zwischen denen Häusern so tief hineingebaut, daß die frische Luft zu den Ofen, und Luftgraben, der schon für sich selbst viel zu tief in die Erde hineingesenkt liege, nicht leicht zukommen konnte, auch schade der sich hin und wieder ab, und zurückschlagende Mittag oder Sommer-Wind, wie es die tägliche Erfahrung gezeigt habe, sehr viel.</item>
+                        <item>
             2. Seyen die Luftgräben samt den Ofen selbst nicht 
                 <pb n="0013" xml:id="L3_13" facs="#L3_0013"/>  
                 regelmässig gebaut, sondern letzterer ohne der ihm nothwendige Schröge zur Concentrirung des Feuers gerade hinein mit einigen auch geraden sogenannten [Haanbäumen] verfertigt, ohne einen förmlichen [Rößl], und ohne gesenkten Bögen, und ohne Vormauern. 
-                Daher die Flamme nicht flüchtig genug, sondern allzu [gedräng] an das Feuerstück, und an die Pfanne anstößt, und sich nicht schnell genug zertheilen, und mit den wirksamen Spitzen auflodern kann.</item><item>
+                Daher die Flamme nicht flüchtig genug, sondern allzu [gedräng] an das Feuerstück, und an die Pfanne anstößt, und sich nicht schnell genug zertheilen, und mit den wirksamen Spitzen auflodern kann.</item>
+                        <item>
                 3. Sey die alte Pfannenstatt nicht ordentlich
                 <pb n="0014" xml:id="L3_14" facs="#L3_0014"/>  
-                nach dem erforderlichen Seiger zur Erzwekung eines guten Flammenzuges eingerichtet, aus welchen Grund die Hitze bey der Perstatt gerade wo die Sulze am tiefsten ist, nicht wirksam genug seyn kann, indem-</item><item>
-                4. Die Ofen unter den 4 alten Pfannen bald gegen die rechte, bald gegen die linke Seite hineingeführt sind, und keiner, wie es doch nothwendig wäre, auf die rechte Mittenlinie gezogen ist, daher sich die Hitze fast gänzliche verschlägt, auch wären</item><item>
+                nach dem erforderlichen Seiger zur Erzwekung eines guten Flammenzuges eingerichtet, aus welchen Grund die Hitze bey der Perstatt gerade wo die Sulze am tiefsten ist, nicht wirksam genug seyn kann, indem-</item>
+                        <item>
+                4. Die Ofen unter den 4 alten Pfannen bald gegen die rechte, bald gegen die linke Seite hineingeführt sind, und keiner, wie es doch nothwendig wäre, auf die rechte Mittenlinie gezogen ist, daher sich die Hitze fast gänzliche verschlägt, auch wären</item>
+                        <item>
                 5. keine ordentlichen Gassen bey denen Untersetzen, oder Stehern, welche
                 <pb n="0015" xml:id="L3_15" facs="#L3_0015"/>  
-                bloß nach Willkühr ohne regelmässiger Eintheilung hin und her unter der Pfanne aufgestellt sind, daher der Flammenzug an mehreren Stellen gehemmt, und die gleiche Austheilung der Hitze unter der Pfanne gehindert werden müsse.</item><item>
+                bloß nach Willkühr ohne regelmässiger Eintheilung hin und her unter der Pfanne aufgestellt sind, daher der Flammenzug an mehreren Stellen gehemmt, und die gleiche Austheilung der Hitze unter der Pfanne gehindert werden müsse.</item>
+                        <item>
                 6. Sey die Urent, welche dem Schürofen gerade gegenüber steht, nicht genug geschlossen, denn es ist auf dieser Seite die halbe Pfanne ohne Vormaurung und offen, weßwegen die Hitze, welche unter der Pfanne sorgfältig zusammen gehalten, und so viel möglich gleich vertheilt werden sollte, durch
                 <pb n="0016" xml:id="L3_16" facs="#L3_0016"/>  
-                diese Oeffnungen ungehindert hinaus dringet. </item><item>
-                7. Wäre das Pfannhauß nicht genug verwendet, oder mit den erforderlichen Balken zur Abwendung oder Einlassung der Luft versehen </item><item>
+                diese Oeffnungen ungehindert hinaus dringet. </item>
+                        <item>
+                7. Wäre das Pfannhauß nicht genug verwendet, oder mit den erforderlichen Balken zur Abwendung oder Einlassung der Luft versehen </item>
+                        <item>
                 8. Schlage sich besonders der Sommerwind an den Häusern um das Pfannhauß herum, und der Morgenwind an der grossen Pfießlmauer stark ab, ersterer dringe durchs Pfannhauß und vorzüglich durch die weite Pfannenstatt Oefnung hienein, und treibe die Falmme mit solcher Gewalt zurück, daß selbe öfters bey den
                 <pb n="0017" xml:id="L3_17" facs="#L3_0017"/> 
-                Schürofen Seiten, welche gleichfalls nicht genug geschlossen sind, heftig hinaus schlagen. </item><item>
-                9. Werde an den alten Pfannhauß alle 4te Stund die Flamme durch eine geraume Zeit niedergelassen, und zu Schürren aufgehört, welches wieder der beständigen Wirksamkeit des Feuers und dessen Gleichheit doch alles liegt, unverträglich ist.</item><item>
+                Schürofen Seiten, welche gleichfalls nicht genug geschlossen sind, heftig hinaus schlagen. </item>
+                        <item>
+                9. Werde an den alten Pfannhauß alle 4te Stund die Flamme durch eine geraume Zeit niedergelassen, und zu Schürren aufgehört, welches wieder der beständigen Wirksamkeit des Feuers und dessen Gleichheit doch alles liegt, unverträglich ist.</item>
+                        <item>
                 10. Wird in 4 Stunden die kalte Sulze, wie sie vom Berg kömmt, nur 2 mal mit einem Schwall in die Pfannen, nicht aber beständig fort kleinweiß auf das Feuerstück,
                 <pb n="0018" xml:id="L3_18" facs="#L3_0018"/> 
-                sondern häufig am Pramft der Pfannen eingelehrt, welches den Sud hemmt, das Salz vertränkt, und das öftere Ausziehen desselben hindert.</item><item>
-                11. Werde nicht, wie bey andern Salinen zu 2 oder och wenigern, sondern erst zu 4 Stunden das Salz sehr unnothwendig langsam, und daher kostspielig ausgezogen, welches verursacht, daß nur wenig Salz erbert werde, dieses langsame Ausziehen käme</item><item>
+                sondern häufig am Pramft der Pfannen eingelehrt, welches den Sud hemmt, das Salz vertränkt, und das öftere Ausziehen desselben hindert.</item>
+                        <item>
+                11. Werde nicht, wie bey andern Salinen zu 2 oder och wenigern, sondern erst zu 4 Stunden das Salz sehr unnothwendig langsam, und daher kostspielig ausgezogen, welches verursacht, daß nur wenig Salz erbert werde, dieses langsame Ausziehen käme</item>
+                        <item>
                 12. zum Theil von der zu
                 <pb n="0019" xml:id="L3_19" facs="#L3_0019"/> 
-                grossen Tiefe der Pfanne her, in welche, wenn sie seichter wäre, die Hitze leichter durchdringen könnte, so aber, da die Sulze auf den Feuerstück um einen ganzen Schuh tiefer, als in andern Orten ist, werde der Sud sehr gehindert, und zwar um so viel mehr, als</item><item>
+                grossen Tiefe der Pfanne her, in welche, wenn sie seichter wäre, die Hitze leichter durchdringen könnte, so aber, da die Sulze auf den Feuerstück um einen ganzen Schuh tiefer, als in andern Orten ist, werde der Sud sehr gehindert, und zwar um so viel mehr, als</item>
+                        <item>
                 13. Bey der zu lang unterbrechenden Sulzen-Einkehrung das Laab bey einer stetten Fühlle nicht erhalten werden kann, welches doch seyn sollte, damit ein gleicher Sud geführt, und die Vertränkung des schon
                 <pb n="0020" xml:id="L3_20" facs="#L3_0020"/> 
-                erzeugten Salzes verhindert werde. </item><item>
-                14. Werde die Tiefe der siedenden Sulzen an verschiedenen Stellen der Pfannen, oder auch der Seiger der Pfannenstatt nicht nach Vorschrift eingetheilt, da doch das erstere zu einem gutten und ordentlichen Sud, das andere aber zur besseren Durchstreichung der Flammen erfordert wird; weil jener Pfannnen Theil der von der ersten Feuerhitz entfernter ist, eben durch diese Beobachtung der gehörigen Seichte des Laabes im gleichen Sud erhalten werden muß.</item><item><pb n="0021" xml:id="L3_21" facs="#L3_0021"/> 
+                erzeugten Salzes verhindert werde. </item>
+                        <item>
+                14. Werde die Tiefe der siedenden Sulzen an verschiedenen Stellen der Pfannen, oder auch der Seiger der Pfannenstatt nicht nach Vorschrift eingetheilt, da doch das erstere zu einem gutten und ordentlichen Sud, das andere aber zur besseren Durchstreichung der Flammen erfordert wird; weil jener Pfannnen Theil der von der ersten Feuerhitz entfernter ist, eben durch diese Beobachtung der gehörigen Seichte des Laabes im gleichen Sud erhalten werden muß.</item>
+                        <item>
+                            <pb n="0021" xml:id="L3_21" facs="#L3_0021"/> 
                 15. Werden alle 8 Tage die Pfannen gewechselt, wonach die ausgelöschten einen ganze Woche hindurch wieder auskühlen. 
-                Nun aber ist bey allen Salinen die allgemeine Erfahrung, daß die erste Woche, nach dem die Pfannen nach einem 6 wochigen Sud ausgekühlt sind, immer die schlechteste im Erzeug sey, daher ist also diese beständige Wexlung und Abkühlung dem Sud sehr nachtheilig und verursacht einen starken Holzverbrandt.</item><item>
+                Nun aber ist bey allen Salinen die allgemeine Erfahrung, daß die erste Woche, nach dem die Pfannen nach einem 6 wochigen Sud ausgekühlt sind, immer die schlechteste im Erzeug sey, daher ist also diese beständige Wexlung und Abkühlung dem Sud sehr nachtheilig und verursacht einen starken Holzverbrandt.</item>
+                        <item>
                 16. Sey es wieder alle Würthschaft, daß die dicken und schweren Eisenplatten, aus denen das Pfannen
                 <pb n="0022" xml:id="L3_22" facs="#L3_0022"/> 
-                Stück ober dem Feuer besteht, und welche viel dünner seyn könnten, nicht mit Leim verworfen werden, sondern der Flamme ausgesetzt bleibe, daher selbe stark verbrennen.</item><item>
-                17. Endlich hat er Salzmayr von Tschiderer noch die Mitln, wie an Kohl [!?], Arbeit, und Fuhren ein bedeutendes erspart werden könne, angegeben. </item></list></p><p>
+                Stück ober dem Feuer besteht, und welche viel dünner seyn könnten, nicht mit Leim verworfen werden, sondern der Flamme ausgesetzt bleibe, daher selbe stark verbrennen.</item>
+                        <item>
+                17. Endlich hat er Salzmayr von Tschiderer noch die Mitln, wie an Kohl [!?], Arbeit, und Fuhren ein bedeutendes erspart werden könne, angegeben. </item>
+                    </list>
+                </p>
+                <p>
                     Diese gründliche Erhebung der Ursachen, warum bey denen alten Pfannen so schlecht und mit einen so grossen Holzaufwand gesotten werden, zeigt uns in dem von Tschiderer
                     
                     <pb n="0023" xml:id="L3_23" facs="#L3_0023"/> 
@@ -92,7 +173,8 @@
                     
                     
                     den Mann voll Kenntnniß, und tiefer Einsicht, und seinen durch dringenden Forschungsgeist, auch giebt selbe zugleich einen vollständigen, und befriedigenden Aufschluß über die alte auf keine wissenschaftliche Grundsätze gestützte Salzsüdereiy. 
-                </p><p>
+                </p>
+                <p>
                         Die v. Tschiderische Relation und dessen Vorschlag wurde von dem O.Oen. Herr Gubernator bey den OOen [Dicasterien] zur Vergutachtung mitgetheilt, und es war von Hochdenselben der Regiments Rath Freiherr v. Zach, und
                         
                         
@@ -102,52 +184,82 @@
                         
                         
                         und der Hofkammerrathe [Egiz] zu dieser Conferenz deputirt, welche in Gegenwart der ganzen Versammlung der Regierung, und Hofkammer den Vorschlag des Salzmayers von Tschiderer ausführbar, und sehr nützlich befunden, wie es das schon oben allegirte Gutachten vom 12ten Xber 1710 an den Durchlauchtigsten Herrn Gubernator beweißt, nur war die Frage aufgeworfen, ob sich die Verbesserung des Salzsudes in denen alten Pfannen zu Stand bringen lassen oder nicht?
-                </p><p><pb n="0025" xml:id="L3_25" facs="#L3_0025"/> 
+                </p>
+                <p>
+                    <pb n="0025" xml:id="L3_25" facs="#L3_0025"/> 
                     [25]
                     der Salzmayer von Tschiderer, daß er diesem Gegenstand schon lange nachgedacht, alles reiflich erwogen, und gefunden habe, daß denen alten Pfannen bey der Verbauung mit Häußern und Mauern der nothwendige Luftzug ganz mangle, und die Abschlagung der Winde in dieser Situation wenn auch alle übrigen Einrichtungen gemacht würden, der Erfolg nie erzweckt würde. 
-                </p><p>
+                </p>
+                <p>
                     Von Tschiderer war daher der meinung daß das alte Pfannhauß unveränderter belassen, hingegen
                     <pb n="0026" xml:id="L3_26" facs="#L3_0026"/> 
                     in einer kleinen Entfernung von selben vor der Stadt an einem vortheilhaft liegenden Platz einsweilen nur eine einzige neue Pfanne mit der erforderlichen in seiner Relation gegebenen Weisung vollsätndigen Einrichtung hergestellt werden möchte, an deren guten Erfolg um so weniger zu zweifeln sey, als dieselbe an andren Orten den besten Fortgang zeiget.
-                </p><p>
+                </p>
+                <p>
                     Da übrigens die hallinnthalische Sulze nach der genauen und
                     <pb n="0027" xml:id="L3_27" facs="#L3_0027"/> 
                     richtigen Untersuchung des Salzmayers besser als die in Ober-Oesterreich befunden worden, indem sie sowohl mit der Waage schwerer, als auch bey der Aussüdung reicher an Salz gegen die Ischler Sulze sich zeigte; denn es wurden aus einer ischlerischen Sulze nur 18, von der hallinnthalischen aber 21 Loth Salz herausgebracht; so war auch von dieser Seite die gegründeste Hoffnung, daß die gmundnerische Werkserbauung und Manipulations 
                     <pb n="0028" xml:id="L3_28" facs="#L3_0028"/> 
-                    Einführung vortheilhaft seyn werde.</p><p>
+                    Einführung vortheilhaft seyn werde.</p>
+                <p>
                     Da Betreff des Eisenverbrauchs besonders des Feuerstüks, wovon eines 12 bis 1300 fl. kostete, so gabe der Salzmayer Tschiderer 
-                </p><list><item><p>
+                </p>
+                <list>
+                    <item>
+                        <p>
                             1tens Dem geraden Bau des Ofens ohne Versenkung die Ursach, weil dadurch die Flammen an das Feuerstück zu sehr angedrängt war. 
-                        </p></item><item><p>
+                        </p>
+                    </item>
+                    <item>
+                        <p>
                             2tens Weil dasselbe unten nicht mit Laim verstrichen wurde.
-                        </p></item><pb n="0029" xml:id="L3_29" facs="#L3_0029"/><item><p>
+                        </p>
+                    </item>
+                    <pb n="0029" xml:id="L3_29" facs="#L3_0029"/>
+                    <item>
+                        <p>
                             3tens Behauptete er, daß die Dicke der Pfannenplatten ebenfalls schade, weil diese zu erhitzen ein stärkers und heftigers Feuer, als bey den dünnen erfordere, auch wäre die Breite derselben, gegen die schmälern bey welchen die Nüthen näher aneinander kommen, nachtheilig; indem  sich die breiten Platten leicht verbükeln, und die sorgfältig zu erhalten nothwendige Ebene verkrümmen. 
-                        </p></item><item><p>
+                        </p>
+                    </item>
+                    <item>
+                        <p>
                             4tens Verursache auch das wochentliche Auskühlen und das neue Erhitzen
                             <pb n="0030" xml:id="L3_30" facs="#L3_0030"/>  
                             der Pfannen, das ehere zu Grund gehen derselben, endlich- 
-                        </p></item><item><p>
+                        </p>
+                    </item>
+                    <item>
+                        <p>
                             5tens Stehe das zillerthalische Eisen, dem leobnischen an Güte, und Dauer im Feuer weit nach.
-                        </p></item></list><p>
+                        </p>
+                    </item>
+                </list>
+                <p>
                     Der Salzmayr schlug daher, wie schon 1640 von Puchenberg gehtan zur neuen Pfanne die leobnischen Platten von welchen er Muster mitgebracht hatte, vor, die jedoch jedesmal mit Laim verworfen werden müßten. 
-                   </p><p> Hiedurch, so wie durch
+                   </p>
+                <p> Hiedurch, so wie durch
                     <pb n="0031" xml:id="L3_31" facs="#L3_0031"/>  
                     die vorschriftmässige Construction des Ofens, der Erhaltung der Pfanneneben, und durch das beständige Fortsieden auf einer Pfanne hoffte derselbe, und das aus ächten physischen Gründen, daß an Eisen, Kohlen, und Arbeit ein beträchtliches jährlich erspart werden würde.
-                </p><p>
+                </p>
+                <p>
                     Die Grösse, und Einrichtung der hierortigen Pfießeln verwarf derselbe aus Ursach dessen, weil der Ofen nicht in dem Pfieß selbst, sondern unter demselben angebracht gewesen, über dieß 
                     <pb n="0032" xml:id="L3_32" facs="#L3_0032"/>  
                     waren sie so groß daß deren Befüllung viel Zeit erforderte, während welcher immer ganze Fuder Holz angeschürt, und damit täglich durch 3 Wochen fortgesetzt werden mußte, bis in einem Pfießl das Salz genug gedört war, wodurch nothwendig eine grosse Quantität Holz verbrauch wurde.
-                </p><p>
+                </p>
+                <p>
                     Von Tschiderer war also der Meinung, daß bey Erbauung einer neuen Pfanne, und bey Einführung der kleinern Fuder, oder Stöck gleich auf die Abänderung
                     <pb n="0033" xml:id="L3_33" facs="#L3_0033"/>  
-                    und verhältnißmässige Größe der Pfießl angefangen werden müsse, damit dieselben jederzeit gleich mit Salz angefüllt, und in viel kürzerer Zeit, wie aus Relation erleuchtet, ausgepfießelt werden könne, wodurch in dem kostbahren Holz manches erspart werden würde.</p><p>
+                    und verhältnißmässige Größe der Pfießl angefangen werden müsse, damit dieselben jederzeit gleich mit Salz angefüllt, und in viel kürzerer Zeit, wie aus Relation erleuchtet, ausgepfießelt werden könne, wodurch in dem kostbahren Holz manches erspart werden würde.</p>
+                <p>
                     Ausser diesem das Sudwesen betreffenden hat er noch vieles in Hinsicht des bessern Archenbaues, der nütlichen Einrichtungen in Salzberg, der Führung eines Kanals auf der obern Lend zu bequemern 
                     <pb n="0034" xml:id="L3_34" facs="#L3_0034"/>  
-                    und wohlfeilern Triftung an Handen gegeben, welches aber, als nicht zu diesem Zweck gehörend, hier übergangen wird. </p><p>
+                    und wohlfeilern Triftung an Handen gegeben, welches aber, als nicht zu diesem Zweck gehörend, hier übergangen wird. </p>
+                <p>
                     Nachdem alle von dem Salzmayer von Tschiderer gemachten Anträgen reiflich erwogen, geprüft und mit Nutzen ausführbar befunden wurden, so hat die Deputation auf den Bau der neuen Pfanne, und Pfießl eingerathen, nach dem zuvor schon auch das Pfannhaußamt einvernommenworden ist, welches gleich
                         <pb n="0035" xml:id="L3_35" facs="#L3_0035"/>  
                     falls für denselben sitmmte, wie aus der Beylage Lit A. welche den Beschluß dieser Conferenz enthält, zu ersehen ist.
-                </p><p>
+                </p>
+                <p>
                     Allein ohngeachtet aller erwiesenen, und einstimmig anerkannten Vortheilen, ohngeachtet des von Seiner Durchlaucht Herrn Gubernator shon den 18.ten Januar 1711 zur Gegenhaltung abgeforderten von Puchenbergischen Vorschalgs (innspruker Geschäfte von Hof Seite 99) erschien hierauf doch lange nach kein
                     <pb n="0036" xml:id="L3_36" facs="#L3_0036"/>  
                     Bescheid, sondern es mußte erst dieser Gegenstad durch die Verantwortung des Amts vom 12ten November 1711 auf den mittlst angeschlossener Hofkammer Verordnung vom 3ten des nemlichen Monaths und Jahres Lit B. beahndeten schlechten Salzerzeug gerügt, und nochmals erneuert werden, wozu die schüklichste Gelegenheit sichergab, weil das Amt nebst andern Gründen meistens den nemlichen Werksgebrechen,
@@ -159,184 +271,313 @@
                     das hiesige Salz, ohne nicht zur Hälfte auszurinnen nicht aushält. Ferner sey die Hitze nicht so gut, als wie andernorts unter der Pfanne geschlossen, die Pfannen selbst, und der Ofen nicht so regelmässig eingerichtet, das Pfannhauß mit keinen Balken versehen, wodurch der schädliche Wind gehindert, und von der Zurückwerfung der Falmme abgehalten werden könnte, welches alles Hauptursachen an dem Salzabgang seyen, die aber als
                     <pb n="0040" xml:id="L3_40" facs="#L3_0040"/>  
                     äusserliche Zufälle abzuwenden nicht in der Gewalt des Amtes stünden, und denen doch der Grund der Schammung vorzüglich zugeschrieben werden üsse, wie die gehaltenen Probe erwieß und bestättigte.
-                </p><p>
+                </p>
+                <p>
                     Zum Schluß dieses Berichts vom 12ten November 1711 sagt das Pfannhauß Amt <quote>Und weilen der in der 42sten Woche passirte Fehler von erfolgten unversehenen Einrinnen eines süssen Wassers
                         <pb n="0041" xml:id="L3_41" facs="#L3_0041"/>  
                         in der Girandin Werk, das sich mit der guten Suhr vermengt, und so durch den Wechsl zur Pfannen gekomme, herrühret, mithin die Pfannen Schaffer, und selbige Arbeiter an damaliger schlechter Suth einiche Schuld nit tragen, so haben wir gegen selbe mit der anbefohlenen Suspension noch zur Zeit innegehalten, und vorderist der Sachen eigentliche Bewandnuß an Euer Excellenz, Gunsten und Gnaden berichten, und den weiteren gnädigen Befehl erwarten wollen u. s. w.
-                    </quote></p><pb n="0042" xml:id="L3_42" facs="#L3_0042"/><p>
+                    </quote>
+                </p>
+                <pb n="0042" xml:id="L3_42" facs="#L3_0042"/>
+                <p>
                     Dieser weitwendige Bericht war nun Beweggrund genug zur Erneuerung des Pfannenbau Antrags, welches auch von der OOen Hofkammer den 19ten Februar 1712 geschehen, und wobey erinnert worden ist, daß unter der Erzherzogin Klaudia der von Puchenbergische Verbesserungsvorschlag zu keiner ordentlichen probe gekommen sey, obgleich schon dortmals erwiesen wurde, daß alle andern Salinen mit grösseren Vortheil
                     <pb n="0043" xml:id="L3_43" facs="#L3_0043"/>  
-                    Salz erzeugten. </p><p>
+                    Salz erzeugten. </p>
+                <p>
                     Es war also nach öftern Conferenzen über die Salzmayerische Relation die eingerathene Probe vorzunehmen und, da in dem alten Pfannhauß solches, obgleich zur Ersparung der Kosten dahin angetragen worden, zu bewirken nicht thunlich zu seyn erwiesen wurde, ein neues Gebäu samt einer Pfanne zu errichten Seiner k.k. Majestät Kaiser Karl den 6ten mitlst Seiner Durchlaucht dem Herrn Gubernator und
                         <pb n="0044" xml:id="L3_44" facs="#L3_0044"/>  
                     dem geheimen Rath einflüssend in das Hofkammer Gutachten vom 19ten February vorgetragen.
-                </p><p>
+                </p>
+                <p>
                     Uibder diesen Vortrag wurde untern Vorsitz des Hofkammer Praesidenten Grafen von Stahrnberg eine Commission gehalten, bey welcher alle Akten gelesen, diese wichtigen Gegenstände in Uiberlegung gezogen, und der Vorschlag des Salzmayers von Tschiderer einstimmig in allen seinen Theilen mit Bayfall
                     <pb n="0045" xml:id="L3_45" facs="#L3_0045"/>  
                     aufgenommen worden ist, worauf auch von dieser hohen Commission die einräthliche Einbegleitung zur Erbauung einer neuen Salzpfanne an Seine k.k. Majestät erstattet wurde, welchen Bau Allerhöchst dieselbe untern 8ten Juni 1712 zu begnehmigen allergnädigst geruhten, und worüber die hohe Hofkammer Intimation mit Beyschluß des von Tschiderischen Vorschlages untern 5ten July 1712, an das Pfannhausamt ausgefertiget war.
-                </p><pb n="0046" xml:id="L3_46" facs="#L3_0046"/><p>
+                </p>
+                <pb n="0046" xml:id="L3_46" facs="#L3_0046"/>
+                <p>
                 Da dieser allerhöchste Beschluß ausser der wohl verdienten Belobung des Salzmayers wegen seiner Mühe und dem bewiesenen grossen Diensteifer sonst nichts, als das schon obenerwähnte Gutachten der hohen Stellen enthält, so wird nur noch der Vorschlag des v. Tschiderers, wie allhier die neue Pfanne gebaut werden solle, zur Einsicht ausgezogen welchem nach: 
-                </p><list><item><p>
+                </p>
+                <list>
+                    <item>
+                        <p>
                           1. Der Luftgraben ganz nach dem Verhältniß des ebenseers 
                           <pb n="0047" xml:id="L3_47" facs="#L3_0047"/>   
                           zu verbleiben hatte. 
-                    </p></item><item><p>
+                    </p>
+                    </item>
+                    <item>
+                        <p>
                             2. Trug der Salzmayeer darauf an, daß der Ofen nicht gar zu tief und schräg, wie zu Ebensee, und bey anderen Salzwerken, wo er mit seinen Bögen, Kranz, und Schu´mauern einen zu grossen Seiger und Tiefe hatte, daher auch zu dessen Ausfüllung ganze Haufen Holz hineingeworfen, und unnothwendig vieles verbrannt werden mußte, gemacht werden solle, daher trug von Tschiderer auf eine mehrere Geräde
                             <pb n="0048" xml:id="L3_48" facs="#L3_0048"/>   
-                            des Ofens an, jedoch versicherte er, daß einige Schröge höchst  nothwendig wäre, damit die Flamme desto lebhafter aufbrennen, und den ordentlichen Zug durch die ganze Pfanne erhalte, auch nicht zu gedräng auf das Feuerstük anschlage.</p><p>
+                            des Ofens an, jedoch versicherte er, daß einige Schröge höchst  nothwendig wäre, damit die Flamme desto lebhafter aufbrennen, und den ordentlichen Zug durch die ganze Pfanne erhalte, auch nicht zu gedräng auf das Feuerstük anschlage.</p>
+                        <p>
                             Daß die Bögen weit auseinander stehen, hielt er aus dem ächten Grunde nicht für gut, weil durch die Oeffnungen ganze Scheiter umsonst durchfielen, und also mehr Holz verbrennt werden würde, er schlug
                             <pb n="0049" xml:id="L3_49" facs="#L3_0049"/>   
                             also vor von einem Bogen zum anderen kleine Eisenstangeln zu legen, damit die Bögen eine Rost formiren, und das Durchfallen des Holzes verhindert werde. 
-                        </p></item><item><p>
+                        </p>
+                    </item>
+                    <item>
+                        <p>
                             3tens Wären die Feuergassen, der Saiger der Pfannenstatt, und die Austheilung der Steher, oder Untersetzer wie zu Ebensee zu belassen. 
-                        </p></item><item><p>
+                        </p>
+                    </item>
+                    <item>
+                        <p>
                             4tens Könnte seiner Meinung nach die Oefnung der Urent auf 8 bis 9 Schuh angetragen, und dabey getrachtete werden, den Rauch der
                             <pb n="0050" xml:id="L3_50" facs="#L3_0050"/>  
                             bey derselben Oefnung häufig durchdringet, mittelst eines Schlangenofens, oder eines Rauchfangs in einen Pfießl zu bringen, und dadurch eine Salzdörr ohne besonderen Feuerungskosten zu richten, um den heissen Rauch von der Pfanne nicht unbenutzt in die Luft zu lassen; fals aber der Mangel an Raum einem Pfießl nicht gestattete, so müßte wenigstens die Urent-Oefnung denen Feuergassen nach mit kleinen Pfeilern abgetheilt werden, auf
                             <pb n="0051" xml:id="L3_51" facs="#L3_0051"/>  
                             welche Eisenbleche zu liegen kömen, die nach Erforderniß gesenkt, oder zur bessern Einschlüssung der Hitze zum Theil etwas vorgehenkt werden könnten. 
-                        </p></item><item><p>
+                        </p>
+                    </item>
+                    <item>
+                        <p>
                             5tens. Dürfte die Pfannen der Länge, Breite, und Tiefe auch Verseigerung nach ganz der Ebenseer gleichen, jedoch könnten
-                        </p></item><item><p> 6tens Die Haggen in nachfolgender Ordnung stehen. 
+                        </p>
+                    </item>
+                    <item>
+                        <p> 6tens Die Haggen in nachfolgender Ordnung stehen. 
                         In der ersten Zeil von der Perstatt hinein vom Ofen an gerechnet
-                           <pb n="0052" xml:id="L3_52" facs="#L3_0052"/><list><item> 9 Haggen</item><item>
-                        11 in der anderen </item><item>
-                        12 in der 3ten</item><item>
-                        12 in der 4ten</item><item>
-                        12 in der 5ten</item><item>
-                        11 in der 6ten</item><item>
-                        9 in der 7ten Zeile.</item></list></p></item><item><p>
-                            7tens Sollte die Pfanne ausser dem Schürloch und de rUrent ganz sorgfältig verschlossen und eingemauert werden, jedoch können hin und wieder eine kleine Oeffnung zur willkührlichen Dirigirung des Feuerzuges belassen werden, die aber nach Umständen wieder mit Ziegln vermacht werden könnte.</p></item><item><p>
+                           <pb n="0052" xml:id="L3_52" facs="#L3_0052"/>
+                            <list>
+                                <item> 9 Haggen</item>
+                                <item>
+                        11 in der anderen </item>
+                                <item>
+                        12 in der 3ten</item>
+                                <item>
+                        12 in der 4ten</item>
+                                <item>
+                        12 in der 5ten</item>
+                                <item>
+                        11 in der 6ten</item>
+                                <item>
+                        9 in der 7ten Zeile.</item>
+                            </list>
+                        </p>
+                    </item>
+                    <item>
+                        <p>
+                            7tens Sollte die Pfanne ausser dem Schürloch und de rUrent ganz sorgfältig verschlossen und eingemauert werden, jedoch können hin und wieder eine kleine Oeffnung zur willkührlichen Dirigirung des Feuerzuges belassen werden, die aber nach Umständen wieder mit Ziegln vermacht werden könnte.</p>
+                    </item>
+                    <item>
+                        <p>
                             8tens Wäre die Perstatt
                             <pb n="0053" xml:id="L3_53" facs="#L3_0053"/>  
                             zwar wie zu Ebensee einzurichten, jedoch sollte das Salz nicht abwärts in die Kübl eingepert werden, sondern die Kübeln müßten auf einen grossen Baum ober der Pfanne gesetzt werden, damit aus der abträufelnden Sulze der osgeannten Aßenbaum (welches nach dortmaliger Idee das beste und aher auch das theuerste Salz gewesen) sich anlege und dadurch der beträchtliche Nutzen von diesem Salz fortgesetzter jährlich gezogen werde. 
-                        </p><p>
+                        </p>
+                        <p>
                             Hier bemerkte der 
                             <pb n="0054" xml:id="L3_54" facs="#L3_0054"/>  
-                            Salzmayer von Tschiderer, daß, obgleich dieses Uiber sich pern viel beschwerlicher, als da zu Ebensee sey, selbes dem noch fortan belassen werden könne, will die Arbeiter daran schon gewohnt sind, und der Gewinst von jährlich einigen tausend Gulden für den Aßenbaum nicht ausser Acht zu lassen ist. </p></item><item><p>
+                            Salzmayer von Tschiderer, daß, obgleich dieses Uiber sich pern viel beschwerlicher, als da zu Ebensee sey, selbes dem noch fortan belassen werden könne, will die Arbeiter daran schon gewohnt sind, und der Gewinst von jährlich einigen tausend Gulden für den Aßenbaum nicht ausser Acht zu lassen ist. </p>
+                    </item>
+                    <item>
+                        <p>
                             9tens Sollte die Sulze unter die Haggen hinein in die Pfanne gelehrt jedoch mit 7 Röhrln, und darin gebohrten Löchern so auf dem Feuerstück
                             <pb n="0055" xml:id="L3_55" facs="#L3_0055"/>  
                             ausgetheilt werden, daß selbe ganz sachte flüssen, und den Sud nicht stöhren. 
-                        </p></item><item><p>
+                        </p>
+                    </item>
+                    <item>
+                        <p>
                             10tens Müsse die Verwerfung des Feuersütks mit Laim, und obenher mit Kalchwasser, dann die Ebne der Pfanne ,und die übrige vorgeschribene Seigermasserey, wie zu Ebensee, verbleiben. 
-                        </p></item><item><p>
+                        </p>
+                    </item>
+                    <item>
+                        <p>
                             11tens Wären die Stück und Pfannen Eisen in einer mittlsmässigen Breite zu richten ,nicht aber wie in Ebensse wo die Eisen dreifach
                             <pb n="0056" xml:id="L3_56" facs="#L3_0056"/>  
                             übereinander kömen, welches sehr schädlich ist, weil Eisen auf Eisen mehr verbrennt, und nebstbey doppelt Arbeit, und Unkosten aufgehen. 
-                        </p></item><item><p>
-                            12tens Die Texlblätter unter der Pfannen wären hinweg zu lassen, weil selbe Kostbahr und unnöthig seyen.</p></item><item><p> 
+                        </p>
+                    </item>
+                    <item>
+                        <p>
+                            12tens Die Texlblätter unter der Pfannen wären hinweg zu lassen, weil selbe Kostbahr und unnöthig seyen.</p>
+                    </item>
+                    <item>
+                        <p> 
                             13tens Könnten die Pfannen Eisen um ein ziemliches grösser, und breiter als die Stükeisen gemacht werden, weil selbe wegen der schwächern Hitze der Verbuklung nicht so sehr unterworfen sind, als auf dem Feuerstük                            
-                        </p></item><pb n="0057" xml:id="L3_57" facs="#L3_0057"/><item><p>
+                        </p>
+                    </item>
+                    <pb n="0057" xml:id="L3_57" facs="#L3_0057"/>
+                    <item>
+                        <p>
                             14tens Sollte die Pfießl oder das Salzdörr Gewölb von mittlmässiger Größe und runder oder parabolischer Figur nicht zu hoch, sondern zur Concentrirung der Hitze niedrig, und mit zusammenlaufenden Bögen versehen, auch überall besonders aber bey der Verbindung der Ziegl mit einem dicken Wurf von Laim überzogen seyn, die Erdmauern zur bessern Einschlüssung der Hitze müßten dick aufgeführt, der Ofen selbst aber auf die Art wie bey dem neuen Pfießl zu Traunstein angebracht werden, so daß die Flamme
                             <pb n="0058" xml:id="L3_58" facs="#L3_0058"/>  
                             frisch ausschlagen, und en Pfießl ganz erhitzen könnte.
-                        </p></item></list><p>
+                        </p>
+                    </item>
+                </list>
+                <p>
                     Dieses war der Inhalt des durch die Regierung und Hofkammer den 19ten Feb. zum 2ten mal einräthlich begleiteten Vorschlags zur Erbauung der neuen Pfanne, welche gemäß Beylage von Seiner k.k. Majesät den 8ten Juni 1712 begnehmiget, von Seiner Durchlaucht dem Herrn Pfalzgrafen Karl Philipp untern 28ten des nemlichen der Regierung, und Hofkammer eröfnet, und von diesen den 5ten July
                     <pb n="0059" xml:id="L3_59" facs="#L3_0059"/>  
                     dem Pfannhausamt intimirt wurde. 
-                </p><p>
-                    Zufolge dieser Allerhöchsten Entschlüssung mußte nicht nur gleich der Augeneschei wegen den Platz, wohin dies neue Pfanne am vortheilhaftesten gestellt werden soll, genommen, sondern auch der Bau angefangen, und hiezu ein Pfannen Meister, oder andere geschickte Beamte von Gmunden begehrt, und über den Fortgang des Baues von Zeit in Zeit Bericht erstattet werden. </p><p><pb n="0060" xml:id="L3_60" facs="#L3_0060"/>  
-                    Zur Aufmunterung wurde auch dem Salzmayer von Tschiderer die Allerhöchste Zufriedenheit über seine mühsam verfaßte Relation und den nützlichen Vorschlag ertheilt.</p><p>
+                </p>
+                <p>
+                    Zufolge dieser Allerhöchsten Entschlüssung mußte nicht nur gleich der Augeneschei wegen den Platz, wohin dies neue Pfanne am vortheilhaftesten gestellt werden soll, genommen, sondern auch der Bau angefangen, und hiezu ein Pfannen Meister, oder andere geschickte Beamte von Gmunden begehrt, und über den Fortgang des Baues von Zeit in Zeit Bericht erstattet werden. </p>
+                <p>
+                    <pb n="0060" xml:id="L3_60" facs="#L3_0060"/>  
+                    Zur Aufmunterung wurde auch dem Salzmayer von Tschiderer die Allerhöchste Zufriedenheit über seine mühsam verfaßte Relation und den nützlichen Vorschlag ertheilt.</p>
+                <p>
                     Nachdem nun mit denen angelangten Gmundner Beamten und Arbeitern dieser Pfannenbau reiflilch überlegt worden ist, so hat noch in dem 1712ten Jahr Seine Durchlaucht H. Gubernator in höchst eigener Person den ersten Stein zu diesem neuen Werk gelegt, wonach der Bau ohne
                     <pb n="0061" xml:id="L3_61" facs="#L3_0061"/>  
                     Einrede fortgeführt und i dem darauf gefolgten Jahre 1713 glücklich geendiget war.
-                </p><p>
+                </p>
+                <p>
                     Diesen Bau beschleunigten auch die immer[hinigen] Klagen wegen der schlechten Beschaffenheit des alten Salzsudes, aus welcher Ursach die zwey Pfannenschaffer als der Oberschaffer Georg Seibold, und der Unterschaffer Martin Pilgermayer untern 28ten Nov. 1712 einen Verweiß mit dem Auftrag Amt erhielten, die Arbeit <quote>zukünftig
                     <pb n="0062" xml:id="L3_62" facs="#L3_0062"/>  
-                    besser, und zum beständigen Salzsud nachdrücklich, und solcher gestalten anzuhalten, damit ermelter lobl. O. O. Hofkammer von dergleichen Schaden und Klagen fürdershin enthöbt sein mögen“.</quote></p><p>
+                    besser, und zum beständigen Salzsud nachdrücklich, und solcher gestalten anzuhalten, damit ermelter lobl. O. O. Hofkammer von dergleichen Schaden und Klagen fürdershin enthöbt sein mögen“.</quote>
+                </p>
+                <p>
                     Ohngeachtete dieser ämtlichen Verfügung hörten doch die Beschwerden über das nasse und schlechte Salz nicht auf, sondern den 30ten März 1713 erschien von der Hofkammer wieder eine Ahndung in Betref des schlechten Salzsudes, der Erzeugung
                     <pb n="0063" xml:id="L3_63" facs="#L3_0063"/>  
                     vielen Schröckenstein und Ruinierung der Pfanne mit dem Auftrag ohnverzüglich eine genaue Untersuchung vorzunehmen, die Pfannenschaffer ernstlich zur Red zu stellen, sie mit allen Nachdruck zum besseren Fleiß zu ermahnen, und auf nicht erfolgende Besserung von der Arbeit ganz zu suspendieren, von allen aber den ausführlichen Bericht zu erstatten. 
-                </p><p>
+                </p>
+                <p>
                     Hierauf entgegnete das Pfannhausamt, daß bey der Untersuchung die Schaffer erwiesen
                     <pb n="0064" xml:id="L3_64" facs="#L3_0064"/>  
                     hätten, daß der Sud immer gut fortgeführt und daß nur in der 11ten Woche bey Auslösung eines alten [Taxlwerks] etwas mehrerer Schröckenstein als sonst erzeugt worden sey. 
-                </p><p>
+                </p>
+                <p>
                     Das Amt erklärt sich weiter och über den ordentlichen Gang der Manipulation, indem selbes beweißt, daß alle Zeichen eines guten Sudes bisher eingetroffen hätten, worunter
-                </p><list><item>
+                </p>
+                <list>
+                    <item>
                             1. Das rechte Gewicht, und die Masserey ist, die nach Vorschrift miteinander übereinstimmten. 
-                        </item><pb n="0065" xml:id="L3_65" facs="#L3_0065"/><item><p>
+                        </item>
+                    <pb n="0065" xml:id="L3_65" facs="#L3_0065"/>
+                    <item>
+                        <p>
                                 2. Die Ergiebigkeit des Salzes selbst. 
-                            </p></item><item><p>
+                            </p>
+                    </item>
+                    <item>
+                        <p>
                                 3. Die Verhüttung des Schröksteinerzeugs, besonders auf dem Feuerstück.  
-                            </p></item></list><p>
+                            </p>
+                    </item>
+                </list>
+                <p>
                     Da nun der Salzmayer v. Tschiderer alle Wochen selbst nachgesehen, und diesen vorzüglichen drey Manipulations Gegenstände vorschriftmässig gefunden, so beschwert sich derselbe über die falschen Anzeigen und Verläumdungen und erbittet sich bey der Hofkammer den Angeber anzuweisen die aufgedekten Fehler, 
                     <pb n="0066" xml:id="L3_66" facs="#L3_0066"/> 
                     wenn er anders mit Grund einen aufweisen kann, zu verbessern. 
-                </p><p>
+                </p>
+                <p>
                     Den 19ten April verantwortete sich das Amt wieder auf die vom O. Oe. geheimen Rath erhaltenen Ahndung vom 20ten März, daß
-                </p><list><item><p>
+                </p>
+                <list>
+                    <item>
+                        <p>
                                 1. Bey dem Pfannhauß das Salz wegen allzunassen, und grünen Holz nicht genug ausgesotten worden, dadurch dessen Flüssigkeit, und Schwemung verursacht würde.
-                            </p></item><item><p>
+                            </p>
+                    </item>
+                    <item>
+                        <p>
                                 2. Das Triftholz zum größten Schaden den ganzen Winter hindurch 
                        <pb n="0067" xml:id="L3_67" facs="#L3_0067"/> 
                                 in dem Innstrom liegen bleibe.
-                            </p></item></list><p>
+                            </p>
+                    </item>
+                </list>
+                <p>
                     In Betreff des Salzsudes bezog sich das selbe auf den obigen ausführlichen Berichte vom 5ten April, wegen dem Holz erwiederte das Amt, daß bey der, besonders aus dem Geißthal angekommenen grossen Menge, selbes auf den Plätzen unmöglich habe untergebracht werden können, daher der Rest von ohngefähr 300 Klafter über Winter im Rechen bleiben mußte, welcher aber gleich im Frühjahr auf einen abgeraumten Platz gebracht worden sey,
                     <pb n="0068" xml:id="L3_68" facs="#L3_0068"/> 
                     und da dieses Holz erst im dritten Jahr gebraucht wird, so hat es Zeit genug auszutroknen und der Schaden sey also von keiner Bedeutung. 
-                </p><p>
-                    Indessen gieng der neue Pfannenbau ungestört fort, und den 30ten May zeigte das Pfannhausamt dessen Vollendung mit dem Beysatze bey der OOen [Wesen] an, <quote>daß selbes Vorhabens sey nächst künftiger Erchtag als den 6ten Juny geliebts Gott das erstemal unterzukenten, und die erste Wochensud zu thun.</quote></p><pb n="0069" xml:id="L3_69" facs="#L3_0069"/><p>
-                    Das Amt fragte sich dabey auch an, ob hiezu von denen Stellen Jemand beordert werden wolle. </p><p>
+                </p>
+                <p>
+                    Indessen gieng der neue Pfannenbau ungestört fort, und den 30ten May zeigte das Pfannhausamt dessen Vollendung mit dem Beysatze bey der OOen [Wesen] an, <quote>daß selbes Vorhabens sey nächst künftiger Erchtag als den 6ten Juny geliebts Gott das erstemal unterzukenten, und die erste Wochensud zu thun.</quote>
+                </p>
+                <pb n="0069" xml:id="L3_69" facs="#L3_0069"/>
+                <p>
+                    Das Amt fragte sich dabey auch an, ob hiezu von denen Stellen Jemand beordert werden wolle. </p>
+                <p>
                     Den 10ten Juny hat mit Bezug auf die allerhöchste Resolution Seiner Durchlaucht Karl Philipp nach dem Hoch derselbe vernommen, daß nicht nur die neue Pfanne ganz hergestellt, sondern in selber wirklich der Sud schon angefangen habe, verordnet, daß aus den Mitteln beyder Stellen eine Deputation „zur Beaugenscheinung des Werkes, und pflichtschuldiger Beobachtung Seiner k. Majestät allerhöchsten
                         <pb n="0070" xml:id="L3_70" facs="#L3_0070"/> 
                     Dienstes der verläßliche Befund in nachfolgenden Unkten ohne Anstand eingezogen, und gehorsamst überberichtet werden solle ob nemlich: 
-                </p><list><item><p>
+                </p>
+                <list>
+                    <item>
+                        <p>
                             1. Der Bau der neuen Salzpfanne auf die begenehmigten 15 bis 16 m fl. oder darüber, und wie hoch eigentlich zu stehen komme, wie groß die Auslagen für die Gmundner Beamten und andere Bauverständigen gewesen.
-                        </p><p>
+                        </p>
+                        <p>
                             2. Ob der Seiner Majestät vorgestellte grössere
                             <pb n="0071" xml:id="L3_71" facs="#L3_0071"/> 
                             Erzeug an Salz, und zwar auf beständig auch von welcher Güte dieses Salz befunden werde; endlich
-                        </p></item><item><p>
+                        </p>
+                    </item>
+                    <item>
+                        <p>
                             3. Ob die zur Grundlage angenommenen grosse Ersparung an Holz, Eisen, Kohlen und Arbeit sich wirklich erwahren, aus welcher Ursache nicht allein der Scheitschaffer, und die Holklieber bey ihren Pflichten einzuvernehmen, sondern diese Gegenstände durch die Deputation selbst zu erheben wären, worüber sodann nach besonderer Einvernehmung der Pfannhausbeamten, Bergmeister
                             <pb n="0072" xml:id="L3_72" facs="#L3_0072"/> 
                             und Schaffern der Bericht erstattet werden müssen. 
-                        </p></item></list><p>
-                    Diese Hofkommission wurde den 30ten Juny dem Pfannhausamt mit dem Auftrag angekindiget, daß, da hoch dieselbe den 2ten July herabkommen wird, von 3 Uhr bey der neuen Salzpfanne mit dem Unterfeuern und Einlassen der Suhr nicht angefangen werden dürfe. </p><p>
+                        </p>
+                    </item>
+                </list>
+                <p>
+                    Diese Hofkommission wurde den 30ten Juny dem Pfannhausamt mit dem Auftrag angekindiget, daß, da hoch dieselbe den 2ten July herabkommen wird, von 3 Uhr bey der neuen Salzpfanne mit dem Unterfeuern und Einlassen der Suhr nicht angefangen werden dürfe. </p>
+                <p>
                     Zu dieser Kommission war von Seite der Regierung der in diesem Geschäft vorher schon deputirte Baron Zech mit dem Sigmundt Niklaus v. Coret, von der Hofkammer der
                     <pb n="0073" xml:id="L3_73" facs="#L3_0073"/> 
-                    gleichfalls schon dabey gewesene v. Egiz, und Fenner als Deputirte ernannt, welche der Probe beygewohnt, und da die Deputirten  jeder Stelle verschiedener Meinung gewesen, zwey besondere Berichte verfaßt, und eingestellt haben.</p><p>
+                    gleichfalls schon dabey gewesene v. Egiz, und Fenner als Deputirte ernannt, welche der Probe beygewohnt, und da die Deputirten  jeder Stelle verschiedener Meinung gewesen, zwey besondere Berichte verfaßt, und eingestellt haben.</p>
+                <p>
                     Doch kamen selbe in Rücksicht der Beschaffenheit des Salze überein, daß das neue dem alten in Rücksicht der Stärke wenigstens gleich komme, wo nicht besser, auch weißer befunden wurde.
-                </p><p>
+                </p>
+                <p>
                     Zur Beurtheilung dieser Relation war
                     <pb n="0074" xml:id="L3_74" facs="#L3_0074"/> 
                     wieder eine besondere Deputation bestimmt, wozu die Regierung den Grafen Venerano v. Wolkenstein, und den v. Quarient, die Hofkammer den Baron v. Sternbach, und Obristhofkammer Secretär v. Aman erwählt hatte.
-                </p><p>
-                    Diese haben zu mehrerer Aufklärung einen gemeinschaftlich verfaßten Bericht eingereicht. </p><p>
+                </p>
+                <p>
+                    Diese haben zu mehrerer Aufklärung einen gemeinschaftlich verfaßten Bericht eingereicht. </p>
+                <p>
                     Allein kaum stand das Werk in seiner Vollständigkeit, kaum war es in Umtrieb gesetzt und die Probe angefangen, so erhob sich schon eine aus minderen Interesse dagegen verschworene
                     <pb n="0075" xml:id="L3_75" facs="#L3_0075"/> 
                     Rotte von schlechten Arbeitern und Bürgern, die bey dem neuen Sudprozeß wegen einzuführender Ersparung an Holz, Fuhren und Arbeitern an ihren Einkommen und Nebengenüssen zu verlieren besorgten, und wie jede neue Einrichtung zu einer Verbesserung der Verfolgung entweder aus dem irrigen Wahn, daß über das Alte von den Urahnen herstammende nichts vortheilhafters eingeführt werden könne, oder aus Neid ausgesetzt ist, so war es auch mit dieser neuen Salzpfanne
                     <pb n="0076" xml:id="L3_76" facs="#L3_0076"/> 
-                    gegen welche die meisten Salzbeamten, Verpflichtete, und Arbeiter ihre Gehässigkeit offenbahrten, und nicht allein in Hall, sondern auch auf dem Land die niedrigsten Verläumdungen ausstreuten um den Verschleiß des neu erzeugten Salzes zu verhindern. </p><p>
+                    gegen welche die meisten Salzbeamten, Verpflichtete, und Arbeiter ihre Gehässigkeit offenbahrten, und nicht allein in Hall, sondern auch auf dem Land die niedrigsten Verläumdungen ausstreuten um den Verschleiß des neu erzeugten Salzes zu verhindern. </p>
+                <p>
                     Die Rottierung kam so weit, daß die von Gmunden anwesenden Beamten, und Arbeiter in Gefahr ihres Lebens standen, daher sie sich dann auch durch die Rückreise allen Mißhandlungen
                         <pb n="0077" xml:id="L3_77" facs="#L3_0077"/> 
                     entziehen mußten.
-                </p><p>
-                    Diese an Hof gelangten äusserßt mißfälligen Auftritte veranlaßten, daß durch ein kais. Rescript vom 2ten August 1713 dem Herrn Gubernator verordnet wurde, alle zur Verhinderung weiterer Ausbrüche dienlichen Mitln zu ergreiffen, und diesen möglichen vorzubeugen. </p><p>
+                </p>
+                <p>
+                    Diese an Hof gelangten äusserßt mißfälligen Auftritte veranlaßten, daß durch ein kais. Rescript vom 2ten August 1713 dem Herrn Gubernator verordnet wurde, alle zur Verhinderung weiterer Ausbrüche dienlichen Mitln zu ergreiffen, und diesen möglichen vorzubeugen. </p>
+                <p>
                     In dem von dem Herrn Gubernator hierauf an Seine Majestät erstatteten Bericht wurde angeführt, daß die neue Salzpfanne, und derselben Manipulation gleich andern Neuerungen
                         <pb n="0078" xml:id="L3_78" facs="#L3_0078"/> 
                     grossen Verfolgungen, und gefährlichen Nachreden unterworfen sey, aus welcher Ursach die Herrn Commissarien zur Unterdrückung dieser unverantwortlichen Schmähungen wieder nach Hall beordert worden seyen. 
-                </p><p>
+                </p>
+                <p>
                     Allein anstatt der gehofften Wirkung nahmen die Verkleinerungen, und Zernichtungen der neuen Salzpfanne, und des neuen Salzes sowohl, als die zu einen allgemeinen Aufstand, und Todtschlagen des Salzmayers
                     <pb n="0079" xml:id="L3_79" facs="#L3_0079"/> 
                     von Tschiderer abziehlenden Reden viel mehr zu, so daß der Herr Gubernator zur Verhüttung der angedrohten Mordthaten durch  scharfe eigenhändig unterzeichnete, und mit beygedruckten Siegel versehene denen Pfannhausbeamten zugeschückte Decrete mit Vorbehalte der wegen verübten Frevel angeordneten Inquisition auch gebührender, empfindlicher und zum abschrekenden Beyspiel dienender Bestrafung anbefohlen, daß sich Niemand, weder einzeln, noch
                     <pb n="0080" xml:id="L3_80" facs="#L3_0080"/> 
                     versammelter unterfangen soll wieder das neue Salzwesen bay Allerhöchster Ungnade, bey wirklicher Verstossung vom Amt und Dienst auch noch härterer Strafe zu reden, oder zu handeln. 
-                </p><p>
-                    Diese Verordnung Seiner Durchlaucht wurde am Berg, im Pfannhaus denen Arbeitern, und durch den Stadtmagistrat denen Bürgern eröffnet. </p><p>
+                </p>
+                <p>
+                    Diese Verordnung Seiner Durchlaucht wurde am Berg, im Pfannhaus denen Arbeitern, und durch den Stadtmagistrat denen Bürgern eröffnet. </p>
+                <p>
                     Aber auch diese hat den Zweck nicht erreicht, 
                     <pb n="0081" xml:id="L3_81" facs="#L3_0081"/> 
-                    sondern die Beschimpfung wurde fortgesetzt, und ein herzogliches Mandat wurde sogar von dem Pfannhausthor herabgerissen, und hinter dem Pfannhauß wurden Lumpen und eine Leiter aufgehenkt.</p><p>
+                    sondern die Beschimpfung wurde fortgesetzt, und ein herzogliches Mandat wurde sogar von dem Pfannhausthor herabgerissen, und hinter dem Pfannhauß wurden Lumpen und eine Leiter aufgehenkt.</p>
+                <p>
                     Uiber alles dieß wurde in den unanständigsten Ausdrücken eine Schrift wieder die neue Salzpfannen dem Herrn Gubernator in Nahmen der Bürgerschaft, und Gemeinden eingereicht, allein nach eidlicher Aussage des Bürgermesiters Kögl hätten mehrere Bürger, zu welchen diese Schrift zur Unterzeichnung 
                     <pb n="0082" xml:id="L3_82" facs="#L3_0082"/> 
                     gebracht wurde, die selbe verweigert, vor dem Stadtrath aber welcher hiezu nicht eingewilliget, waren nicht mehr als 15 Bürger erschienen, mithin hätte die gesamte Bürgerschaft und Gemeinde davon nicht Wissenschaft gehabt. 
-                </p><p>
+                </p>
+                <p>
                     In dieser Schrift waren die geleisteten Dienste in dem Krieg, die ausgestandenen Gefahren, erlittenen Schäden, und das abgenommenen Gewerb vorgestellt, und bemerkt, daß der einzige Salzverschleiß Ihnen noch Nahrung verschaffe, 
                     <pb n="0083" xml:id="L3_83" facs="#L3_0083"/> 
-                    dieser aber würde ihnen durch das neue höchst schädliche Pfannhaus und darin südende Salz entnommen, sie bathen also um die Abstellung dieses ihnen und Seiner Majestät schädlichen Werks. </p><p>
+                    dieser aber würde ihnen durch das neue höchst schädliche Pfannhaus und darin südende Salz entnommen, sie bathen also um die Abstellung dieses ihnen und Seiner Majestät schädlichen Werks. </p>
+                <p>
                     Seine Durchlaucht haben hierauf in einer Konferenz mit den Deputirten beyder Stellen, obgleich die freche Einlage für ein strafbahres Beginnen gehalten wurde, die Gegenstände in Uiberlegung genommen, und verordnet, daß weil noch immer wieder die
                         <pb n="0084" xml:id="L3_84" facs="#L3_0084"/> 
                     neue Pfanne, und die neue Manipulation sträflich geschmächt, ja selbe sogar in, und ausser Lands zum grossen Nachtheil der landesfürstlichen Interessen vernichtet werde, dem Bürgermeister und Rath zu Hall der bisherige Befund des neuen Salzwesens durch dienliche aus den Akten bekannte Ursachen vorgestellt werden solle, damit die Bürgerschaft in ihrer Uibereilung künftig zurück halten und von allen offentlichen oder geheimen dem Werk nachtheiligen 
                         <pb n="0085" xml:id="L3_85" facs="#L3_0085"/> 
                     Reden abstehen. 
-                </p></div></body></text></TEI>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

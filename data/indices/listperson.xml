@@ -1,8 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="personenregister.xml"><teiHeader><fileDesc><titleStmt><title>Personenverzeichnis</title><respStmt><resp/><name>Peter Andorfer</name></respStmt></titleStmt><publicationStmt><date>10.10.2013</date></publicationStmt><sourceDesc><p>Das Personenverzeichnis bezieht sich auf die Lindnerischen Schriften</p></sourceDesc></fileDesc></teiHeader><text><body><div type="index_persons"><listPerson><person xml:id="karl_philipp"><persName><forename>Karl Philipp</forename><surname>Pfalz-Neuburg von</surname></persName><birth when="1661-11-04">4. November 1661
-          <settlement>Neuburg am Rhein</settlement></birth><death when="1742-12-31">31. Dezember 1742
-          <settlement>Mannheim</settlement></death><occupation>Seit 1705 Gouverneur von Tirol und Vorder-Österreich</occupation></person><person xml:id="tschiderer"><persName><forename>Adam Anton</forename><surname>Tschiderer</surname></persName><birth>unbekannt
-                            <placeName><country>unbekannt</country><country>settlement</country></placeName></birth><death>unbkeannt
-                            <country>unbekannt</country><settlement>unbkeannt</settlement></death></person><person xml:id="maximilian"/><person xml:id="karg"/><person xml:id="claudia"/><person xml:id="buchenberg"><persName><forename>Johann Jakob</forename><surname>Buchenberg</surname></persName><birth>unbekannt
-                            <placeName><country>unbekannt</country><country>settlement</country></placeName></birth><death>unbkeannt
-                            <country>unbekannt</country><settlement>unbkeannt</settlement></death></person><person xml:id="prugglacher"/><person xml:id="sötzen"/><person xml:id="strasser"/><person xml:id="panperger"/><person xml:id="schuster"/></listPerson></div></body></text></TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="personenregister.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Personenverzeichnis</title>
+                <respStmt>
+                    <resp/>
+                    <name>Peter Andorfer</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>10.10.2013</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Das Personenverzeichnis bezieht sich auf die Lindnerischen Schriften</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="index_persons">
+                <listPerson>
+                    <person xml:id="karl_philipp">
+                        <persName>
+                            <forename>Karl Philipp</forename>
+                            <surname>Pfalz-Neuburg von</surname>
+                        </persName>
+                        <birth when="1661-11-04">4. November 1661
+          <settlement>Neuburg am Rhein</settlement>
+                        </birth>
+                        <death when="1742-12-31">31. Dezember 1742
+          <settlement>Mannheim</settlement>
+                        </death>
+                        <occupation>Seit 1705 Gouverneur von Tirol und Vorder-Österreich</occupation>
+                    </person>
+                    <person xml:id="tschiderer">
+                        <persName>
+                            <forename>Adam Anton</forename>
+                            <surname>Tschiderer</surname>
+                        </persName>
+                        <birth>unbekannt
+                            <placeName>
+                                <country>unbekannt</country>
+                                <country>settlement</country>
+                            </placeName>
+                        </birth>
+                        <death>unbkeannt
+                            <country>unbekannt</country>
+                            <settlement>unbkeannt</settlement>
+                        </death>
+                    </person>
+                    <person xml:id="maximilian"/>
+                    <person xml:id="karg"/>
+                    <person xml:id="claudia"/>
+                    <person xml:id="buchenberg">
+                        <persName>
+                            <forename>Johann Jakob</forename>
+                            <surname>Buchenberg</surname>
+                        </persName>
+                        <birth>unbekannt
+                            <placeName>
+                                <country>unbekannt</country>
+                                <country>settlement</country>
+                            </placeName>
+                        </birth>
+                        <death>unbkeannt
+                            <country>unbekannt</country>
+                            <settlement>unbkeannt</settlement>
+                        </death>
+                    </person>
+                    <person xml:id="prugglacher"/>
+                    <person xml:id="sötzen"/>
+                    <person xml:id="strasser"/>
+                    <person xml:id="panperger"/>
+                    <person xml:id="schuster"/>
+                </listPerson>
+            </div>
+        </body>
+    </text>
+</TEI>

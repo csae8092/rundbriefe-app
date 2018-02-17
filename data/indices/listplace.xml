@@ -1,28 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="ortsregister.xml" xml:base="http://diglib.hab.de/edoc/ed000223/" xml:lang="de"><teiHeader><fileDesc><titleStmt><title>Ortsverzeichnis</title><respStmt><resp/><name>Peter Andorfer</name></respStmt></titleStmt><publicationStmt><date>10.04.2013</date></publicationStmt><sourceDesc><p>Das Personenverzeichnis bezieht sich auf die Lindnerischen Schriften</p></sourceDesc></fileDesc></teiHeader><text><body><div type="index_places"><listPlace><place type="settlement" xml:id="traunstein"><placeName type="geonames" key="2821515">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="ortsregister.xml" xml:base="http://diglib.hab.de/edoc/ed000223/" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ortsverzeichnis</title>
+                <respStmt>
+                    <resp/>
+                    <name>Peter Andorfer</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>10.04.2013</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Das Personenverzeichnis bezieht sich auf die Lindnerischen Schriften</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="index_places">
+                <listPlace>
+                    <place type="settlement" xml:id="traunstein">
+                        <placeName type="geonames" key="2821515">
                             Traunstein
 
-                            <ptr target="http://de.wikipedia.org/wiki/Traunstein"/></placeName></place><place type="county" xml:id="oberösterreich"><placeName type="geonames" key="2769848">
+                            <ptr target="http://de.wikipedia.org/wiki/Traunstein"/>
+                        </placeName>
+                    </place>
+                    <place type="county" xml:id="oberösterreich">
+                        <placeName type="geonames" key="2769848">
                             Oberösterreich
 
-                            <ptr target="http://de.wikipedia.org/wiki/Ober%C3%B6sterreich"/></placeName></place><place type="settlement" xml:id="ischl"><placeName type="geonames" key="2782052">
+                            <ptr target="http://de.wikipedia.org/wiki/Ober%C3%B6sterreich"/>
+                        </placeName>
+                    </place>
+                    <place type="settlement" xml:id="ischl">
+                        <placeName type="geonames" key="2782052">
                             Bad Ischl
-                            <ptr target="http://de.wikipedia.org/wiki/Bad_Ischl"/></placeName></place><place type="county" xml:id="tirol"><placeName type="geonames" key="2763586">
+                            <ptr target="http://de.wikipedia.org/wiki/Bad_Ischl"/>
+                        </placeName>
+                    </place>
+                    <place type="county" xml:id="tirol">
+                        <placeName type="geonames" key="2763586">
                             Tirol
-                            <ptr target="http://de.wikipedia.org/wiki/Tirol"/></placeName></place><place type="mountain" xml:id="ischlerberg"><placeName>
+                            <ptr target="http://de.wikipedia.org/wiki/Tirol"/>
+                        </placeName>
+                    </place>
+                    <place type="mountain" xml:id="ischlerberg">
+                        <placeName>
                             Bad Ischler Salzberg
-                            <ptr target="http://de.wikipedia.org/wiki/Bad_Ischler_Salzberg"/></placeName></place><place type="settlement" xml:id="hallstatt"><placeName type="geonames" key="2776943">
+                            <ptr target="http://de.wikipedia.org/wiki/Bad_Ischler_Salzberg"/>
+                        </placeName>
+                    </place>
+                    <place type="settlement" xml:id="hallstatt">
+                        <placeName type="geonames" key="2776943">
                             Hallstatt
-                            <ptr target="http://de.wikipedia.org/wiki/Hallstatt"/></placeName></place><place type="settlement" xml:id="gmunden"><placeName type="geonames" key="2778436">
+                            <ptr target="http://de.wikipedia.org/wiki/Hallstatt"/>
+                        </placeName>
+                    </place>
+                    <place type="settlement" xml:id="gmunden">
+                        <placeName type="geonames" key="2778436">
                             Gmunden
-                            <ptr target="http://de.wikipedia.org/wiki/Gmunden"/></placeName></place><place type="settlement" xml:id="ebensee"><placeName type="geonames" key="2780547">
+                            <ptr target="http://de.wikipedia.org/wiki/Gmunden"/>
+                        </placeName>
+                    </place>
+                    <place type="settlement" xml:id="ebensee">
+                        <placeName type="geonames" key="2780547">
                             Ebensee
-                            <ptr target="http://de.wikipedia.org/wiki/Ebensee"/></placeName></place><place type="lake" xml:id="traunsee"><placeName type="geonames" key="2763413">
+                            <ptr target="http://de.wikipedia.org/wiki/Ebensee"/>
+                        </placeName>
+                    </place>
+                    <place type="lake" xml:id="traunsee">
+                        <placeName type="geonames" key="2763413">
                             Traunsee
-                            <ptr target="http://de.wikipedia.org/wiki/Traunsee"/></placeName></place><place type="area" xml:id="kammergut"><placeName type="geonames" key="2766813">
+                            <ptr target="http://de.wikipedia.org/wiki/Traunsee"/>
+                        </placeName>
+                    </place>
+                    <place type="area" xml:id="kammergut">
+                        <placeName type="geonames" key="2766813">
                             Salzkammergut
-                            <ptr target="http://de.wikipedia.org/wiki/Salzkammergut"/></placeName></place><place type="settlement" xml:id="reichenhall"><placeName type="geonames" key="2953371">
+                            <ptr target="http://de.wikipedia.org/wiki/Salzkammergut"/>
+                        </placeName>
+                    </place>
+                    <place type="settlement" xml:id="reichenhall">
+                        <placeName type="geonames" key="2953371">
                             Bad Reichenhall
-                            <ptr target="http://de.wikipedia.org/wiki/Bad_Reichenhall"/></placeName></place><place type="settlement" xml:id="hall"><placeName type="geonames" key="2764958">
+                            <ptr target="http://de.wikipedia.org/wiki/Bad_Reichenhall"/>
+                        </placeName>
+                    </place>
+                    <place type="settlement" xml:id="hall">
+                        <placeName type="geonames" key="2764958">
                             Hall in Tirol
-                            <ptr target="http://de.wikipedia.org/wiki/Hall_in_Tirol"/></placeName></place></listPlace></div></body></text></TEI>
+                            <ptr target="http://de.wikipedia.org/wiki/Hall_in_Tirol"/>
+                        </placeName>
+                    </place>
+                </listPlace>
+            </div>
+        </body>
+    </text>
+</TEI>
